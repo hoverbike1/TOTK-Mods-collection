@@ -1,0 +1,2 @@
+[Perfect Thermometer]
+040E0000 00C2BD48 2A1F03E0
