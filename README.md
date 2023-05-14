@@ -42,6 +42,9 @@
 	- 720p and x6 = 8K
 	</br>For best quality we advice to use the double of your monitor resolution.
 	</br>You can use them with x1 Resolution scale to increase GPU performances.
+- Ratio : Experimentally change the game ratio from 16:9.
+	- You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9, 16:10 or "Stretch to Window" if the desired ratio doesn't exist.
+	- Will work for scene render but will stretch the HUD.
 - Combos : They are all in one mods, don't combine then with unspecified mods if you don't know what you are doing.
 	- VisualFixes apply all graphics patchs and 1024x shadows in once. You can enable FPS, Resolution, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combine every graphics patchs, 1024x shadows, 1008p resolution and 30fps. You can enable Dynamic FPS and Cheats with it.
@@ -54,9 +57,6 @@
 </br>
 </br>Other good mods :
 </br>- https://gamebanana.com/mods/443354 (Xbox UI)
-</br>- https://gamebanana.com/mods/443462 (Ultrawide and Steam Deck 21:9 and 32:9 and 16:10)
-</br>You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9 or 16:10 or "Stretch to Window" if the desired ratio doesn't exist.
-</br>Will work for scene render but will stretch the HUD.
 </br>
 </br>Usefull links :
 </br>- https://github.com/lchmagKekse/TOTK-SaveGame-Editor (Save Editor)
@@ -69,4 +69,5 @@
 </br>- 1008p resolution : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/
 </br>- Combo - VisualFixes : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 </br>- All Graphic pactchs : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patchs are splited from the VisualFixes
+</br>- Ratio : From Fayaz https://gamebanana.com/mods/443462
 </br>- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are owner of one of them, tell us.
