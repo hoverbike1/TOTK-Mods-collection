@@ -1,5 +1,6 @@
 # TOTK-Mods-collection
 </br>Mod repo for TOTK on Yuzu emulator.
+</br><b>WARNING : Theses mods only work with 1.1.0 version of the game !</b>
 </br>
 </br>Download link : https://github.com/HolographicWings/TOTK-Mods-collection/releases
 </br>
@@ -15,7 +16,7 @@
 	</br>You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey.
 	</br>When you get a cinematic, enable back the "Limit Speed Percent" to avoid fast motion.
 	</br>Beware ! When you use Dynamic FPS mod under 15 FPS, the physics will brake.
-- Graphics - Disable Internal FSR : Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.
+- Graphics - Disable Internal FSR : This mod disable the FSR embed in the game, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.
 	</br>FSR is an optimisation method that reduce the game resolution then upscale it with an algorythm (like DLSS but without advanced AI).
 	</br>FSR increase GPU performances, but you lose some details and can get graphical artefacts on small details like leaves or grass.
 - Graphics - Disable Internal FXAA - Maybe does nothing : Yuzu have it's own FXAA in the "Anti-Aliasing Method" in Graphics settings.
