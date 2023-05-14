@@ -1,0 +1,2 @@
+[1.5x Attack Speed]
+040E0000 006920EC 1E2F1000
