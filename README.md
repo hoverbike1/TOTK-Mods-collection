@@ -60,8 +60,9 @@
 </br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
 </br>
 </br>Copyright and source of mods :
-</br>- 20/30 and 60 fps v3 : Author are "ChuckFeedAndSeed, patchanon, somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+</br>- 20/30 and 60 fps v3 : Authors are "ChuckFeedAndSeed, patchanon, somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 </br>- 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones.
 </br>- DynamicFPS v1.31 : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/
 </br>- 1008p resolution : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/
+</br>- Combo - VisualFixes : Authors are "ChuckFeedAndSeed, patchanon, somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 </br>- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are owner of one of them, tell us.
