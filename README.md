@@ -58,6 +58,8 @@
 </br>You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9 or 16:10 or "Stretch to Window" if the desired ratio doesn't exist.
 </br>Will work for scene render but will stretch the HUD.
 </br>
+</br>Usefull links :
+</br>- https://github.com/lchmagKekse/TOTK-SaveGame-Editor (Save Editor)
 </br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
 </br>
 </br>Copyright and source of mods :
