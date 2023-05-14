@@ -1,2 +1,0 @@
-[3x Swimming Speed]
-040E0000 006C42B8 1E211008
