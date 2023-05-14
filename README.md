@@ -55,8 +55,8 @@
 </br>Other good mods :
 </br>- https://gamebanana.com/mods/443354 (Xbox UI)
 </br>- https://gamebanana.com/mods/443462 (Ultrawide and Steam Deck 21:9 and 32:9 and 16:10)
-</br>	- You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9 or 16:10 or "Stretch to Window" if the desired ration don't exist.
-</br>	- Will work for scene render but will stretch the HUD.
+</br>You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9 or 16:10 or "Stretch to Window" if the desired ration don't exist.
+</br>Will work for scene render but will stretch the HUD.
 </br>
 </br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
 </br>
