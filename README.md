@@ -52,3 +52,5 @@ The main TOTK performances issue from now is from CPU and not GPU, but unfortuna
 
 
 Other good mods : https://gamebanana.com/mods/443336 (Xbox UI)
+
+Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
