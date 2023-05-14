@@ -42,6 +42,9 @@
 	- 720p and x6 = 8K
 	</br>For best quality we advice to use the double of your monitor resolution.
 	</br>You can use them with x1 Resolution scale to increase GPU performances.
+- Ratio : Experimentally change render ratio from 16:9 to 21:9 or 32:9.
+	</br>You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9 or "Stretch to Window" for 32:9, i plan to do a pull request to add native 32:9 in next Yuzu builds.
+	</br>Will work for scene render but will stretch the HUD.
 - Combos : They are all in one mods, don't combine then with unspecified mods if you don't know what you are doing.
 	- VisualFixes apply all graphics patchs and 1024x shadows in once. You can enable FPS, Resolution, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combine every graphics patchs, 1024x shadows, 1008p resolution and 30fps. You can enable Dynamic FPS and Cheats with it.
