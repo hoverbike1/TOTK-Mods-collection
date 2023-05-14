@@ -1,0 +1,9 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 32:9 aspect ratio
+@enabled
+00CDB304 0090211E
+@stop

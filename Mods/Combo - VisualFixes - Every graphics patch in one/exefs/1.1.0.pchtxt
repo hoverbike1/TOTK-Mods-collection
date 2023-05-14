@@ -1,0 +1,67 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// note to self: 00BB2D34 C0035FD6 disables certain particles
+
+// Dynamic Resolution (Something something configs, might not do anything)
+@enabled
+010622C4 15000014
+027CA074 000080D2
+@stop
+
+// FSR (Pretty much just skipping the entire shader? (I could be wrong))
+@enabled
+027CA0DC 000080D2
+0188D0D4 000080D2
+00AEAC44 1F2003D5
+@stop 
+
+// Shadows Resolution
+@enabled
+00D075AC 0B808052
+00D075B0 17000014
+@stop
+
+// Options for shadow resolution (may effect cascade distance)
+// | Code              | Resolution |
+// |:-----------------:|:----------:|
+// | 00D075AC 0B018052 | 8          |
+// | 00D075AC 0B028052 | 16         |
+// | 00D075AC 0B048052 | 32         |
+// | 00D075AC 0B088052 | 64         |
+// | 00D075AC 0B108052 | 128        |
+// | 00D075AC 0B208052 | 256        |
+// | 00D075AC 0B408052 | 512        |
+// | 00D075AC 0B808052 | 1024       |
+// | 00D075AC 0B008152 | 2048       |
+
+// FXAA (Probably does nothing, but makes sure FXAA is not enabled)
+@enabled
+027CA13C 000080D2
+0188D0A0 000080D2
+@stop
+
+// LOD (May only have an effect with certain settings on emulator, or specifically only on hardware)
+@enabled
+00030BFC 0030B8D2
+00837FBC 0030B8D2
+021DEC24 0030B8D2
+@stop
+
+@TransRightsAreHumanRights
+
+// patchanon fixes (Not made by me)
+// NOTE: the 'Force full-res rendering' fix seems to break some effects, so it is not included here
+
+// patchanon Disable FSR downscaling
+@enabled
+00CAD348 08008052
+@stop
+
+// patchanon Disable quality reduction when framerate dips
+@enabled
+00CAD34C C0000014
+@stop
+

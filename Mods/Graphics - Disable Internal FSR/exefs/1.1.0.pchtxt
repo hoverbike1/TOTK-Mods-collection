@@ -1,0 +1,16 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable FSR downscaling
+@enabled
+00CAD340 08008052
+@stop
+
+// Potentially disable FSR sharpening ?
+@enabled
+00aeac44 1f2003d5
+0188d0d4 000080d2
+027ca0dc 000080d2
+@stop
