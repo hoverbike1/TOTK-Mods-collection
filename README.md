@@ -54,13 +54,13 @@
 </br>
 </br>
 </br>Other good mods :
-- https://gamebanana.com/mods/443354 (Xbox UI)
-- https://gamebanana.com/mods/443462 (Ultrawide and Steam Deck 21:9 and 32:9 and 16:10)
+</br>- https://gamebanana.com/mods/443354 (Xbox UI)
+</br>- https://gamebanana.com/mods/443462 (Ultrawide and Steam Deck 21:9 and 32:9 and 16:10)
 </br>
 </br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
 </br>
 </br>Copyright and source of mods :
-- 20/30 and 60 fps v3 : Author are "ChuckFeedAndSeed, patchanon, somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
-- DynamicFPS v1.31 : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/
-- 1008p resolution : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/
-- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are owner of one of them, tell us.
+</br>- 20/30 and 60 fps v3 : Author are "ChuckFeedAndSeed, patchanon, somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+</br>- DynamicFPS v1.31 : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/
+</br>- 1008p resolution : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/
+</br>- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are owner of one of them, tell us.
