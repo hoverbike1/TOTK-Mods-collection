@@ -48,6 +48,8 @@
 - Combos : They are all in one mods, don't combine then with unspecified mods if you don't know what you are doing.
 	- VisualFixes apply all graphics patchs and 1024x shadows in once. You can enable FPS, Resolution, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combine every graphics patchs, 1024x shadows, 1008p resolution and 30fps. You can enable Dynamic FPS and Cheats with it.
+- Cheats :
+	- The Movement Speed cheats break the game time (time will be wrong when saving)
 </br>
 </br>The main TOTK performances issue from now is from CPU and not GPU, but unfortunately we don't have any way to increase CPU performances.
 </br>
