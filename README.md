@@ -1,6 +1,6 @@
 # TOTK-Mods-collection
 </br>Mod repo for TOTK on Yuzu emulator.
-</br>WARNING : theses mods only work with 1.1.0 version of the game !
+</br><b>WARNING : Theses mods only work with 1.1.0 version of the game !</b>
 </br>
 </br>Download link : https://github.com/HolographicWings/TOTK-Mods-collection/releases
 </br>
