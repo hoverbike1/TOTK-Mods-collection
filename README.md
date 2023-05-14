@@ -10,6 +10,7 @@ Mods usage :
 	If you get under the framerate lock defined by the mod, game will slow motion.
 	Reverse if you get over the defined framerate lock.
 	Cinematics are fast motion when you get over 30FPS anyway
+	We recommend the 30fps version, the 60fps version being buggy, 15 and 20 being experimental and useless.
 - Dynamic FPS : Set the game clock to your framerate and fix slow motion when you are under the framerate lock, work well in couple with any FPS mods above.
 	We recommend to use it in couple with the 30FPS mod and uncheck the "Limit Speed Percent" in General yuzu settings and change "VSync Mode" to OFF in Graphics yuzu settings.
 	Like that, if you get over the framerate lock defined by the FPS mod, your game will not fast motion.
