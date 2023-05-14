@@ -40,7 +40,7 @@
 //0090e98c eb031f2a // ensure field 0x1C = 0
 //019bf104 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
 //019ca668 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
-@stop
+//@stop
 
 // 60 FPS
 @enabled
