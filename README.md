@@ -1,9 +1,9 @@
 # TOTK-Mods-collection
-Mod repo for TOTK on Yuzu emulator.
-
-Download link : https://github.com/HolographicWings/TOTK-Mods-collection/releases
-
-Mods usage :
+</br>Mod repo for TOTK on Yuzu emulator.
+</br>
+</br>Download link : https://github.com/HolographicWings/TOTK-Mods-collection/releases
+</br>
+</br>Mods usage :
 - FPS : Change the game framerate lock
 	</br>If you get under the framerate lock defined by the mod, game will slow motion.
 	</br>Reverse if you get over the defined framerate lock.
@@ -44,11 +44,11 @@ Mods usage :
 - Combos : They are all in one mods, don't combine then with unspecified mods if you don't know what you are doing.
 	- VisualFixes apply all graphics patchs and 1024x shadows in once. You can enable FPS, Resolution, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combine every graphics patchs, 1024x shadows, 1008p resolution and 30fps. You can enable Dynamic FPS and Cheats with it.
-
-The main TOTK performances issue from now is from CPU and not GPU, but unfortunately we don't have any way to increase CPU performances.
-
-
-
-Other good mods : https://gamebanana.com/mods/443336 (Xbox UI)
-
-Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
+</br>
+</br>The main TOTK performances issue from now is from CPU and not GPU, but unfortunately we don't have any way to increase CPU performances.
+</br>
+</br>
+</br>
+</br>Other good mods : https://gamebanana.com/mods/443336 (Xbox UI)
+</br>
+</br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
