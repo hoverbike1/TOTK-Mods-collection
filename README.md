@@ -60,7 +60,7 @@
 </br>- https://gamebanana.com/mods/443354 (Xbox UI)
 </br>
 </br>Usefull links :
-</br>- https://github.com/lchmagKekse/TOTK-SaveGame-Editor (Save Editor)
+</br>- https://www.marcrobledo.com/savegame-editors/zelda-totk/ (Save Editor)
 </br>Thanks to ChucksFeedAndSeed for the majority of mods of this collection.
 </br>
 </br>Copyright and source of mods :
