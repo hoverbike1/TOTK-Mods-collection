@@ -49,6 +49,7 @@
 - Combos : They are all in one mods, don't combine then with unspecified mods if you don't know what you are doing.
 	- VisualFixes apply all graphics patches and 1024x shadows in one. You can enable FPS, Resolution, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combines every graphics patches (1024x shadows, 1008p resolution and 30fps). You can enable Dynamic FPS and Cheats with it.
+	- 30/60fps + Dynamic FPS are a simple Combo of theses two mods in one.
 - Cheats :
 	- The Movement Speed cheats break the game time (time will be wrong when saving)
 </br>
