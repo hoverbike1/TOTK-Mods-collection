@@ -1,0 +1,36 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+@enabled
+0090e9c4 21008052 // sets refresh rate interval
+00ebd158 21008052 // sets refresh rate interval
+0090e990 35008052 // ensure field 0x14 = 1
+0090ea38 35008052 // ensure field 0x14 = 1
+0090eaa8 28008052 // ensure field 0x18 = 1
+0090ea40 2c008052 // ensure field 0x18 = 1
+0090e98c eb031f2a // ensure field 0x1C = 0
+019bf104 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+019ca668 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+@stop
+
+// Dynamic FPS patches
+@enabled
+008331CC A16242B9
+008336E4 A16242B9
+00833E4C 2000271E
+00833E58 02D0271E
+00833E64 0140201e 
+00833E68 0008221E 
+0090E5D0 606242BD 
+0090E5D4 01D0271E
+0090E5E4 1F2003D5
+0090E928 286C40F9
+0090E934 1F2003D5
+0090E958 0208211E 
+0090E964 2128221E 
+0090E968 2900381E
+0090E9AC 801A00BD 
+@stop
