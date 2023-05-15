@@ -57,7 +57,7 @@
 
 // patchanon Disable FSR downscaling
 @enabled
-00CAD348 08008052
+00CAD344 08008052
 @stop
 
 // patchanon Disable quality reduction when framerate dips
