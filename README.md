@@ -70,6 +70,6 @@
 </br>- DynamicFPS v1.31 : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/
 </br>- 1008p resolution : ChucksFeedAndSeed https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/
 </br>- Combo - VisualFixes : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople" https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
-</br>- All Graphic pactchs : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes
+</br>- All Graphic pactchs : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
 </br>- Ratio : From Fayaz https://gamebanana.com/mods/443462
 </br>- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are the owner of one of them, tell us.
