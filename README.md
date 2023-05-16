@@ -39,7 +39,7 @@
 	</br>1080p (1920x1080) breaks Ambiant Occlusion (AO) so increase GPU performances.
 	</br>Ambiant occlusion is a way to increase lightning quality by simulating light exposure in objects hollows. It has a GPU performances cost.
 	</br>1008p is the highest resolution found to work without breaking the game's AO.
-	</br>540p and 720p require to change the "Resolution" Scaling in Graphics yuzu settings (This setting is just called Resolution), but they look a bit blurry.
+	</br>360p, 540p and 720p require to change the "Resolution" Scaling in Graphics yuzu settings (This setting is just called Resolution), but they look a bit blurry.
 	- 540p and x2 = 1080p
 	- 540p and x4 = 4K
 	- 540p and x8 = 8K
