@@ -51,7 +51,7 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 </br>
 
 - Graphics - **LOD Patch** - We are unsure about it's effect : it appears to increase the LOD.  
-Some people pretend that fixed some 3D models poping.
+Some people have reported this fixed 3D models popping suddenly into view (remains to be confirmed).
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
@@ -93,8 +93,8 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - Cheats :
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
-  - Stamina cheat seems to don't work.
-  - Infinite amiibo usage is useless, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
+  - Stamina cheat doesn't seem to work.
+  - Infinite amiibo usage is pointless since yuzu has a similar feature, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
 
 </br>
 </br>The main TOTK performances issue from now comes from the CPU and not the GPU, but unfortunately we don't have any easy way of increasing CPU performance.  
