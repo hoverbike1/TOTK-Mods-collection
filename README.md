@@ -51,6 +51,7 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 </br>
 
 - Graphics - **LOD Patch** - We are unsure about it's effect : it appears to increase the LOD.  
+Some people pretend that fixed some 3D models poping.
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
