@@ -20,6 +20,7 @@
 - Graphics - Disable Internal FSR : This mod disable the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.
 	</br>FSR is an optimisation method that reduces the game resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).
 	</br>FSR increases GPU performance, at the cost of some details and potential graphical artefacts on small detailed geometry like leaves or grass.
+	</br>BEWARE ! It seems that this mod crashes Ryujinx.
 - Graphics - Disable Internal FXAA : Yuzu have it's own FXAA in the "Anti-Aliasing Method" in Graphics settings.
 	</br>FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very few GPU performances.
 	</br>Yuzu has SMAA too, which is a better implementation but uses a bit more GPU performances.
