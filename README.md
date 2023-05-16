@@ -2,7 +2,7 @@
 </br>Mod repo for TOTK on Yuzu emulator.
 </br><h2><b>WARNING : Theses mods only work with version `1.1.0` of the game !</b></h2>
 </br>
-</br>[Download the latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
+</br>[**Download the latest release**](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 </br>
 </br>Mod description & usage :
 - FPS : Changes the game framerate lock
@@ -63,18 +63,29 @@
 </br>
 </br>
 </br>Other good mods :
-</br>- [Xbox UI](https://gamebanana.com/mods/443354) by Alerion921
+
+- [Xbox UI](https://gamebanana.com/mods/443354) by Alerion921
 </br>
+
 </br>Useful links :
-</br>- [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
-</br>Thanks to ChucksFeedAndSeed for the majority of the mods in this collection.
-</br>
-</br>Copyright and source of mods :
-</br>- [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
-</br>- 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones mentioned above.
-</br>- [DynamicFPS v1.31](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
-</br>- [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
-</br>- [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
-</br>- All Graphic pactchs : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
-</br>- [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
-</br>- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are the owner of one of them, tell us.
+
+- [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
+
+</br>Copyright and source of listed mods :
+</br>Thanks to ChucksFeedAndSeed for the *majority* of the mods in this collection !
+
+- [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
+
+- 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones mentioned above.
+
+- [DynamicFPS v1.31](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
+
+- [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
+
+- [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
+
+- All Graphic pactches : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
+
+- [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
+
+- Others : a real mistery, we gather mods found on the yuzu reddit and discord, if you are the owner of one of them, tell us.
