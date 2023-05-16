@@ -93,8 +93,8 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - Cheats :
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
-  - Stamina cheat seems to don't work.
-  - Infinite amiibo usage is useless, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
+  - Stamina cheat doesn't seem to work.
+  - Infinite amiibo usage is pointless since yuzu has a similar feature, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
 
 </br>
 </br>The main TOTK performances issue from now comes from the CPU and not the GPU, but unfortunately we don't have any easy way of increasing CPU performance.  
