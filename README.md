@@ -7,7 +7,7 @@ Mod repo for TOTK on Yuzu emulator.
 
 </br>
 
-### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
+### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest)
 
 </br>Mod description & usage :
 
