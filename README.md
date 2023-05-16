@@ -24,7 +24,7 @@ We recommend using it alongside the 30FPS mod and to uncheck the "Limit Speed Pe
 This way, going over the framerate lock defined by the FPS mod will not 'speed up' your game.  
 You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey on yuzu.  
 When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster cutscenes.  
-**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break !  
+**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
 - Graphics - **Disable Internal FSR** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
@@ -117,7 +117,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones.
 
-- [DynamicFPS v1.31](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
+- [DynamicFPS v1.31 & 1.4](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
 
 - [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
 
