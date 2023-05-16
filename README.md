@@ -31,6 +31,7 @@
 	</br>LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are futher.
 	</br>By default, when your framerate is low, the game lowers the LOD to increase GPU performances.
 - Graphics - LOD Patch - We are unsure about it's effect : sounds like it increase the LOD.
+	</br>Some people pretend that fixed some 3D models poping.
 - Graphics - Shadows : Changes the shadows resolution.
 	</br>1024 is recommended if you really want to add one, but has a cost on the GPU.
 	</br>256 and 512 would increase a lot the GPU performances.
