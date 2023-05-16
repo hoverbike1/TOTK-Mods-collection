@@ -10,6 +10,7 @@
 	</br>Reverse if you get over the defined framerate lock.
 	</br>Cinematics will be sped up when you go over 30FPS
 	</br>We recommend the 30fps version as the 60fps version is buggy, 15 and 20 FPS being experimental and potentially useless.
+	</br>Why use the 30fps one : Because in vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).
 - Dynamic FPS : Sets the game clock to your framerate and fix slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.
 	</br>We recommend using it alongside the 30FPS mod and to uncheck the "Limit Speed Percent" in General settings and set "VSync Mode" to OFF in Graphics settings (yuzu).
 	</br>This way, going over the framerate lock defined by the FPS mod will not 'speed up' your game.
@@ -19,17 +20,19 @@
 - Graphics - Disable Internal FSR : This mod disable the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.
 	</br>FSR is an optimisation method that reduce the game resolution then upscale it using an algorithm (similar to DLSS but without advanced AI).
 	</br>FSR increase GPU performances, at the cost of some details and potential graphical artefacts on small details like leaves or grass.
-- Graphics - Disable Internal FXAA - May not do anything : Yuzu have it's own FXAA in the "Anti-Aliasing Method" in Graphics settings.
+- Graphics - Disable Internal FXAA - Yuzu have it's own FXAA in the "Anti-Aliasing Method" in Graphics settings.
 	</br>FXAA smoothes certain edges to avoid aliasing (pixelated render) and costs very few GPU performances.
 	</br>Yuzu has SMAA too, which is a better implementation but uses a bit more GPU performances.
 	</br>Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performances
+	</br>We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
 - Graphics - Disable Dynamic resolution when low FPS : Disables the resolution downscale when your framerate is low.
 - Graphics - Disable LODs decrease when low FPS : Disables the LOD decrease when your framerate is low.
 	</br>LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are futher.
 	</br>By default, when your framerate is low, the game lowers the LOD to increase GPU performances.
 - Graphics - LOD Patch - We are unsure about it's effect : sounds like it increase the LOD.
 - Graphics - Shadows : Changes the shadows resolution.
-	</br>1024 is recommended but has a cost on the GPU.
+	</br>1024 is recommended if you really want to add one, but has a cost on the GPU.
+	</br>We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
 - Resolution : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.
 	</br>1080p (1920x1080) breaks Ambiant Occlusion (AO) so increase GPU performances.
 	</br>Ambiant occlusion is a way to increase lightning quality by simulating light exposure in objects hollows. It has a GPU performances cost.
