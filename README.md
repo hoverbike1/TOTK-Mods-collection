@@ -55,7 +55,7 @@
 	- VisualFixes apply all graphics patches, 1024x shadows and 1008p resolution in one. You can enable FPS, Dynamic FPS and Cheats with it.
 	- Potato Patch is made by Hoverbike, it combines every graphics patches (1024x shadows, 1008p resolution and 30fps). You can enable Dynamic FPS and Cheats with it.
 	- 30/60fps + Dynamic FPS are a simple Combo of theses two mods in one.
-	- Minimal and Unlimited FPS : Patch made by HolographicWings, combine 30fps, Dynamic FPS, 1008p and FSR Disabler, it's minimal pack for cleaner experience, You can use it with any Graphics other pack, ratio and cheats but it's not recommended.
+	- Light pack and Unlimited FPS : Patch made by HolographicWings, combine 30fps, Dynamic FPS, 1008p and FSR Disabler, it's minimal pack for cleaner experience, You can use it with any Graphics other pack, ratio and cheats but it's not recommended.
 	</br>It is important to press Ctrl + U in game to unlock your Framerate and play over 30fps, like that you can play at 60 or more with normal game speed, don't forget to press Ctrl + U again to lock back your Framerate to 30fps when you get a cutscene.
 - Cheats :
 	- The Movement Speed cheats break the game time (time will be wrong when saving)
