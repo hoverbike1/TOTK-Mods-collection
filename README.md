@@ -89,6 +89,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
   You can use it with any Graphics other pack, ratio and cheats but it's not recommended.
 </br>It is important to press Ctrl + U in game to unlock your framerate and play over 30fps, like that you can play at 60 or more with normal game speed, don't forget to press Ctrl + U again to lock back your framerate to 30fps when you get a cutscene.
 </br>
+
 - Cheats :
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
 
