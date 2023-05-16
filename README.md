@@ -32,6 +32,7 @@
 - Graphics - LOD Patch - We are unsure about it's effect : sounds like it increase the LOD.
 - Graphics - Shadows : Changes the shadows resolution.
 	</br>1024 is recommended if you really want to add one, but has a cost on the GPU.
+	</br>256 and 512 would increase a lot the GPU performances.
 	</br>We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
 - Resolution : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.
 	</br>1080p (1920x1080) breaks Ambiant Occlusion (AO) so increase GPU performances.
