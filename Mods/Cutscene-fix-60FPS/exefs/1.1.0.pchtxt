@@ -1,0 +1,33 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+
+// FILE VERSION 0.3.7.2 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.1.0 - Cutscene Fix
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Fixes the video playback issues when played over 60fps. 
+
+@enabled
+0090E990 CD7B0E94
+00CAD8C4 F7D001F0
+00CAD8C8 F79E44F9
+00CAD8CC F7020391
+00CAD8D0 E9024039
+00CAD8D4 29050011
+00CAD8D8 F503092A
+00CAD8DC C0035FD6
+@stop
+
+//@theboy181
+//https://linktr.ee/theboy181
+
+//Special thanks to Chuck? 
+
+//@octolimar
+
+
+//BTW, for anyone that knows more about switch patches, is there such a thing as a method to create a "codecave"? or is there any good method for creating your own functions?
