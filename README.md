@@ -27,10 +27,14 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
-- Graphics - **Disable Internal FSR** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
+- Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).  
 FSR increases GPU performances, at the cost of some details and potential graphical artefacts on small geometry like leaves or grass.
-**BEWARE !** It seems that this mod crashes Ryujinx.  
+</br>
+
+- Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect post processing the FSR Downscaling.
+GPU Performances cost is extremely low so use it will not improve them but could do an ugly render if you use it without the FSR Downscaling
+**BEWARE !** It seems that this mod could crashes Ryujinx.  
 </br>
 
 - Graphics - **Disable Internal FXAA** - Yuzu have it's own FXAA in the "Anti-Aliasing Method" in Graphics settings.  
