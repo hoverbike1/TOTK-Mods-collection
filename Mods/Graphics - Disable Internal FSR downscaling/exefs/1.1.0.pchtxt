@@ -7,10 +7,3 @@
 @enabled
 00CAD340 08008052
 @stop
-
-// Potentially disable FSR sharpening ?
-@enabled
-00aeac44 1f2003d5
-0188d0d4 000080d2
-027ca0dc 000080d2
-@stop

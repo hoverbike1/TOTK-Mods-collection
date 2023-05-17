@@ -3,8 +3,8 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// maybe does nothing, i'm unsure
+// maybe does nothing, but makes sure FXAA is not enabled
 @enabled
-0188d0a0 000080d2
-027ca13c 000080d2
+027CA13C 000080D2
+0188D0A0 000080D2
 @stop

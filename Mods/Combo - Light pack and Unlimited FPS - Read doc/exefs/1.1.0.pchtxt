@@ -10,9 +10,9 @@
 
 // Potentially disable FSR sharpening ?
 @enabled
-00aeac44 1f2003d5
-0188d0d4 000080d2
-027ca0dc 000080d2
+027CA0DC 000080D2
+0188D0D4 000080D2
+00AEAC44 1F2003D5
 @stop
 
 // Use 1792x1008 internal resolution instead of 1600x900

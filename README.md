@@ -29,7 +29,7 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 
 - Graphics - **Disable Internal FSR** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).  
-FSR increases GPU performances, at the cost of some details and potential graphical artefacts on small geometry like leaves or grass.  
+FSR increases GPU performances, at the cost of some details and potential graphical artefacts on small geometry like leaves or grass.
 **BEWARE !** It seems that this mod crashes Ryujinx.  
 </br>
 
@@ -55,8 +55,9 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
-1024 is recommended if you really want to add one, but has a cost on the GPU.  
-256 and 512 would increase GPU performance a lot.  
+1024 being vanilla resolution, it is useless by default, but it fix some shadow stuttering and issues on certain setup
+</br>[Here an exemple took from someone using a Radeon RX 580 8Gb](https://imgsli.com/MTc5MTM1)
+</br>256 and 512 would increase GPU performance a lot.  
 
 > We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
 
@@ -83,10 +84,8 @@ You can use them with x1 Resolution scale to increase GPU performance.
 </br>
 
 - **Combos** : They are all-in-one mods, don't combine then with unspecified mods if you don't know what you are doing.
-  - **VisualFixes** apply all graphics patches, 1024x shadows and 1008p resolution in one. You can enable FPS, Dynamic FPS and Cheats with it.
-  - **Potato Patch** is made by Hoverbike, it combines every graphics patches (1024x shadows, 1008p resolution and 30fps). You can enable Dynamic FPS and Cheats with it.
   - **30/60fps + Dynamic FPS** are a simple Combo of theses two mods in one.
-  - **Light pack and Unlimited FPS** : Patch made by HolographicWings, combine Dynamic FPS, 1008p and FSR Disabler, it's a minimal pack for cleaner experience.  
+  - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and FSR Disabler, it's a minimal pack for cleaner experience.  
   You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
 </br>It is important to press Ctrl + U in game to unlock your framerate and play over 30fps, like that you can play at 60 or more with normal game speed, don't forget to press Ctrl + U again to lock back your framerate to 30fps when you get a cutscene.  
 </br>

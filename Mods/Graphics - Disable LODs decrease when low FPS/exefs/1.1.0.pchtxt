@@ -4,17 +4,25 @@
 @flag offset_shift 0x100
 
 // Disable model LODs quality reduction when frame drops
+//OLD - need investigation
 @enabled
 00CAD34C C0000014
 @stop
 
-// Potentially does more ?
+//NEW - need investigation
+@enabled
+00030BFC 0030B8D2
+00837FBC 0030B8D2
+021DEC24 0030B8D2
+@stop
+
+// Potentially do more ?
 //@enabled
 //010622C4 15000014
 //027CA074 000080D2
 //
 
-// Potentially does more too ?
+// Potentially do even more ?
 //@enabled
 //027CA074 000080D2
 //00d07600 1F2003D5
