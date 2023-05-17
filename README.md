@@ -113,7 +113,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 </br>Copyright and source of mods :
 
-- [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
+- [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
 - 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones.
 
@@ -121,9 +121,9 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
 
-- [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople"
+- [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
-- All Graphic pactches : Authors are "ChuckFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
+- All Graphic pactches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
 
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
 
