@@ -60,7 +60,7 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
 1024 being vanilla resolution, it is useless by default, but it fix some graphical issues on certain setups.
-</br>[shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - Withoug and With Shadow x512](https://imgsli.com/MTc5MTM1)
+</br>[Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - Withoug and With Shadow x512](https://imgsli.com/MTc5MTM1)
 </br>[Gloom issue took by Red_BY using a RTX 2080 - 3x render scale with and without Shadowx x1024](https://imgsli.com/MTc5MTYx)
 </br>256 and 512 would increase GPU performance a lot.  
 </br>
