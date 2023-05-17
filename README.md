@@ -63,10 +63,6 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 </br>[Here an exemple took by Lux using a Radeon RX 580 8Gb](https://imgsli.com/MTc5MTM1)
 </br>256 and 512 would increase GPU performance a lot.  
 
-> We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
-
-</br>
-
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
 1080p (1920x1080) breaks Ambiant Occlusion (AO) but increases GPU performance.  
 Ambiant occlusion is a way to increase lightning quality by simulating light exposure in objects hollows. It has a GPU performances cost.  
