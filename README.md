@@ -46,7 +46,7 @@ Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to in
 
 </br>
 
-- Graphics - **Disable Dynamic resolution** when low FPS : Disables the resolution downscale when your framerate is low.  
+- Graphics - **Disable Dynamic resolution** when low FPS : Disables the resolution downscale when your framerate is low.
 </br>
 
 - Graphics - **Disable LOD decrease** when low FPS : Disables the LOD decrease when your framerate is low.  
@@ -63,6 +63,11 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 </br>[Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - Withoug and With Shadow x512](https://imgsli.com/MTc5MTM1)
 </br>[Gloom issue took by Red_BY using a RTX 2080 - 3x render scale with and without Shadowx x1024](https://imgsli.com/MTc5MTYx)
 </br>256 and 512 would increase GPU performance a lot.  
+</br>
+
+- Graphics - **Anisotropic Filtering fix** : Fix the Anisotropic filtering fix
+Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
+</br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 </br>
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
@@ -128,6 +133,6 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
 
-- [Graphics - Anisotropic filtering fix]: @Wollnashorn
+- [Graphics - Anisotropic filtering fix]: @Wollnashorn https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000
 
 - Others : A real mistery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
