@@ -65,8 +65,8 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 </br>256 and 512 would increase GPU performance a lot.  
 </br>
 
-- Graphics - **Anisotropic Filtering fix** : Fix the Anisotropic filtering fix
-Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
+- Graphics - **Anisotropic Filtering fix** : Fix the Anisotropic filtering fix.
+</br>Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
 </br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 </br>
 
