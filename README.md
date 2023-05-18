@@ -123,7 +123,17 @@ It is important to press Ctrl + U in game to unlock your framerate and play over
 </br>
 </br>Other good mods :
 
-- [Xbox UI](https://gamebanana.com/mods/443354) by Alerion921
+- [Xbox UI + Blackscreenfix] (https://gamebanana.com/mods/443354) by Alerion921
+
+- [Playstation UI + Blackscreenfix] https://gamebanana.com/mods/443201 by Alerion921
+
+- [Amiibo Anti-RNG] https://gamebanana.com/mods/443894 by JordanBTucker
+
+</br>Useful links :
+
+- [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
+</br>
+
 
 </br>Useful links :
 
