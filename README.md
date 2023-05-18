@@ -1,6 +1,6 @@
 # TOTK-Mods-collection
 
-## **WARNING : Theses mods only work with version `1.1.0` of the game !**
+## :exclamation: **WARNING : Theses mods only work with version `1.1.0` of the game !** :exclamation:
 
 </br>
 
@@ -27,9 +27,14 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
-- **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
+- Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
 </br>
+
+- Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
+:exclamation: Overwrite "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
+</br>
+
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).  
@@ -53,9 +58,10 @@ Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to in
 - Graphics - **Disable Dynamic resolution** when low FPS : Disables the resolution downscale when your framerate is low.
 </br>
 
-- Graphics - **Disable LOD decrease** when low FPS : Disables the LOD decrease when your framerate is low.  
+- Graphics - **LOD Patch** when low FPS : Disables the LOD decrease when your framerate is low.  
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are futher.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performances.  
+Raported to fix some graphical issues with LOD, but need proofs.  
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
