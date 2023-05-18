@@ -1,13 +1,13 @@
 # TOTK-Mods-collection
 
-Mod repo for TOTK on Yuzu emulator.
-</br>
-
 ## **WARNING : Theses mods only work with version `1.1.0` of the game !**
 
 </br>
 
+<div align="center">
+  
 ### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
+</div>
 
 </br>Mod description & usage :
 
@@ -16,7 +16,7 @@ If you get under the framerate lock defined by the mod, the game will be in slow
 Reverse if you get over the defined framerate lock.  
 Cinematics will be sped up when you go over 30FPS.  
 We recommend the 30fps version as the 60fps version is buggy, 15 and 20 FPS being experimental and potentially useless.  
-Why should I use the 30fps mod ? : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).  
+*Why should I use the 30fps mod ?* : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).  
 </br>
 
 - **Dynamic FPS** : Sets the game clock to your framerate and fixes slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.  
@@ -27,7 +27,8 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
-- **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes. You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
+- **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
+You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
 </br>
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
@@ -35,8 +36,8 @@ FSR is an optimisation method that reduces the game's internal resolution then u
 FSR increases GPU performances, at the cost of some details and potential graphical artefacts on small geometry like leaves or grass.
 </br>
 
-- Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect post processing the FSR Downscaling.
-GPU Performances cost is extremely low so use it will not improve them but could do an ugly render if you use it without the FSR Downscaling
+- Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect post processing the FSR Downscaling.  
+GPU Performances cost is extremely low so use it will not improve them but could do an ugly render if you use it without the FSR Downscaling.  
 **BEWARE !** It seems that this mod could crashes Ryujinx.  
 </br>
 
@@ -57,20 +58,25 @@ LOD (Level Of Detail) displays higher quality models when you are close to them,
 By default, when your framerate is low, the game lowers the LOD to increase GPU performances.  
 </br>
 
-- Graphics - **LOD Patch** - We are unsure about it's effect : it appears to increase the LOD.  
-Some people have reported this fixed 3D models popping suddenly into view (remains to be confirmed).
+- Graphics - **Shadows** : changes the resolution of shadows. 
+256 and 512 would increase GPU performance a lot.   
+1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.
+
+  <div>
+    <a href="https://imgsli.com/MTc5MTM1">
+      Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512
+      <img src="https://imgsli.com/i/4f323aa4-343b-48b8-8744-e2126e89a011.jpg">
+    </a>
+    <a href="https://imgsli.com/MTc5MTYx">
+      Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024
+      <img src="https://imgsli.com/i/7a0a0a8a-9ce2-4968-bcce-8d00741c70ed.jpg">
+    </a>
+  </div>
 </br>
 
-- Graphics - **Shadows** : changes the resolution of shadows.  
-1024 being vanilla resolution, it is useless by default, but it fix some graphical issues on certain setups.
-</br>[Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - Withoug and With Shadow x512](https://imgsli.com/MTc5MTM1)
-</br>[Gloom issue took by Red_BY using a RTX 2080 - 3x render scale with and without Shadowx x1024](https://imgsli.com/MTc5MTYx)
-</br>256 and 512 would increase GPU performance a lot.  
-</br>
-
-- Graphics - **Anisotropic Filtering fix** : Fix the Anisotropic filtering fix.
-</br>Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
-</br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
+- Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles).  
+Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
+[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 </br>
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
@@ -84,7 +90,7 @@ Ambiant occlusion is a way to increase lightning quality by simulating light exp
   - 720p and x2 = 1440p
   - 720p and x3 = 4K
   - 720p and x6 = 8K
-For best quality we advise you to use the double of your monitor's resolution.
+For best quality we advise you to use the double of your monitor's resolution.  
 You can use them with x1 Resolution scale to increase GPU performance.
 </br>
 
@@ -96,8 +102,8 @@ You can use them with x1 Resolution scale to increase GPU performance.
 - **Combos** : They are all-in-one mods, don't combine then with unspecified mods if you don't know what you are doing.
   - **30/60fps + Dynamic FPS** are a simple Combo of theses two mods in one.
   - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and FSR Disabler, it's a minimal pack for cleaner experience.  
-  You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
-</br>It is important to press Ctrl + U in game to unlock your framerate and play over 30fps, like that you can play at 60 or more with normal game speed, don't forget to press Ctrl + U again to lock back your framerate to 30fps when you get a cutscene.  
+You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
+It is important to press Ctrl + U in game to unlock your framerate and play over 30fps, like that you can play at 60 or more with normal game speed, don't forget to press Ctrl + U again to lock back your framerate to 30fps when you get a cutscene.
 </br>
 
 - Cheats :
@@ -136,6 +142,6 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
-- [FPS - Cutscene-fix] : theboy181
+- FPS - Cutscene-fix : theboy181
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
