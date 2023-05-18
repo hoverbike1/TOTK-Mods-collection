@@ -121,8 +121,6 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
-- 15fps v3 : From HolographicWings, based on the 20/30 and 60 ones.
-
 - [DynamicFPS v1.31 & 1.4](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
 
 - [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
