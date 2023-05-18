@@ -27,6 +27,9 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
+- **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes. You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
+</br>
+
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).  
 FSR increases GPU performances, at the cost of some details and potential graphical artefacts on small geometry like leaves or grass.
@@ -133,4 +136,6 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
-- Others : A real mistery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
+- [FPS - Cutscene-fix] : theboy181
+
+- Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
