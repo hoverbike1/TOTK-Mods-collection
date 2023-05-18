@@ -1,13 +1,13 @@
 # TOTK-Mods-collection
 
-Mod repo for TOTK on Yuzu emulator.
-</br>
-
 ## **WARNING : Theses mods only work with version `1.1.0` of the game !**
 
 </br>
 
+<div align="center">
+  
 ### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
+</div>
 
 </br>Mod description & usage :
 
@@ -16,7 +16,7 @@ If you get under the framerate lock defined by the mod, the game will be in slow
 Reverse if you get over the defined framerate lock.  
 Cinematics will be sped up when you go over 30FPS.  
 We recommend the 30fps version as the 60fps version is buggy, 15 and 20 FPS being experimental and potentially useless.  
-Why should I use the 30fps mod ? : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).  
+*Why should I use the 30fps mod ?* : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).  
 </br>
 
 - **Dynamic FPS** : Sets the game clock to your framerate and fixes slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.  
