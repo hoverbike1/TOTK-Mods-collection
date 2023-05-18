@@ -32,7 +32,7 @@ You must have the Yuzu framerate lock enabled for this to work, and it needs to 
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
-:exclamation: Overwrite "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
+:exclamation:Overwrite "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
 </br>
 
 
