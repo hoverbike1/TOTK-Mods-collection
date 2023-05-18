@@ -1,6 +1,6 @@
 # TOTK-Mods-collection
 
-## **WARNING : Theses mods only work with version `1.1.0` of the game !**
+## :exclamation: **WARNING : Theses mods only work with version `1.1.0` of the game !** :exclamation:
 
 </br>
 
@@ -30,6 +30,11 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
 </br>
+
+- Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
+:exclamation: Overwrite "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
+</br>
+
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu have it's own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution then upscales it using an algorithm (similar to DLSS but without advanced AI).  
