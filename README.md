@@ -49,8 +49,7 @@ GPU Performance cost is extremely low so use it will not improve it, but could d
 
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
 FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.
-Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend  
-SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.     
+Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.     
 
 > We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
 
@@ -81,8 +80,7 @@ Reported to fix some graphical issues with LOD, but would like image evidence.
   </div>
 </br>
 
-- Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles).  
-Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
+- Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles). Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
 [Difference Off/On](https://imgsli.com/MTc5MzQ0)
 </br>
 
@@ -131,11 +129,6 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 - [Playstation UI + Blackscreenfix] https://gamebanana.com/mods/443201 by Alerion921
 
 - [Amiibo Anti-RNG] https://gamebanana.com/mods/443894 by JordanBTucker
-
-</br>Useful links :
-
-- [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
-</br>
 
 
 </br>Useful links :
