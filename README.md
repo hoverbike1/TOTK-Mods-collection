@@ -64,7 +64,7 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
 256 and 512 would increase GPU performance a lot.   
-1024 being vanilla resolution, it is useless by default, but it fixes some graphical issues on certain setups.
+1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.
 
   <div>
     <a href="https://imgsli.com/MTc5MTM1">
