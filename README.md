@@ -62,8 +62,10 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 Some people have reported this fixed 3D models popping suddenly into view (remains to be confirmed).
 </br>
 
-- Graphics - **Shadows** : changes the resolution of shadows.  
-1024 being vanilla resolution, it is useless by default, but it fixes some graphical issues on certain setups.  
+- Graphics - **Shadows** : changes the resolution of shadows. 
+256 and 512 would increase GPU performance a lot.   
+1024 being vanilla resolution, it is useless by default, but it fixes some graphical issues on certain setups.
+
   <div>
     <a href="https://imgsli.com/MTc5MTM1">
       Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512
@@ -74,7 +76,6 @@ Some people have reported this fixed 3D models popping suddenly into view (remai
       <img src="https://imgsli.com/i/7a0a0a8a-9ce2-4968-bcce-8d00741c70ed.jpg">
     </a>
   </div>
-  256 and 512 would increase GPU performance a lot.  
 </br>
 
 - Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles).  
