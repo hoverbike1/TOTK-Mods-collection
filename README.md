@@ -150,6 +150,6 @@ It is important to press Ctrl + U in game to unlock your framerate and play over
 
 - FPS - Cutscene-fix : theboy181
 
-- Fix - Over 30FPS Blackscreen Fix : by MarethyuX https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/
+- [Fix - Over 30FPS Blackscreen Fix](https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/) : by MarethyuX
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
