@@ -128,4 +128,6 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
 
+- [Graphics - Anisotropic filtering fix]: @Wollnashorn
+
 - Others : A real mistery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, contact us so we can credit you.
