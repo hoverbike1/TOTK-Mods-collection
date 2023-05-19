@@ -1,17 +1,34 @@
 @nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
 
+
+// FILE VERSION 0.4.1.2 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+
 @flag print_values
 @flag offset_shift 0x100
 
-// 30 FPS SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 @enabled
-0090e9c4 41008052 // sets refresh rate interval
-00ebd158 41008052 // sets refresh rate interval
-0090e990 55008052 // ensure field 0x14 = 2
-0090ea38 55008052 // ensure field 0x14 = 2
-0090eaa8 48008052 // ensure field 0x18 = 2
-0090ea40 4c008052 // ensure field 0x18 = 2
-0090e98c eb031f2a // ensure field 0x1C = 0
-019bf104 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
-019ca668 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+00EBD158 21008052
+0090EA38 35008052
+0090EAA8 28008052
+0090EA40 2C008052
+0090E98C EB031F2A
+019BF104 1F2003D5
+019CA668 1F2003D5
 @stop
+
+// removed for cutscene fix
+// 0090E990 35008052 // ensure field 0x14 = 1
+// 0090E9C4 21008052 // sets refresh rate interval
+
+// 00EBD158 21008052 // sets refresh rate interval
+// 0090EA38 35008052 // ensure field 0x14 = 1
+// 0090EAA8 28008052 // ensure field 0x18 = 1
+// 0090EA40 2C008052 // ensure field 0x18 = 1
+// 0090E98C EB031F2A // ensure field 0x1C = 0
+// 019BF104 1F2003D5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+// 019CA668 1F2003D5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+
+@TransRightsAreHumanRights
+
