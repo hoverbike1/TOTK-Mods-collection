@@ -29,7 +29,7 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 </br>
 
 - **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, need testing and more documentation.
-Do not increase FPS.  
+Do not increase Performances.  
 **BEWARE !** Incompatible with Dynamic FPS.  
 </br>
 
