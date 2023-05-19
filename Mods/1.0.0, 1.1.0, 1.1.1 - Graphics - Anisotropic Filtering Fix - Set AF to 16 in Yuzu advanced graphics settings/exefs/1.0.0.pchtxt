@@ -1,0 +1,23 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+
+// FILE VERSION 0.4.1.1 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+
+# The Legend of Zelda: Tears of the Kingdom v1.0.0 - Anisotropic Filtering Fix
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
+@enabled
+00895558 28E0A0F2    // movk x8,#0x701, LSL #16
+@stop
+
+// Force bilinear terrain samplers to be trilinear
+@enabled
+0070CD2C 4A008052    // mov w10,#0x2
+@stop
+
+@Wollnashorn
