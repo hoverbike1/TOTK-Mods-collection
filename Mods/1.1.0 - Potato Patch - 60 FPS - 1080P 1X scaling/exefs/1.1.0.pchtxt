@@ -68,7 +68,7 @@
 0090e98c eb031f2a // ensure field 0x1C = 0
 019bf104 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
 019ca668 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
-
+@stop
 // removed for compatibility with cutscene fix
 // 0090e9c4 21008052 // sets refresh rate interval 21008052
 // 0090e990 35008052 // ensure field 0x14 = 1
