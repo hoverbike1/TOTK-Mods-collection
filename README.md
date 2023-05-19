@@ -32,7 +32,7 @@ You must have the Yuzu framerate lock enabled for this to work, and it needs to 
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
-:exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.
+:exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
 This mod is present in the Xbox UI and Playstation UI mods, and should be disabled if using either of those, to avoid issues.  
 </br>
 
@@ -48,7 +48,7 @@ GPU Performance cost is extremely low so use it will not improve it, but could d
 </br>
 
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
-FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.
+FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
 Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.     
 </br>
 
@@ -83,7 +83,7 @@ Reported to fix some graphical issues with LOD, but would like image evidence.
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
 1080p (1920x1080) can only be scaled in 'doubles', or it will break Ambient Occlusion (AO) but increases GPU performance, which is useful for Reshade MXAO.  
-Ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
+Ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.  
 For example, the interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and becomes darker the deeper inside the tube one goes. It has a GPU performance cost.  
 1008p is the highest resolution found to work without breaking the game's AO at any scaling settings, from our testing.  
 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
@@ -106,7 +106,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
   - **30/60fps + Dynamic FPS** are a simple Combo of these two mods, into one.
   - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and Disable FSR, it's a minimal pack for a clean experience.  
 You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
-In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.
+In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.  
 Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
 </br>
 
@@ -122,11 +122,11 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 </br>
 </br>Other good mods :
 
-- [Xbox UI + Blackscreenfix] (https://gamebanana.com/mods/443354) by Alerion921
+- [Xbox UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
 
-- [Playstation UI + Blackscreenfix] https://gamebanana.com/mods/443201 by Alerion921
+- [Playstation UI + Blackscreenfix](https://gamebanana.com/mods/443201) by Alerion921
 
-- [Amiibo Anti-RNG] https://gamebanana.com/mods/443894 by JordanBTucker
+- [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 
 
 </br>Useful links :
