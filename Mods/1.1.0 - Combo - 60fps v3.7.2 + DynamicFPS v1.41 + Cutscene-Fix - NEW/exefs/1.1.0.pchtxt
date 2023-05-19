@@ -18,6 +18,7 @@
 // 0090e990 35008052 // ensure field 0x14 = 1
 
 // Cutscene Fix
+@enabled
 0090E990 CD7B0E94
 00CAD8C4 F7D001F0
 00CAD8C8 F79E44F9
