@@ -1,0 +1,105 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+//Credit: ChucksFeedAndSeed
+// Dynamic Resolution (Something something configs, might not do anything)
+@enabled
+010622C4 15000014
+027CA074 000080D2
+@stop
+
+//Credit: ChucksFeedAndSeed
+// FSR (Pretty much just skipping the entire shader? (I could be wrong))
+@enabled
+027CA0DC 000080D2
+0188D0D4 000080D2
+00AEAC44 1F2003D5
+@stop 
+
+//Credit: ChucksFeedAndSeed
+// Shadows Resolution - fix for shadows / gloom breaking above 1x scaling
+@enabled
+00D075AC 0B808052
+00D075B0 17000014
+@stop
+
+//Credit: ChucksFeedAndSeed
+// FXAA (Probably does nothing, but makes sure FXAA is not enabled)
+@enabled
+027CA13C 000080D2
+0188D0A0 000080D2
+@stop
+
+//Credit: ChucksFeedAndSeed
+// LOD (May only have an effect with certain settings on emulator, or specifically only on hardware)
+@enabled
+00030BFC 0030B8D2
+00837FBC 0030B8D2
+021DEC24 0030B8D2
+@stop
+
+//Credit: Patchanon
+//Disable FSR downscaling
+@enabled
+00CAD340 08008052
+@stop
+
+//Credit: Patchanon
+//Disable LOD reduction when framerate dips
+@enabled
+00CAD34C C0000014
+@stop
+
+//Credit: Patchanon
+// 1080p with broken ambient occlusion above 1x scaling (maybe scaling framebuffer wrong?)
+@enabled
+00cea77c 15000014
+@stop
+
+
+// 60 FPS SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+@enabled
+00ebd158 21008052 // sets refresh rate interval
+0090ea38 35008052 // ensure field 0x14 = 1
+0090eaa8 28008052 // ensure field 0x18 = 1
+0090ea40 2c008052 // ensure field 0x18 = 1
+0090e98c eb031f2a // ensure field 0x1C = 0
+019bf104 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+019ca668 1f2003d5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+
+// removed for compatibility with cutscene fix
+// 0090e9c4 21008052 // sets refresh rate interval 21008052
+// 0090e990 35008052 // ensure field 0x14 = 1
+
+// Fixes the video playback issues when played over 60fps. 
+
+@enabled
+0090E990 CD7B0E94
+00CAD8C4 F7D001F0
+00CAD8C8 F79E44F9
+00CAD8CC F7020391
+00CAD8D0 E9024039
+00CAD8D4 29050011
+00CAD8D8 F503092A
+00CAD8DC C0035FD6
+@stop
+
+
+// @theboy181
+// https://linktr.ee/theboy181
+// Special thanks to Chuck? 
+// @octolimar
+
+//Credit: Wollnashorn
+// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
+@enabled
+00C7F700 28E0A0F2    // movk x8,#0x701, LSL #16
+@stop
+
+//Credit: Wollnashorn
+// Force bilinear terrain samplers to be trilinear
+@enabled
+007639FC 4A008052    // mov w10,#0x2
+@stop
