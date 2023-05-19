@@ -66,6 +66,10 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 Reported to fix some graphical issues with LOD, but would like image evidence.  
 </br>
 
+- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting.  
+DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera.  
+</br>
+
 - Graphics - **Shadows** : changes the resolution of shadows. 
 256 and 512 would increase GPU performance a lot.   
 1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.
@@ -165,6 +169,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
 - [FPS - Cutscene-fix] : theboy181
+
+- [Graphic - Disable Targeting DOF] : theboy181
 
 - [Fix - Over 30FPS Blackscreen Fix](https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/) : by MarethyuX
 
