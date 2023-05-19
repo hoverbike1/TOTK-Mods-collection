@@ -1,6 +1,6 @@
 # TOTK-Mods-collection
 
-## :exclamation:**WARNING : These mods only work with version `1.1.0` of the game !**:exclamation:
+## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.
 
 </br>
 
