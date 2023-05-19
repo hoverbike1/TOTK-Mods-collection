@@ -27,6 +27,10 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
+- **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, need testing and more documentation.
+Do not increase FPS.
+</br>
+
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3.7.2" mod.
 </br>
@@ -112,6 +116,7 @@ You can use it with any Graphics other pack, ratio and cheats but it's not recom
 In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.  
 Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
   - Lazy Pack are made by Hover and merge several useful mods.  
+:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.  
 </br>
 
 - Cheats :
@@ -146,6 +151,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 - [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
 - [DynamicFPS v1.31 & 1.4](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
+
+- [FPS++](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : somerandompeople
 
 - [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
 
