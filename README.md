@@ -30,7 +30,6 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 
 - **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, fix cinematics above 30fps, need testing and more documentation.
 Do not increase Performances.  
-Require to disable "Use Fast GPU Time" in advanced graphic yuzu settings to fix the cinematics.  
 **BEWARE !** Incompatible with Dynamic FPS.  
 </br>
 
