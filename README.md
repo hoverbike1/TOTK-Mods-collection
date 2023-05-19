@@ -27,6 +27,10 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
 </br>
 
+- **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, need testing and more documentation.
+Do not increase FPS.
+</br>
+
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3.7.2" mod.
 </br>
@@ -49,7 +53,8 @@ GPU Performance cost is extremely low so use it will not improve it, but could d
 
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
 FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
-Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.     
+Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.  
+:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
 </br>
 
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
@@ -59,6 +64,10 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance.  
 Reported to fix some graphical issues with LOD, but would like image evidence.  
+</br>
+
+- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting.  
+DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera.  
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
@@ -85,7 +94,9 @@ Reported to fix some graphical issues with LOD, but would like image evidence.
 1080p (1920x1080) can only be scaled in 'doubles', or it will break Ambient Occlusion (AO) but increases GPU performance, which is useful for Reshade MXAO.  
 Ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.  
 For example, the interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and becomes darker the deeper inside the tube one goes. It has a GPU performance cost.  
-1008p is the highest resolution found to work without breaking the game's AO at any scaling settings, from our testing.  
+1008p increase resolution to 1792x1008 without breaking Ambiant Occlusion
+1026p increase resolution to 1836x1026 without breaking Ambiant Occlusion
+:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
   - 540p and x2 = 1080p
   - 540p and x4 = 4K
@@ -108,6 +119,8 @@ You can use them with x1 Resolution scale to increase GPU performance.
 You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
 In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.  
 Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
+  - Lazy Pack are made by Hover and merge several useful mods.  
+:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.  
 </br>
 
 - Cheats :
@@ -143,6 +156,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 
 - [DynamicFPS v1.31 & 1.4](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : ChucksFeedAndSeed
 
+- [FPS++](https://www.reddit.com/r/NewYuzuPiracy/comments/13fjv8r/totk_dynamic_fps_mod_beta_has_some_issues/) : somerandompeople
+
 - [1008p resolution](https://www.reddit.com/r/NewYuzuPiracy/comments/13deav1/comment/jjk9m60/) : ChucksFeedAndSeed
 
 - [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
@@ -154,6 +169,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
 - [FPS - Cutscene-fix] : theboy181
+
+- [Graphic - Disable Targeting DOF] : theboy181
 
 - [Fix - Over 30FPS Blackscreen Fix](https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/) : by MarethyuX
 
