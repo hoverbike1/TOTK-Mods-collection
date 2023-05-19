@@ -1,0 +1,19 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+
+// FILE VERSION 0.4.1.2 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.1.0 - Remove DOF
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Removes the DOF effect when targeting
+
+@enabled
+00C25898 C0035FD6
+@stop
+
+@theboy181
+https://linktr.ee/theboy181
