@@ -178,4 +178,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 
 - [Cheat - Durability (10x)] : SweetMini
 
+- [Graphics - Disable Internal FXAA] : Zeikken
+
+- [Resolution - 1008p and 1026p] : Zeikken
+
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
