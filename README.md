@@ -50,9 +50,6 @@ GPU Performance cost is extremely low so use it will not improve it, but could d
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
 FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.
 Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.     
-
-> We're starting to doubt the mod will change anything, if you get any proof of its effect please share a screenshot or video with us.
-
 </br>
 
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
