@@ -24,7 +24,7 @@ This allows using it alongside the 30FPS mod and to uncheck the "Limit Speed Per
 This way, going over the framerate lock defined by the FPS mod will not 'speed up' your game.  
 You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey on yuzu.  
 When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster cutscenes.  
-**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check)
+**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check).  
 **BEWARE !** Incompatible with FPS++.  
 </br>
 
