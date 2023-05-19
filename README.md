@@ -115,6 +115,7 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
   - Stamina cheat doesn't seem to work.
   - Infinite amiibo usage is pointless since yuzu has a similar feature, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
+  - Beware, all cheats can cause unwanted side effects.
 
 </br>
 </br>The main TOTK performance issue comes from the CPU and not the GPU, but unfortunately we don't have an easy way of increasing CPU performance.  
