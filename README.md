@@ -32,7 +32,7 @@ You must have the Yuzu framerate lock enabled for this to work, and it needs to 
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
-:exclamation:Overwrite "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.
+:exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.
 This mod is present in the Xbox UI and Playstation UI mods, and should be disabled if using either of those, to avoid issues.  
 </br>
 
@@ -114,6 +114,7 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 </br>
 
 - Cheats :
+  - 10x Durability overwrites all Weapons, Bows, Shields, don't install two mods overwriting the same file.
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
   - Stamina cheat doesn't seem to work.
   - Infinite amiibo usage is pointless since yuzu has a similar feature, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
@@ -154,8 +155,10 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
-- FPS - Cutscene-fix : theboy181
+- [FPS - Cutscene-fix] : theboy181
 
 - [Fix - Over 30FPS Blackscreen Fix](https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/) : by MarethyuX
+
+- [Cheat - Durability (10x)] : SweetMini
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
