@@ -74,7 +74,7 @@ DOF (Depth-of-Field is an effect that blur the background when an object is focu
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
 256 and 512 would increase GPU performance a lot.   
-1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.
+1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups but some people reported infinite loading with it.
 
   <div>
     <a href="https://imgsli.com/MTc5MTM1">
