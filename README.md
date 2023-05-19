@@ -28,7 +28,7 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 </br>
 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
-You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3 - Cutscene-Fix-required" mod.
+You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3.7.2" mod.
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
