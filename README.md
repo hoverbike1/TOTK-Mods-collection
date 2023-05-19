@@ -28,7 +28,7 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** Incompatible with FPS++.  
 </br>
 
-- **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, fix cinematics above 30fps, need testing and more documentation.
+- **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, fix cinematics above 30fps, increase FPS cap to 60, so 60FPS is not required, need testing and more documentation.
 Do not increase Performances.  
 **BEWARE !** Incompatible with Dynamic FPS.  
 </br>
