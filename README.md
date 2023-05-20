@@ -45,11 +45,13 @@ This mod is present in the Xbox UI and Playstation UI mods, and should be disabl
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu has its own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI).  
-FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.
+FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
 </br>
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
+Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
 **BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
 </br>
 
