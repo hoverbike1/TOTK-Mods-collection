@@ -125,6 +125,71 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 :exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.  
 </br>
 
+
+<h4>"Lazy Packs"</h4>
+<b>A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".</b><br>
+"Lazy packs" are customized according to resolution, framerate, and UI mod compatibility.
+UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.
+Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
+Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.
+Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
+<br><br>
+
+<details>
+<summary> Click to view how to use the lazy pack</summary>
+<a href="https://github.com/HolographicWings/TOTK-Mods-collection/tree/main/Guide">Follow this guide to configure Yuzu correctly for Tears of the Kingdom.</a><br>
+Install Tears of the Kingdom Patch 1.1.0.<br>
+Decide on a framerate. 30 or 60?<br>
+Decide on a resolution. 720p, 1080, 1440p, 4K or 8K?<br>
+Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked above.<br>
+<br>
+
+Take this pack as an example:
+1.1.0 - Lazy Pack - <b>60 FPS</b> - <b>720P 1X</b> - <b>1440P 2X</b> - <b>4K 3X</b> - <b>8K 6X</b> - scaling - <b>UI Mod compatible</b>
+- This patch features 60 FPS.
+- It scales between 720p, 1440p, 4K and 8K, depending on what resolution scaling you choose in Yuzu's graphics settings, as shown in picture 7 in the guide below, for reference.
+- And it features compatibility with UI controller mods, such as the Xbox or Playstation mods linked above.
+
+If you were to decide to target <b>30 FPS</b>, <b>1080p</b>, and you would like the <b>Steam Deck UI</b>, you should choose:
+1.1.0 - Lazy Pack - <b>30 FPS</b> - <b>1080P 1X scaling</b> - <b>UI Mod compatible</b>
+
+And, if you were to decide to play on a beefy <b>1080p</b> PC at <b>60 FPS</b>, using your Switch Pro controller, and you would like the <b>Normal, Nintendo controller UI</b>, you should choose:
+1.1.0 - Lazy Pack - <b>60 FPS</b> - <b>1080P 1X scaling</b>
+
+The non-compatible versions contain Blackscreen-fix, which is incompatible with UI mods.
+</details>
+
+<details>
+<summary>Click to view the patches included in the lazy pack </summary>
+
+// Credit: @Wollnashorn<br>
+// Force bilinear terrain samplers to be trilinear<br>
+// Set mipmap filter to nearest on shadow map sampler<br>
+
+// Credit: @Marethyu<br>
+// Blackscreen-fix<br>
+
+// Credit: @ChucksFeedAndSeed<br>
+// Disable Dynamic Resolution<br>
+// Disable FSR sharpening filter<br>
+// Shadow Resolution set to 1024<br>
+// FXAA disabled<br>
+// LOD fix<br>
+
+// Credit: @Patchanon<br>
+// Disable FSR up/downscaling<br>
+// Disable LOD reduction when framerate dips<br>
+// 1080p with broken ambient occlusion above 1x scaling<br>
+
+// Credit: @somerandompeople<br>
+// SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/ <br>
+// 30/60 FPS++<br>
+
+// Credit: @ChanseyIsTheBest<br>
+// Docked 720p<br>
+</details><br>
+<br> <br>
+
 - Cheats :
   - 10x Durability overwrites all Weapons, Bows, Shields, don't install two mods overwriting the same file.
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
@@ -141,6 +206,8 @@ Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when
 - [Xbox UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
 
 - [Playstation UI + Blackscreenfix](https://gamebanana.com/mods/443201) by Alerion921
+
+- [Steam Deck UI](https://gamebanana.com/mods/443702) by Fayaz
 
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 
