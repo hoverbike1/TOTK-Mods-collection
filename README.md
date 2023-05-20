@@ -67,8 +67,8 @@ LOD (Level Of Detail) displays higher quality models when you are close to them,
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
 </br>
 
-- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting.  
-DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera.  
+- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs with ZL.  
+DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
