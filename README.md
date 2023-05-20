@@ -211,6 +211,8 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 
+- [Updated 1.1.1 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom/0100F2C0115B6000%20for%20Yuzu) by bad1dea
+
 
 </br>Useful links :
 
