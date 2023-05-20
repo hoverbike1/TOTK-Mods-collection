@@ -1,0 +1,9 @@
+id: 785773fd-1938-42f0-8a51-b4a6e282203e
+title: DynamicFPS
+description: A mod for upscaling to 1080p internally
+version: 1.42.0
+type: 3
+gameVersion:
+  - 1.1.0
+authorName: ChucksFeedAndSeed
+authorLink: https://www.reddit.com/user/ChucksFeedAndSeed/

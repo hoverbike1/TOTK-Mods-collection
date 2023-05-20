@@ -1,0 +1,13 @@
+id: 6ffadaf5-9fb4-4dfc-8110-5c0c93638494
+title: 30fps
+description: Increase to 30fps lock
+version: 4.0.0
+type: 2
+gameVersion:
+  - 1.0.0
+  - 1.1.0
+  - 1.1.1
+interfereWith:
+  - 8e6d54cc-2088-4da2-8106-07ddc3c41fae
+authorName: somerandompeople
+authorLink: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/

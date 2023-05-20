@@ -1,0 +1,13 @@
+id: 8e6d54cc-2088-4da2-8106-07ddc3c41fae
+title: 60fps
+description: Increase to 60fps lock
+version: 4.0.0
+type: 2
+gameVersion:
+  - 1.0.0
+  - 1.1.0
+  - 1.1.1
+interfereWith:
+  - 6ffadaf5-9fb4-4dfc-8110-5c0c93638494
+authorName: somerandompeople
+authorLink: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/
