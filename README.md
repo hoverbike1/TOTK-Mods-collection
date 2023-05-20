@@ -195,11 +195,9 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 </br>
 </br>Other good mods :
 
-- [Xbox UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
+- [Xbox / Steam Deck UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
 
 - [Playstation UI + Blackscreenfix](https://gamebanana.com/mods/443201) by Alerion921
-
-- [Steam Deck UI](https://gamebanana.com/mods/443702) by Fayaz
 
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 
