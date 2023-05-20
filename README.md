@@ -62,10 +62,9 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
 </br>
 
-- Graphics - **LOD Patch** when low FPS : Prevents the LOD decreasing when your framerate is low.  
+- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low.  
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
-By default, when your framerate is low, the game lowers the LOD to increase GPU performance.  
-Reported to fix some graphical issues with LOD, but would like image evidence.  
+By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting.  
