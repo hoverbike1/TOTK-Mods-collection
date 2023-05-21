@@ -24,7 +24,7 @@
   - Use Vulkan Pipeline Cache : On  
   - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod)  
 - Ryuginx settings :  
-  - Need documentation   
+  - Need more documentation   
 
 </br>Mod description & usage :
 
