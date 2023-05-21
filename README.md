@@ -9,6 +9,21 @@
 ### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 </div>
 
+</br>Recommended setup :  
+- Mods :  
+  - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs  
+  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix  
+  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings  
+- Yuzu settings :  
+  - Render API : Vulkan  
+  - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)
+  - Resolution : x2 (x1 to fix pixelated edges through volumetric clouds and fog)  
+  - Decode ASTC textures asynchronously : Off ("On" smooth the texture loading, use it if you don't mind the glitched loading screens)  
+  - Use asynchronous shader building : On (Smooth the game)  
+  - Use Fast GPU Time : On (Lower the GPU usage by 3x)  
+  - Use Vulkan Pipeline Cache : On  
+  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod)  
+
 </br>Mod description & usage :
 
 - **FPS** : Changes the game's framerate lock  
