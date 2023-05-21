@@ -1,0 +1,27 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+
+// FILE VERSION 0.4.3.1 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Cutscene Fix
+@enabled
+0081FF10 A5881294
+00CC21A4 97D001D0
+00CC21A8 F73644F9
+00CC21AC F7020391
+00CC21B0 E9024039
+00CC21B4 29050011
+00CC21B8 F503092A
+00CC21BC C0035FD6
+@stop
+
+// @theboy181
+// https://linktr.ee/theboy181
+// Special thanks to Chuck? 
+// @octolimar
+
