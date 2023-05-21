@@ -1,5 +1,0 @@
-https://www.reddit.com/r/NewYuzuPiracy/comments/13jdzzo/totk_dynamic_fps_v14_beta_has_some_issues/
-If you'd like to support his work he have a ko-fi page at https://ko-fi.com/ChucksFeedAndSeed
-
-Also I modded it to push 120 FPS - You'll need to tweak your emulator to allow higher than 60 FPS though.
-- https://github.com/Krutonium - Krutonium
