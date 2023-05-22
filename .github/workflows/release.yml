@@ -17,11 +17,11 @@ jobs:
       - uses: vimtor/action-zip@v1
         with:
           files: Mods/ Guide/ README.md LICENSE
-          dest: releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          dest: Releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          files: Releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh_url }}
       - name: check for changes
@@ -30,10 +30,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -a -m "Auto updating TODO.txt"
-#       - name: fetch from master
-#         run: git fetch origin main
+          git add Releases/
+          git commit -a -m "Pushing new release ${{ github.ref_name }}"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
