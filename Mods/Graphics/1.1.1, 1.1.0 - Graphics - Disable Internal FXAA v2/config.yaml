@@ -2,10 +2,10 @@ id: 9fd109e8-b968-497e-8de8-ab45656da9ba # Random UUID
 title: Disable Internal FXAA
 subtitle: Disables FXAA standalone
 description: "Some text. \nTo add a newline."
-version: 2.0
+version: 2.0.0
 category: 2 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc 
 game:
-  title id: 0100F2C011586000
+  titleId: 0100F2C011586000
   version:
     - 1.1.0
     - 1.1.1
