@@ -1,0 +1,24 @@
+# This is a basic workflow that is manually triggered
+
+name: Create zip at release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: vimtor/action-zip@v1
+        with:
+          files: Mods/ Guide/ README.md LICENSE
+          dest: ${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
