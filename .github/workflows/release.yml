@@ -18,12 +18,7 @@ jobs:
         with:
           type: 'zip'
           filename: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-          exclusions: 'Releases/*'
-#       - name: Zip mods
-#         uses: vimtor/action-zip@v1
-#         with:
-#           files: Mods/ Guide/ README.md LICENSE
-#           dest: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          exclusions: '*.git* /*Releases/* *.github*'
       - name: Push the zip of assets
         uses: softprops/action-gh-release@v1
         with:
