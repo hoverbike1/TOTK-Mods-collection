@@ -22,8 +22,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-#       - name: switching from HTTPS to SSH
-#         run: git remote set-url origin ${{ secrets.ssh }}
+      - name: switching from HTTPS to SSH
+        run: git remote set-url origin ${{ secrets.ssh_url }}
       - name: check for changes
         run: git status
       - name: stage changed files
