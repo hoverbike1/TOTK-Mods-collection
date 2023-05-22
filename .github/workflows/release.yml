@@ -17,11 +17,11 @@ jobs:
       - uses: vimtor/action-zip@v1
         with:
           files: Mods/ Guide/ README.md LICENSE
-          dest: Releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          dest: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: Releases/${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          files: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh_url }}
       - name: check for changes
