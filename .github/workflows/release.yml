@@ -14,10 +14,16 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v3
       - name: Zip mods
-        uses: vimtor/action-zip@v1
+        uses: thedoctor0/zip-release@0.7.1
         with:
-          files: Mods/ Guide/ README.md LICENSE
-          dest: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          type: 'zip'
+          filename: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          exclusions: 'Releases/*'
+#       - name: Zip mods
+#         uses: vimtor/action-zip@v1
+#         with:
+#           files: Mods/ Guide/ README.md LICENSE
+#           dest: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: Push the zip of assets
         uses: softprops/action-gh-release@v1
         with:
