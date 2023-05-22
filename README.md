@@ -1,30 +1,27 @@
 # TOTK-Mods-collection
 
-## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.
+## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**
 
-</br>
-
-<div align="center">
-  
-### [Download latest release](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
-</div>
+### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
 </br>Recommended setup :  
-- Mods :  
-  - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs  
-  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix  
-  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings  
-- Yuzu settings :  
-  - Render API : Vulkan  
+
+- Mods :
+
+  - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs
+  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix
+  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
+- Yuzu settings :
+  - Render API : Vulkan
   - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)
-  - Resolution : x2 (x1 to fix pixelated edges through volumetric clouds and fog)  
-  - Decode ASTC textures asynchronously : Off ("On" smooth the texture loading, use it if you don't mind the glitched loading screens)  
-  - Use asynchronous shader building : On (Smooth the game)  
-  - Use Fast GPU Time : On (Lower the GPU usage by 3x)  
-  - Use Vulkan Pipeline Cache : On  
-  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod)  
-- Ryuginx settings :  
-  - Need more documentation   
+  - Resolution : x2 (x1 to fix pixelated edges through volumetric clouds and fog)
+  - Decode ASTC textures asynchronously : Off ("On" smooth the texture loading, use it if you don't mind the glitched loading screens)
+  - Use asynchronous shader building : On (Smooth the game)
+  - Use Fast GPU Time : On (Lower the GPU usage by 3x)
+  - Use Vulkan Pipeline Cache : On
+  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod)
+- Ryujinx settings :  
+  - Need more documentation
 
 </br>Mod description & usage :
 
@@ -33,7 +30,7 @@ If you get under the framerate lock defined by the mod, the game will be in slow
 Vice versa if you get over the defined framerate lock.  
 Cinematics will be sped up when you go over 30FPS.  
 We recommend the 30fps version as the 60fps version is still a work in progress, 15 and 20 FPS being experimental and potentially useless.  
-*Why should I use the 30fps mod ?* : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).  
+*Why should I use the 30fps mod ?* : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).
 </br>
 
 - **Dynamic FPS** : Matches the game clock to your framerate and fixes slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.  
@@ -42,12 +39,12 @@ This way, going over the framerate lock defined by the FPS mod will not 'speed u
 You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey on yuzu.  
 When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster cutscenes.  
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check).  
-**BEWARE !** Incompatible with FPS++.  
+**BEWARE !** Incompatible with FPS++.
 </br>
 
 - **FPS++** : An edited version of the Dynamic FPS mod by "somerandompeople", fix cinematics above 30fps, increase FPS cap to 60 so 60FPS is not required, need testing and more documentation.
 Do not increase Performances.  
-**BEWARE !** Incompatible with Dynamic FPS.  
+**BEWARE !** Incompatible with Dynamic FPS.
 </br>
 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
@@ -56,26 +53,25 @@ You must have the Yuzu framerate lock enabled for this to work, and it needs to 
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
 :exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
-This mod is present in the Xbox UI and Playstation UI mods, and should be disabled if using either of those, to avoid issues.  
+This mod is present in the Xbox UI and Playstation UI mods, and should be disabled if using either of those, to avoid issues.
 </br>
-
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu has its own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI).  
 FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.
 </br>
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
 Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
-**BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
+**BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.
 </br>
 
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
 FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
 Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.  
-:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
+:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
 </br>
 
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
@@ -90,8 +86,8 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.
 </br>
 
-- Graphics - **Shadows** : changes the resolution of shadows. 
-256 and 512 would increase GPU performance a lot.   
+- Graphics - **Shadows** : changes the resolution of shadows.
+256 and 512 would increase GPU performance a lot.  
 1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.  
 [Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512](https://imgsli.com/MTc5MTM1)  
 [Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024](https://imgsli.com/MTc5MTYx)  
@@ -132,39 +128,41 @@ You can use it with any Graphics other pack, ratio and cheats but it's not recom
 In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.  
 Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
   - Lazy Pack are made by Hover and merge several useful mods.  
-:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.  
+:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.
 </br>
 
+#### "Lazy Packs"
 
-<h4>"Lazy Packs"</h4>
-<b>A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".</b><br>
+**A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>
 "Lazy packs" are customized according to resolution, framerate, and UI mod compatibility.
 UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.
 Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
 Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.
 Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
-<br><br>
+</br>
 
 <details>
 <summary> Click to view how to use the lazy pack</summary>
-<a href="https://github.com/HolographicWings/TOTK-Mods-collection/tree/main/Guide">Follow this guide to configure Yuzu correctly for Tears of the Kingdom.</a><br>
-Install Tears of the Kingdom Patch 1.1.0.<br>
-Decide on a framerate. 30 or 60?<br>
-Decide on a resolution. 720p, 1080, 1440p, 4K or 8K?<br>
-Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked above.<br>
-<br>
+
+[Follow this guide to configure Yuzu correctly for Tears of the Kingdom.](https://github.com/HolographicWings/TOTK-Mods-collection/tree/main/Guide)
+
+- Install Tears of the Kingdom Patch 1.1.0.
+- Decide on a framerate. 30 or 60?
+- Decide on a resolution. 720p, 1080, 1440p, 4K or 8K?
+- Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked above.
 
 Take this pack as an example:
-1.1.0 - Lazy Pack - <b>60 FPS</b> - <b>720P 1X</b> - <b>1440P 2X</b> - <b>4K 3X</b> - <b>8K 6X</b> - scaling - <b>UI Mod compatible</b>
+1.1.0 - Lazy Pack - **60 FPS** - **720P 1X** - **1440P 2X** - **4K 3X** - **8K 6X** - scaling - **UI Mod compatible**
+
 - This patch features 60 FPS.
 - It scales between 720p, 1440p, 4K and 8K, depending on what resolution scaling you choose in Yuzu's graphics settings, as shown in picture 7 in the guide below, for reference.
 - And it features compatibility with UI controller mods, such as the Xbox or Playstation mods linked above.
 
-If you were to decide to target <b>30 FPS</b>, <b>1080p</b>, and you would like the <b>Steam Deck UI</b>, you should choose:
-1.1.0 - Lazy Pack - <b>30 FPS</b> - <b>1080P 1X scaling</b> - <b>UI Mod compatible</b>
+If you were to decide to target **30 FPS**, **1080p**, and you would like the **Steam Deck UI**, you should choose:
+1.1.0 - Lazy Pack - **30 FPS** - **1080P 1X scaling** - **UI Mod compatible**
 
-And, if you were to decide to play on a beefy <b>1080p</b> PC at <b>60 FPS</b>, using your Switch Pro controller, and you would like the <b>Normal, Nintendo controller UI</b>, you should choose:
-1.1.0 - Lazy Pack - <b>60 FPS</b> - <b>1080P 1X scaling</b>
+And, if you were to decide to play on a beefy **1080p** PC at **60 FPS**, using your Switch Pro controller, and you would like the **Normal, Nintendo controller UI**, you should choose:
+1.1.0 - Lazy Pack - **60 FPS** - **1080P 1X scaling**
 
 The non-compatible versions contain Blackscreen-fix, which is incompatible with UI mods.
 </details>
@@ -172,33 +170,33 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 <details>
 <summary>Click to view the patches included in the lazy pack </summary>
 
-// Credit: @Wollnashorn<br>
-// Force bilinear terrain samplers to be trilinear<br>
-// Set mipmap filter to nearest on shadow map sampler<br>
+// Credit: @Wollnashorn
+// Force bilinear terrain samplers to be trilinear
+// Set mipmap filter to nearest on shadow map sampler
 
-// Credit: @Marethyu<br>
-// Blackscreen-fix<br>
+// Credit: @Marethyu
+// Blackscreen-fix
 
-// Credit: @ChucksFeedAndSeed<br>
-// Disable Dynamic Resolution<br>
-// Disable FSR sharpening filter<br>
-// Shadow Resolution set to 1024<br>
-// FXAA disabled<br>
-// LOD fix<br>
+// Credit: @ChucksFeedAndSeed
+// Disable Dynamic Resolution
+// Disable FSR sharpening filter
+// Shadow Resolution set to 1024
+// FXAA disabled
+// LOD fix
 
-// Credit: @Patchanon<br>
-// Disable FSR up/downscaling<br>
-// Disable LOD reduction when framerate dips<br>
-// 1080p with broken ambient occlusion above 1x scaling<br>
+// Credit: @Patchanon
+// Disable FSR up/downscaling
+// Disable LOD reduction when framerate dips
+// 1080p with broken ambient occlusion above 1x scaling
 
-// Credit: @somerandompeople<br>
-// SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/ <br>
-// 30/60 FPS++<br>
+// Credit: @somerandompeople
+// SOURCED FROM [HERE](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/)
+// 30/60 FPS++
 
-// Credit: @ChanseyIsTheBest<br>
-// Docked 720p<br>
-</details><br>
-<br> <br>
+// Credit: @ChanseyIsTheBest
+// Docked 720p
+</details>
+</br>
 
 - Cheats :
   - 10x Durability overwrites all Weapons, Bows, Shields, don't install two mods overwriting the same file.
@@ -220,7 +218,6 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 
 - [Updated 1.1.1 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom/0100F2C0115B6000%20for%20Yuzu) by bad1dea
-
 
 </br>Useful links :
 
@@ -247,16 +244,16 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
-- [FPS - Cutscene-fix] : theboy181
+- [FPS - Cutscene-fix](about:blank) : theboy181
 
-- [Graphic - Disable Targeting DOF] : theboy181
+- [Graphic - Disable Targeting DOF](about:blank) : theboy181
 
 - [Fix - Over 30FPS Blackscreen Fix](https://www.reddit.com/r/NewYuzuPiracy/comments/13hq70a/60_fps_mod_black_screen_fix_not_thoroughly_tested/) : by MarethyuX
 
-- [Cheat - Durability (10x)] : SweetMini
+- [Cheat - Durability (10x)](about:blank) : SweetMini
 
-- [Graphics - Disable Internal FXAA] : Zeikken
+- [Graphics - Disable Internal FXAA](about:blank) : Zeikken
 
-- [Resolution - 1008p and 1026p] : Zeikken
+- [Resolution - 1008p and 1026p](about:blank) : Zeikken
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
