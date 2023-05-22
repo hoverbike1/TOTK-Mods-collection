@@ -1,6 +1,4 @@
-# This is a basic workflow that is manually triggered
-
-name: Create zip at release
+name: Create zip asset, push it in release and archive it when a new tag is created
 
 on:
   push:
@@ -13,26 +11,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: vimtor/action-zip@v1
+      - name: Checkout the code
+        uses: actions/checkout@v3
+      - name: Zip mods
+        uses: vimtor/action-zip@v1
         with:
           files: Mods/ Guide/ README.md LICENSE
           dest: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: Release
+      - name: Push the zip of assets
         uses: softprops/action-gh-release@v1
         with:
           files: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: switching from HTTPS to SSH
+      - name: Switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh_url }}
-      - name: check for changes
+      - name: Check for changes
         run: git status
-      - name: stage changed files
+      - name: Stage changed files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add Releases/
           git commit -a -m "Pushing new release ${{ github.ref_name }}"
-      - name: Push changes
+      - name: Push changes on main ✨
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
