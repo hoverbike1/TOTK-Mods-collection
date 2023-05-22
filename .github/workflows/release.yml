@@ -27,10 +27,12 @@ jobs:
       - name: check for changes
         run: git status
       - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git commit -m "Auto updating TODO.txt"
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -a -m "Auto updating TODO.txt"
       - name: fetch from master
-        run: git fetch origin master
+        run: git fetch origin main
       - name: push code to master
-        run: git push origin HEAD:master
+        run: git push origin HEAD:main
