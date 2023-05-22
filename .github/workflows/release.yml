@@ -32,7 +32,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -a -m "Auto updating TODO.txt"
-      - name: fetch from master
-        run: git fetch origin main
-      - name: push code to master
-        run: git push origin HEAD:main
+#       - name: fetch from master
+#         run: git fetch origin main
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
