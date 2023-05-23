@@ -17,12 +17,12 @@ jobs:
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
-          filename: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          filename: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
           exclusions: '*.git* /*Releases/* *.github*'
       - name: Push the zip of assets
         uses: softprops/action-gh-release@v1
         with:
-          files: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
       - name: Switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh_url }}
       - name: Check for changes
