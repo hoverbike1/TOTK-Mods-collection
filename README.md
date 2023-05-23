@@ -1,4 +1,4 @@
-# TOTK-Mods-collection
+# Mods collection for Zelda: Tears of the Kingdom
 
 ## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**
 
