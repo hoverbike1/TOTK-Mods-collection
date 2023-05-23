@@ -1,0 +1,40 @@
+name: Create zip asset, push it in release and archive it when a new tag is created
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+      - name: Zip mods
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+          exclusions: '*.git* /*Releases/* *.github*'
+      - name: Push the zip of assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Releases/TOTK-Mods-collection${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+      - name: Switching from HTTPS to SSH
+        run: git remote set-url origin ${{ secrets.ssh_url }}
+      - name: Check for changes
+        run: git status
+      - name: Stage changed files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add Releases/
+          git commit -a -m "Pushing new release ${{ github.ref_name }}"
+      - name: Push changes on main ✨
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
