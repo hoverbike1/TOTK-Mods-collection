@@ -103,7 +103,7 @@ Ambient occlusion is a shading and rendering technique used to calculate how exp
 For example, the interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and becomes darker the deeper inside the tube one goes. It has a GPU performance cost.  
 :exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
 New 1008p - FXAA Off, FSR Off, DynRes Off - Zero AO Bugs
-1026p increase resolution to 1836x1026 without breaking Ambiant Occlusion
+1026p increase resolution to 1836x1026 without breaking Ambiant Occlusion. FSR Off includes both FSR sharpening filter, and FSR scaler.
 :exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
   - 540p and x2 = 1080p
