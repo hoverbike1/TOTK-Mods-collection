@@ -141,8 +141,7 @@ Using an non-compatible version, along with a UI mod, will result in the UI mod 
 Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
 </br>
 
-<details>
-<summary> Click to view how to use the lazy pack</summary>
+<details><summary> Click to view how to use the lazy pack</summary>
 
 [Follow this guide to configure Yuzu correctly for Tears of the Kingdom.](https://github.com/HolographicWings/TOTK-Mods-collection/tree/main/Guide)
 
@@ -167,8 +166,7 @@ And, if you were to decide to play on a beefy **1080p** PC at **60 FPS**, using 
 The non-compatible versions contain Blackscreen-fix, which is incompatible with UI mods.
 </details>
 
-<details>
-<summary>Click to view the patches included in the lazy pack </summary>
+<details><summary>Click to view the patches included in the lazy pack </summary>
 
 // Credit: @Wollnashorn
 // Force bilinear terrain samplers to be trilinear
