@@ -4,7 +4,14 @@
 
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
-</br>Recommended setup :  
+### Latest important information
+:exclamation:This mods causeing boot failures with yuzu EA3606 & EA3607, please update to EA 3608+
+- VisualFixes_1008P_FXAA_Off_FSR_Off
+- VisualFixes_1008P_FXAA_On_FSR_Off
+- DisableFXAA
+- DisableDynamicResolution
+
+### Recommended setup :  
 
 - Mods :
 
@@ -23,7 +30,7 @@
 - Ryujinx settings :  
   - Need more documentation
 
-</br>Mod description & usage :
+### Mod description & usage :
 
 - **FPS** : Changes the game's framerate lock  
 If you get under the framerate lock defined by the mod, the game will be in slow motion.  
@@ -71,10 +78,12 @@ Don't use this mod without "Graphics - Disable Internal FSR Downscaling".
 - Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
 FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
 Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.  
+:exclamation:Causeing boot failures with yuzu EA3606 & EA3607  
 :exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
 </br>
 
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
+:exclamation:Causeing boot failures with yuzu EA3606 & EA3607  
 </br>
 
 - Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low.  
