@@ -5,7 +5,7 @@
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
 ### Latest important information
-:exclamation:This mods causeing boot failures with yuzu EA3606 & EA3607, please update to EA 3608+
+:exclamation:These mods seem to prevent booting according to reports from some users with Yuzu EA3606 & EA3607. We recommend updating to EA3608+.
 - VisualFixes_1008P_FXAA_Off_FSR_Off
 - VisualFixes_1008P_FXAA_On_FSR_Off
 - DisableFXAA
