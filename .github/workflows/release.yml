@@ -14,7 +14,7 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v3
       - name: Zip mods
-        uses: thedoctor0/zip-release@0.7.1
+        uses: HolographicWings/zip-release@0.8.0
         with:
           type: 'zip'
           filename: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
