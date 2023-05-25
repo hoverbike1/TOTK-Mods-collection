@@ -107,21 +107,20 @@ DOF (Depth-of-Field is an effect that blur the background when an object is focu
 </br>
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
-1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
-Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
-:exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
-New 1008p - FXAA Off, FSR Off, DynRes Off - Zero AO Bugs
-1026p increase resolution to 1836x1026 without breaking Ambiant Occlusion. FSR Off includes both FSR sharpening filter, and FSR scaler.
-:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
-360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
-  - 540p and x2 = 1080p
-  - 540p and x4 = 4K
-  - 540p and x8 = 8K
-  - 720p and x2 = 1440p
-  - 720p and x3 = 4K
-  - 720p and x6 = 8K
-To experience the best quality, we advise you to use the double of your monitor's resolution.  
+:exclamation:Beware to don't confuse 1080p and 1008p !  
+  - 1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
+  Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
+  - 1008p (1792x1008) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off.
+  :exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
+  - 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
+    - 540p and x2 = 1080p
+    - 540p and x4 = 4K
+    - 540p and x8 = 8K
+    - 720p and x2 = 1440p
+    - 720p and x3 = 4K
+    - 720p and x6 = 8K
 You can use them with x1 Resolution scale to increase GPU performance.
+To experience the best quality, we advise you to use the double of your monitor's resolution.  
 </br>
 
 - Resolution - 1080p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.  
