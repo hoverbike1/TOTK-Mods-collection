@@ -110,7 +110,9 @@ DOF (Depth-of-Field is an effect that blur the background when an object is focu
 :exclamation:Beware to don't confuse 1080p and 1008p !  
   - 1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
   Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
-  - 1008p (1792x1008) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off.  
+  - Chuck's 1008p (1792x1008) will not break AO over x1 resolution.  
+  - New 1008p (1792x1008) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off.  
+  - 1026p (1824x1026) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off but is known to break several things, we don't advice it.  
   :exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
   - 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
     - 540p and x2 = 1080p.  
