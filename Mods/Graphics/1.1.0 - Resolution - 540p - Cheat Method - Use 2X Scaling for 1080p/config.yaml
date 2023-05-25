@@ -1,17 +1,16 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba # Random UUID
-title: Disable Internal FXAA v2
-subtitle: Disable Internal FXAA v2
+id: 4948a8de-938f-48eb-86b1-c19813fdbb60
+title: 540p - Cheat Method - Use 2X Scaling for 1080p
+subtitle: 540p - Cheat Method - Use 2X Scaling for 1080p
 description: "Some text. \nTo add a newline."
-version: 2.0.0
+version: 1.1.0
 category: 2 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
 game:
   titleId: 0100F2C011586000
   version:
     - 1.1.0
-    - 1.1.1
 compatibility:
   blacklist:
-    - 3a2301e8-6904-4b4a-97db-47ef10bb19f2 # Mod id which is incompatible
+    - 3a2301e8-6904-4b4a-97db-47ef10bb19f2
 author:
   name: Sweetmini
   link: https://github.com/HolographicWings/TOTK-Mods-collection/releases

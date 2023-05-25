@@ -1,0 +1,13 @@
+id: 2a1e44ac-342a-4603-a691-7b0654188c47
+title: 15fps v3 - DON'T USE
+subtitle: 15fps v3 - DON'T USE
+description: "Some text. \nTo add a newline."
+version: 3.0.0
+category: 1 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.0
+author:
+  name: ChucksFeedAndSeed, patchanon and somerandompeople
+  link: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/
