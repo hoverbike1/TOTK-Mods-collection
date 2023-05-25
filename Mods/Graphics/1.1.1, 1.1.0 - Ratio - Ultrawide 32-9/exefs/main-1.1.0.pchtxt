@@ -3,9 +3,8 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// credit to u/fruithapje21 on reddit for finding this
-// uploaded by youtube.com/fayaz
-
 @enabled
 00CDB304 0090211E
 @stop
+
+// by youtube.com/fayaz
