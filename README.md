@@ -127,6 +127,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - Resolution - 1080p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.  
   - Break AO over 1x scale on Yuzu.  
+</br>
 
 - **Ratio** : Experimental - change the aspect ratio from 16:9.
   - You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9, 16:10 or "Stretch to Window" if the desired ratio doesn't exist.  
