@@ -127,6 +127,7 @@ You can use them with x1 Resolution scale to increase GPU performance.
 
 - Resolution - 1080p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.  
   - Break AO over 1x scale on Yuzu.  
+  - As written in the name, this mod disable FSR and FXAA too.  
 </br>
 
 - **Ratio** : Experimental - change the aspect ratio from 16:9.
