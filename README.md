@@ -154,7 +154,7 @@ Please see below for details on how to use, and below that, the exact contents o
 
 [Follow this guide to configure Yuzu correctly for Tears of the Kingdom.](https://github.com/HolographicWings/TOTK-Mods-collection/tree/main/Guide)
 
-- Install Tears of the Kingdom Patch 1.1.0.
+- Install Tears of the Kingdom Patch 1.1.0. or 1.1.1.
 - Decide on a framerate. 30 or 60?
 - Decide on a resolution. 720p, 1080, 1440p, 4K or 8K?
 - Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked above.
