@@ -4,39 +4,13 @@
 // FILE VERSION 0.4.1.1 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 // BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
 
-
 @flag print_values
 @flag offset_shift 0x100
-
-// Disable FSR downscaling
-@enabled
-00CC1C20 08008052
-@stop
 
 // Disable LOD quality reduction when framerate dips
 // (game changes model LODs etc to match handheld, causing textures etc to visibly change)
 @enabled
 00CC1C2C C0000014
-@stop
-
-// Shadows 1024x1024
-@enabled
-00BF002C 0B808052
-00BF0030 17000014
-@stop
-
-// Dynamic Resolution (Something something configs, might not do anything)
-@enabled
-01063774 15000014
-027D13D4 000080D2
-@stop
-
-// FSR (Pretty much just skipping the entire shader? (I could be wrong))
-// People are reporting this also crashes Ryujinx? I Also cannot reproduce this. Turn on at your own risk.
-@disabled
-027D143C 000080D2
-0188CC84 000080D2
-00B13234 1F2003D5
 @stop
 
 // Credit: Wollnashorn
@@ -52,7 +26,6 @@
 
 // Credit: theboy181
 // Removes the DOF effect when targeting
-
 @enabled
 00C25898 C0035FD6
 @stop

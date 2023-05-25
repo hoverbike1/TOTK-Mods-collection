@@ -1,42 +1,19 @@
 @nsobid-168DD518D925C7A327677286E72FEDA833314919
 
-// Credit: SomeRandomPeople
-// FILE VERSION 0.4.1.1 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
-// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.1.1 - 1080p Disable FSR FXAA
 
 @flag print_values
 @flag offset_shift 0x100
 
-// Disable LOD quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
-@enabled
-00CC1C2C C0000014
-@stop
-
-// Credit: Wollnashorn
-// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
-@enabled
-008714D0 28E0A0F2    // movk x8,#0x701, LSL #16
-@stop
-
-// Force bilinear terrain samplers to be trilinear
-@enabled
-0069B218 4A008052    // mov w10,#0x2
-@stop
-
-// Credit: theboy181
-// Removes the DOF effect when targeting
-@enabled
-00C25898 C0035FD6
-@stop
-
-// Credit: @OldManKain based on @theboy181 work.
 // 1080p Disable FSR scaler and FXAA - Ambient Occlusion works on Ryujinx, works at 1X scaling on Yuzu
+
 @enabled
 00CECC0C 15000014
 00CC1C10 08008052
 00CC1C20 08008052
 @stop
+
+// @OldManKain based on @theboy181 work.
 
 // I would like to give a special shoutout to @theboy181 without him I would have never had the knowledge or drive for modding.
 
@@ -58,3 +35,9 @@
 // 0xcecc14:	mov	x29, sp
 // 0xcecc18:	ldrb	w8, [x0, #0x45]
 // 0xcecc1c:	mov	x19, x0
+
+
+
+
+	
+

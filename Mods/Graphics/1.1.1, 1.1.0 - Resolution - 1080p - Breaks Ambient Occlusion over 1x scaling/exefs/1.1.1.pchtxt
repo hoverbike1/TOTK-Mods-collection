@@ -2,7 +2,7 @@
 
 @flag print_values
 @flag offset_shift 0x100
-
+// Credit: ChucksFeedAndSeed
 // Force 1080p
 @enabled
 00CECC0C 15000014

@@ -3,6 +3,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
+// Credit: Patchanon
 // 1080p
 @enabled
 00cea77c 15000014
