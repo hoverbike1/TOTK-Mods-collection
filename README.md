@@ -107,9 +107,8 @@ DOF (Depth-of-Field is an effect that blur the background when an object is focu
 </br>
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
-1080p (1920x1080) can only be scaled in 'doubles', or it will break Ambient Occlusion (AO) but increases GPU performance, which is useful for Reshade MXAO.  
-Ambient occlusion is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.  
-For example, the interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and becomes darker the deeper inside the tube one goes. It has a GPU performance cost.  
+1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
+Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
 :exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
 New 1008p - FXAA Off, FSR Off, DynRes Off - Zero AO Bugs
 1026p increase resolution to 1836x1026 without breaking Ambiant Occlusion. FSR Off includes both FSR sharpening filter, and FSR scaler.
