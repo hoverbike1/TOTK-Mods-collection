@@ -257,16 +257,16 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 
-- [FPS - Cutscene-fix](about:blank) : theboy181
+- FPS - Cutscene-fix : theboy181
 
-- [Graphic - Disable Targeting DOF](about:blank) : theboy181
+- Graphic - Disable Targeting DOF : theboy181
 
-- [Fix - Over 30FPS Blackscreen Fix] : by MarethyuX
+- Fix - Over 30FPS Blackscreen Fix : by MarethyuX
 
-- [Cheat - Durability (10x)](about:blank) : SweetMini
+- Cheat - Durability (10x) : SweetMini
 
-- [Graphics - Disable Internal FXAA](about:blank) : Zeikken
+- Graphics - Disable Internal FXAA : Zeikken
 
-- [Resolution - 1008p and 1026p](about:blank) : Zeikken
+- Resolution - 1008p and 1026p : Zeikken
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
