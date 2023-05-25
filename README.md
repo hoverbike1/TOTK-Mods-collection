@@ -245,7 +245,7 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - [FPS++](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : somerandompeople
 
-- [1008p resolution](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : Credits to Sweetmini, contribution by Socats and Darktalon
+- New 1008p Resolution : Credits to Sweetmini, contribution by Socats and Darktalon
 
 - 1080p resolution : ChucksFeedAndSeed
 
@@ -266,8 +266,6 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 - Cheat - Durability (10x) : SweetMini
 
 - Graphics - Disable Internal FXAA v2 : SweetMini
-
-- Resolution - New 1008p : SweetMini
 
 - Resolution - 1026p : Zeikken
 
