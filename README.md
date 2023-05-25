@@ -265,8 +265,10 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - Cheat - Durability (10x) : SweetMini
 
-- Graphics - Disable Internal FXAA : Zeikken
+- Graphics - Disable Internal FXAA v2 : SweetMini
 
-- Resolution - 1008p and 1026p : Zeikken
+- Resolution - New 1008p : SweetMini
+
+- Resolution - 1026p : Zeikken
 
 - Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
