@@ -193,15 +193,19 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 // Credit: @Patchanon
 // Disable FSR up/downscaling
-// Disable LOD reduction when framerate dips
-// 1080p with broken ambient occlusion above 1x scaling
+// 1080p v1.1.0
+// Disable LOD reduction when framerate dips v1.1.0
 
 // Credit: @somerandompeople
 // SOURCED FROM [HERE](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/)
 // 30/60 FPS++
+// Disable LOD reduction when framerate dips v1.1.1
 
 // Credit: @ChanseyIsTheBest
 // Docked 720p
+
+// Credit: @OldManKain
+// 1080p, Disabled FXAA and FSR scaler v1.1.1
 </details>
 </br>
 
