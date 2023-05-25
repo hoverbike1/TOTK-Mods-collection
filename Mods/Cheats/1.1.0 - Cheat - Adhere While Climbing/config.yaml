@@ -1,0 +1,13 @@
+id: d6872271-b722-4948-8c2a-41a196ccba6e
+title: Adhere While Climbing
+subtitle: Adhere While Climbing
+description: "Some text. \nTo add a newline."
+version: 1.1.0
+category: 5 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.0
+compatibility:
+  blacklist:
+    - 3a2301e8-6904-4b4a-97db-47ef10bb19f2

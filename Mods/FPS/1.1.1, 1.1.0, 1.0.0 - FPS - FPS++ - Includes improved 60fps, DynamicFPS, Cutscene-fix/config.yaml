@@ -1,0 +1,18 @@
+id: 006614d4-5626-4779-893f-0d06f4420a9e
+title: FPS++
+subtitle: Includes improved 60fps, DynamicFPS, Cutscene-fix
+description: "Some text. \nTo add a newline."
+version: 1.0.0
+category: 1 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.1, 
+    - 1.1.0
+    - 1.0.0
+compatibility:
+  blacklist:
+    - 94201fd9-8f4d-4bb3-b87f-94ffc2b6e66d
+author:
+  name: somerandompeople
+  link: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/

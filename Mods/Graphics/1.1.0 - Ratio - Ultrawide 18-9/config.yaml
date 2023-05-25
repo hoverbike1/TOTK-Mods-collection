@@ -1,0 +1,16 @@
+id: 0f153f29-88a4-439a-b859-73d9da95d135
+title: Ultrawide 18-9
+subtitle: Ultrawide 18-9
+description: "Some text. \nTo add a newline."
+version: 1.1.0
+category: 2 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.0
+compatibility:
+  blacklist:
+    - 3a2301e8-6904-4b4a-97db-47ef10bb19f2
+author:
+  name: Fayaz
+  link: https://gamebanana.com/mods/443462

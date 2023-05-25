@@ -1,9 +1,9 @@
 id: 0ef8f231-8d97-486e-bfa1-e40f578eed9d # Random UUID
-title: Disable Internal FSR
-subtitle: Disables Internal FSR downscaling
+title: Disable Internal FSR downscaling
+subtitle: Disable Internal FSR downscaling
 description: "Some text. \nTo add a newline."
-version:
-category: 2 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc 
+version: 1.0.0
+category: 2 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
 game:
   titleId: 0100F2C011586000
   version:
