@@ -18,7 +18,7 @@
   - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs
   - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix
   - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
-  - 
+  
 - Yuzu Graphics :
   - Render API : Vulkan
   - Use Disk Pipeline Cache: On
