@@ -18,7 +18,8 @@
   - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs
   - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix
   - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
-- Yuzu settings :
+  - 
+- Yuzu Graphics :
   - Render API : Vulkan
   - Use Disk Pipeline Cache: On
   - Use asynchronous GPU emulation : On
@@ -32,7 +33,7 @@
   - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog)
   - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.
 
-- Advanced Graphics:
+- Yuzu Advanced Graphics:
   - Accuracy Level : Normal (high is a large fps loss, and only used for troubleshooting graphical bugs)
   - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB or lower), can help you at the expense of texture quality) 
   - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable)
