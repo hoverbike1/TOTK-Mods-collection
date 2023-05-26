@@ -43,7 +43,7 @@
   - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)
   - Use Fast GPU Time : Off (Higher Accuracy with Dynamic FPS and FPS++)
   - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, and reduced stutters when compiling shaders for all vendors)
-  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and if on AMD and you experience graphical bugs, try Default)
+  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and you experience graphical bugs with an AMD card, switch back to Default)
 - Ryujinx settings :  
   - Need more documentation
 
