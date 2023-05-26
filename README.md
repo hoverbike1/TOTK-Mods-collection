@@ -15,7 +15,7 @@
 
 - Mods :
 
-  - Resolution - New 1008p - FXAA On, FSR Off, DynRes Off - Zero AO Bugs
+  - Resolution - New 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs
   - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix
   - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
   
