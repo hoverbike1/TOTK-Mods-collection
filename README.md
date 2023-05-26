@@ -35,15 +35,15 @@
 
 - Yuzu Advanced Graphics:
   - Accuracy Level : Normal (high is a large fps loss, and only used for troubleshooting graphical bugs)
-  - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB or lower), can help you at the expense of texture quality) 
-  - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable)
+  - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB-8GB BC3, 2GB or lower BC1), can help you at the expense of texture quality) 
+  - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)
   - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)
   - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but will cause black squares and glitched loading screens)
-  - Enable Reactive Flushing : On
-  - Use asynchronous shader building : On (Smooth the game)
+  - Enable Reactive Flushing : On (Improves rendering accuracy)
+  - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)
   - Use Fast GPU Time : Off (Higher Accuracy with Dynamic FPS and FPS++)
-  - Use Vulkan Pipeline Cache : On
-  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod)
+  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, and reduced stutters when compiling shaders for all vendors)
+  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and if on AMD and you experience graphical bugs, try Default)
 - Ryujinx settings :  
   - Need more documentation
 
