@@ -122,8 +122,10 @@ DOF (Depth-of-Field is an effect that blur the background when an object is focu
 [Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024](https://imgsli.com/MTc5MTYx)  
 </br>
 
-- Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles). Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
-[Difference Off/On](https://imgsli.com/MTc5MzQ0)
+- Graphics - **Anisotropic Filtering fix** : Fix Anisotropic Filtering.  
+Anisotropic Filtering is a render method that increase the texture quality in low angles.  
+Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
+[Difference Off/On](https://imgsli.com/MTc5MzQ0)  
 </br>
 
 - **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
