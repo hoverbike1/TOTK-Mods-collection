@@ -8,7 +8,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Shadows 1024x1024
+// Shadows Resolution
 @enabled
 00BF002C 0B208052
 00BF0030 17000014
@@ -17,13 +17,13 @@
 // Options for shadow resolution (may effect cascade distance)
 // | Code              | Resolution |
 // |:-----------------:|:----------:|
-// | 00D075AC 0B018052 | 8          |
-// | 00D075AC 0B028052 | 16         |
-// | 00D075AC 0B048052 | 32         |
-// | 00D075AC 0B088052 | 64         |
-// | 00D075AC 0B108052 | 128        |
-// | 00D075AC 0B208052 | 256        |
-// | 00D075AC 0B408052 | 512        |
-// | 00D075AC 0B808052 | 1024       |
-// | 00D075AC 0B008152 | 2048       | (Crashes under certain conditions! Use 1024 if you encounter this)
+// | 00BF002C 0B018052 | 8          |
+// | 00BF002C 0B028052 | 16         |
+// | 00BF002C 0B048052 | 32         |
+// | 00BF002C 0B088052 | 64         |
+// | 00BF002C 0B108052 | 128        |
+// | 00BF002C 0B208052 | 256        |
+// | 00BF002C 0B408052 | 512        |
+// | 00BF002C 0B808052 | 1024       |
+// | 00BF002C 0B008152 | 2048       | (Crashes under certain conditions! Use 1024 if you encounter this)
 

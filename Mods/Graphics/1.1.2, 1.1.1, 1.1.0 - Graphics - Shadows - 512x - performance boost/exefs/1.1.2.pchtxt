@@ -1,0 +1,27 @@
+@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE60
+
+// Mod by ChucksFeedAndSeed: https://www.reddit.com/user/ChucksFeedAndSeed/
+// If you'd like to support his work he have a ko-fi page at https://ko-fi.com/ChucksFeedAndSeed
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Shadows Resolution
+@enabled
+00BD2BFC 0B408052
+00BD2C00 17000014
+@stop
+
+// Options for shadow resolution (may effect cascade distance)
+// | Code              | Resolution |
+// |:-----------------:|:----------:|
+// | 00BD2BFC 0B018052 | 8          |
+// | 00BD2BFC 0B028052 | 16         |
+// | 00BD2BFC 0B048052 | 32         |
+// | 00BD2BFC 0B088052 | 64         |
+// | 00BD2BFC 0B108052 | 128        |
+// | 00BD2BFC 0B208052 | 256        |
+// | 00BD2BFC 0B408052 | 512        |
+// | 00BD2BFC 0B808052 | 1024       |
+// | 00BD2BFC 0B008152 | 2048       | (Crashes under certain conditions! Use 1024 if you encounter this)
+

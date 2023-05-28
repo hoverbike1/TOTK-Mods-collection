@@ -1,0 +1,35 @@
+@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE60
+
+
+// FILE VERSION 0.4.4 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+// 1.1.2 port by ActualMandM
+
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00EAC370 21008052
+008F67A4 35008052
+008F6814 28008052
+008F67AC 2C008052
+008F66F8 EB031F2A
+019B1F84 1F2003D5
+019BD9E8 1F2003D5
+@stop
+
+// remove for cutscene fix
+// 008F66FC 35008052 // ensure field 0x14 = 1
+// 008F6730 21008052 // sets refresh rate interval
+
+// 00EAC370 21008052 // sets refresh rate interval
+// 008F67A4 35008052 // ensure field 0x14 = 1
+// 008F6814 28008052 // ensure field 0x18 = 1
+// 008F67AC 2C008052 // ensure field 0x18 = 1
+// 008F66F8 EB031F2A // ensure field 0x1C = 0
+// 019B1F84 1F2003D5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+// 019BD9E8 1F2003D5 // nop call to function which sets field 0x14, 0x18 to param_2, and 0x1C to 0
+
+@TransRightsAreHumanRights
+

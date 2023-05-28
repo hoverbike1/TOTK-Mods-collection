@@ -1,0 +1,12 @@
+@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE60
+
+// Mod by ChucksFeedAndSeed: https://www.reddit.com/user/ChucksFeedAndSeed/
+// If you'd like to support his work he have a ko-fi page at https://ko-fi.com/ChucksFeedAndSeed
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable FSR downscaling
+@enabled
+00C76FF0 08008052
+@stop
