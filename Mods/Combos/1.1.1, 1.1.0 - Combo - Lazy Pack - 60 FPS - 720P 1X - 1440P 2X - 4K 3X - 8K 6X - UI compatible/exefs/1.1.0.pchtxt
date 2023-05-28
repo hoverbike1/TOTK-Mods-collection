@@ -43,19 +43,13 @@
 //Credit: Patchanon
 //Disable FSR downscaling
 @enabled
-00CAD344 08008052
+00CAD340 08008052
 @stop
 
 //Credit: Patchanon
 //Disable LOD reduction when framerate dips
 @enabled
 00CAD34C C0000014
-@stop
-
-//Credit: Patchanon
-// 1080p with broken ambient occlusion above 1x scaling (maybe scaling framebuffer wrong?)
-@enabled
-00cea77c 15000014
 @stop
 
 //Credit: Wollnashorn
@@ -69,3 +63,10 @@
 @enabled
 007639FC 4A008052    // mov w10,#0x2
 @stop
+
+// Credit: theboy181
+// Removes the DOF effect when targeting
+@enabled
+00C488B4 C0035FD6
+@stop
+

@@ -43,7 +43,7 @@
 //Credit: Patchanon
 //Disable FSR downscaling
 @enabled
-00CAD344 08008052
+00CAD340 08008052
 @stop
 
 //Credit: Patchanon
@@ -63,3 +63,10 @@
 @enabled
 007639FC 4A008052    // mov w10,#0x2
 @stop
+
+// Credit: theboy181
+// Removes the DOF effect when targeting
+@enabled
+00C488B4 C0035FD6
+@stop
+

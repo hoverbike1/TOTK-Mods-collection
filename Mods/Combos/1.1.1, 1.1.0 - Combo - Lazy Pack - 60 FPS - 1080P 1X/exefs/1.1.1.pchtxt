@@ -7,12 +7,6 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Disable LOD quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
-@enabled
-00CC1C2C C0000014
-@stop
-
 // Credit: Wollnashorn
 // Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
 @enabled
@@ -30,7 +24,26 @@
 00C25898 C0035FD6
 @stop
 
-// Credit: @OldManKain based on @theboy181 work.
+// Credit: ChucksFeedAndSeed
+// Disable FSR downscaling
+@enabled
+00CC1C20 08008052
+@stop
+
+// Disable quality reduction when framerate dips
+// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
+@enabled
+00CC1C2C C0000014
+@stop
+
+// Shadows 1024x1024
+@enabled
+00BF002C 0B808052
+00BF0030 17000014
+@stop
+
+// @OldManKain based on @theboy181 work.
+// I would like to give a special shoutout to @theboy181 without him I would have never had the knowledge or drive for modding.
 // 1080p Disable FSR scaler and FXAA - Ambient Occlusion works on Ryujinx, works at 1X scaling on Yuzu
 @enabled
 00CECC0C 15000014
@@ -38,23 +51,25 @@
 00CC1C20 08008052
 @stop
 
-// I would like to give a special shoutout to @theboy181 without him I would have never had the knowledge or drive for modding.
+// Credit: igoticecream
+// Bandaid to ultrahand/bullet time vertical sensitivity at higher FPS
+@enabled
+01D3C830 08AE3714
+02B28050 E1CF1FBC
+02B28054 0110201E
+02B28058 0018211E
+02B2805C E14740BC
+02B28060 C0035FD6
+@stop
 
-// 0xcc1c10:	ldrb   w8, [x0] FXAA
-// 0xcc1c14:	mov    x0, x20
-// 0xcc1c18:	strb   w8, [x19, #0x15c]
-// 0xcc1c1c:	bl     #0xcc225c
-// 0xcc1c20:	ldrb   w8, [x0] FSR
-// 0xcc1c24:	cmp    w21, #8
-// 0xcc1c28:	strb   w8, [x19, #0x15d]
-// 0xcc1c2c:	b.gt   #0xcc1f2c LOD??
+// LOD Improvement Test 111
+// Credit: Sweetmini
+@enabled
+027E07F8 10000014
+@stop
 
-// 0xcecbfc:	strb	w9, [x8, #0x5a]
-// 0xcecc00:	stp	w1, w2, [x8, #0x5c]
-// 0xcecc04:	stp	w3, w4, [x8, #0x64]
-// 0xcecc08:	ret	
-// 0xcecc0c:	stp	x29, x30, [sp, #-0x20]!
-// 0xcecc10:	stp	x20, x19, [sp, #0x10]
-// 0xcecc14:	mov	x29, sp
-// 0xcecc18:	ldrb	w8, [x0, #0x45]
-// 0xcecc1c:	mov	x19, x0
+// Island Fix Test
+// Credit: Sweetmini
+@enabled
+02A51694 00102A1E
+@stop

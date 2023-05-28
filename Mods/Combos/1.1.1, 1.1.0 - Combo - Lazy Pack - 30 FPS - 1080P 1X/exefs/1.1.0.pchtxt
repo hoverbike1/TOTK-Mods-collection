@@ -43,7 +43,7 @@
 //Credit: Patchanon
 //Disable FSR downscaling
 @enabled
-00CAD344 08008052
+00CAD340 08008052
 @stop
 
 //Credit: Patchanon
@@ -53,7 +53,7 @@
 @stop
 
 //Credit: Patchanon
-// 1080p with broken ambient occlusion above 1x scaling (maybe scaling framebuffer wrong?)
+// 1080p 1x scaling on yuzu
 @enabled
 00cea77c 15000014
 @stop
@@ -69,3 +69,10 @@
 @enabled
 007639FC 4A008052    // mov w10,#0x2
 @stop
+
+// Credit: theboy181
+// Removes the DOF effect when targeting
+@enabled
+00C488B4 C0035FD6
+@stop
+

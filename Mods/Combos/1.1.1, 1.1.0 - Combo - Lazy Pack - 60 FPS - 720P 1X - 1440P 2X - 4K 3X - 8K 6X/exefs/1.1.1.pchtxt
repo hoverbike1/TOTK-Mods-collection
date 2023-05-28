@@ -7,12 +7,6 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Disable LOD quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
-@enabled
-00CC1C2C C0000014
-@stop
-
 // Credit: Wollnashorn
 // Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
 @enabled
@@ -28,4 +22,45 @@
 // Removes the DOF effect when targeting
 @enabled
 00C25898 C0035FD6
+@stop
+
+// Credit: ChucksFeedAndSeed
+// Disable FSR downscaling
+@enabled
+00CC1C20 08008052
+@stop
+
+// Disable quality reduction when framerate dips
+// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
+@enabled
+00CC1C2C C0000014
+@stop
+
+// Shadows 1024x1024
+@enabled
+00BF002C 0B808052
+00BF0030 17000014
+@stop
+
+// Credit: igoticecream
+// Bandaid to ultrahand/bullet time vertical sensitivity at higher FPS
+@enabled
+01D3C830 08AE3714
+02B28050 E1CF1FBC
+02B28054 0110201E
+02B28058 0018211E
+02B2805C E14740BC
+02B28060 C0035FD6
+@stop
+
+// LOD Improvement Test 111
+// Credit: Sweetmini
+@enabled
+027E07F8 10000014
+@stop
+
+// Island Fix Test
+// Credit: Sweetmini
+@enabled
+02A51694 00102A1E
 @stop
