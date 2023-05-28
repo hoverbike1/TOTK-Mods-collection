@@ -2,7 +2,7 @@ id: 7fba162a-204e-4a71-a21e-eecc4d75cb7a
 title: 1080p - Resolution
 subtitle: Breaks Ambient Occlusion over 1x scaling
 description:
-version:
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C011586000
