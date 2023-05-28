@@ -67,9 +67,3 @@
 @enabled
 027E07F8 10000014
 @stop
-
-// Island Fix Test
-// Credit: Sweetmini
-@enabled
-02A51694 00102A1E
-@stop
