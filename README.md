@@ -31,7 +31,7 @@
   - Aspect Ratio : Default 16:9, use Stretch to Window if using an aspect ratio mod  
   - Window Adapting Filter : Bicubic if downsampling, FSR if upscaling  
   - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)  
-  - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog)  
+  - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog or increase GPU performances)  
   - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.  
 
 - Yuzu Advanced Graphics :  
