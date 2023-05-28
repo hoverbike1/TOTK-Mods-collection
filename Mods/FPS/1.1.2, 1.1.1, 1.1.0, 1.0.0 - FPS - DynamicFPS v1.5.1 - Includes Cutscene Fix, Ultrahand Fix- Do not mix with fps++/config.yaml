@@ -1,0 +1,21 @@
+id: 94201fd9-8f4d-4bb3-b87f-94ffc2b6e66d
+title: DynamicFPS
+subtitle:
+description:
+version: 1.5.1
+category: 1
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+    - 1.0.0
+emulator:
+  - 1
+compatibility:
+  blacklist:
+    - 771f46a1-7593-4f67-832e-69839978f559
+    - 006614d4-5626-4779-893f-0d06f4420a9e
+author:
+

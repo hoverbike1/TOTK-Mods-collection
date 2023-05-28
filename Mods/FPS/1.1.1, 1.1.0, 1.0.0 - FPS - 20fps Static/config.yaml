@@ -1,14 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 13b8e6a3-a007-4543-b761-51c81385c88d
+title: 20fps Static
 subtitle:
 description:
-version: 2.0.0
-category: 2
+version: 3.0.0
+category: 1
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
-    - 1.1.1
     - 1.1.0
 emulator:
   - 1

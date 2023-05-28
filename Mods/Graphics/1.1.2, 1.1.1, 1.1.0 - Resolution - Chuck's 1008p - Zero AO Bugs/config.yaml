@@ -1,8 +1,8 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 616ba43c-cda1-412c-8593-13949feaf315
+title: Chuck's 1008p - Zero AO Bugs
 subtitle:
 description:
-version: 2.0.0
+version: 1.0.0
 category: 2
 game:
   titleId: 0100F2C011586000

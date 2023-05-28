@@ -1,13 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 533c4daf-eb85-4672-9f0f-f1dfc8aeeb3b
+title: 'Ultrawide 32- Ratio -1.1.1, 1.1.0 -9'
 subtitle:
 description:
-version: 2.0.0
+version:
 category: 2
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
     - 1.1.1
     - 1.1.0
 emulator:

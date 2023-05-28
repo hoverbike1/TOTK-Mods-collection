@@ -1,0 +1,19 @@
+id: 771f46a1-7593-4f67-832e-69839978f559
+title: FPS++
+subtitle:
+description:
+version: 1.0.0
+category: 1
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.1,
+    - 1.1.0
+    - 1.0.0
+emulator:
+  - 1
+compatibility:
+  blacklist:
+    - 94201fd9-8f4d-4bb3-b87f-94ffc2b6e66d
+author:
+

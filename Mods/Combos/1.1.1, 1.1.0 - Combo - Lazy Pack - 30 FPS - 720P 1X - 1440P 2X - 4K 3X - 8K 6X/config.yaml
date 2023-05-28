@@ -1,13 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 495902b4-532d-44cb-8c8c-4c8eed228565
+title: 'Lazy Pack - Combo -1.1.1, 1.1.0 - 8K 6X'
 subtitle:
 description:
-version: 2.0.0
-category: 2
+version:
+category: 6
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
     - 1.1.1
     - 1.1.0
 emulator:

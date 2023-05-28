@@ -1,8 +1,8 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: bc4f88d8-fcbd-4ce3-a193-9bb3f772eb3b
+title: Anisotropic Filtering Fix
 subtitle:
 description:
-version: 2.0.0
+version: 1.0.0
 category: 2
 game:
   titleId: 0100F2C011586000
@@ -10,6 +10,7 @@ game:
     - 1.1.2
     - 1.1.1
     - 1.1.0
+    - 1.0.0
 emulator:
   - 1
 compatibility:
