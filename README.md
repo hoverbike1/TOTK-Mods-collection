@@ -1,6 +1,6 @@
 # Mods collection for Zelda: Tears of the Kingdom
 
-#  [SURVEY of Emulation performances, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍
+#  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍
 
 ## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**
 
