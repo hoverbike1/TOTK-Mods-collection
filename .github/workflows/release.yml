@@ -28,7 +28,10 @@ jobs:
         with:
           type: '7zip'
           filename: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
-          exclusions: '*.git* /*Releases/* *.github*'
+          exclusions:
+          - '*.git*'
+          - '/*Releases/*'
+          - '*.github*'
       - name: Push the 7zip of assets
         uses: softprops/action-gh-release@v1
         with:
