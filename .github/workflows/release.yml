@@ -33,7 +33,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: Push the zip of assets
+      - name: Push the zip of assets 2
         uses: softprops/action-gh-release@v1
         with:
           files: Releases/TOTK-Mods-collection_${{ github.ref_name }}_2.zip # This only works if your workflow triggers on new tags
