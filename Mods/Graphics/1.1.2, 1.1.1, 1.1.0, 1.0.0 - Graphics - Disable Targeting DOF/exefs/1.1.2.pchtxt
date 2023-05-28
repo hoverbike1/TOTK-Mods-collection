@@ -1,0 +1,15 @@
+@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE60
+
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.1.2 - Remove DOF
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Removes the DOF effect when targeting
+
+@enabled
+00C4B934 C0035FD6
+@stop
+
+@theboy181
+@OldManKain 
