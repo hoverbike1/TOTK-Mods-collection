@@ -16,7 +16,7 @@ jobs:
       - name: zip mods
         run: 7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
       - name: 7z mods
-        run: 7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'*./config.yaml' ./
+        run: 7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
       - name: Push the zip of assets
         uses: softprops/action-gh-release@v1
         with:
