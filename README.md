@@ -38,7 +38,7 @@
   - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.  
 
 - Yuzu Advanced Graphics :  
-  - Accuracy Level : Normal (High cost GPU performances but increase accuracy and lower risk of visual bugs)
+  - Accuracy Level : Normal (High cost GPU performances but is supposed to increase accuracy and lower risk of visual bugs, rare pretend to see difference)
   - ASTC recompression : Uncompressed (BC3 and BC1 lower the VRAM usage so it depend of your GPU VRAM amount, (BC3 for 4GB-8GB, BC1 for 2GB))  
   - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)  
   - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)  
