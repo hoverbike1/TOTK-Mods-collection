@@ -1,0 +1,11 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+@flag print_values
+@flag offset_shift 0x100
+
+
+// Island Fix
+// Credit: Sweetmini
+@enabled
+02A51694 00102A1E
+@stop
