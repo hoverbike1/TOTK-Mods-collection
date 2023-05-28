@@ -25,7 +25,7 @@
   - Use Disk Pipeline Cache: On  
   - Use asynchronous GPU emulation : On  
   - Accelerate ASTC Texture Decoding : On  
-  - Vsync Mode: Mailbox (Recommended)  
+  - Vsync Mode: Mailbox (Or off if you don't mind frame tiring or use any alternate method for avoid it)  
   - NVDEC emulation : GPU Video Decoding (This is for cutscenes, try CPU Video Decoding if you have a weak gpu)  
   - Fullscreen Mode : Exclusive Fullscreen or Borderless Windowed and type F11  
   - Aspect Ratio : Default 16:9, except if you use a ratio mod  
