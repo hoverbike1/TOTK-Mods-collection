@@ -23,6 +23,20 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+      - name: Zip mods 2
+        uses: HolographicWings/zip-release@0.8.0Test #Fork commit : https://github.com/HolographicWings/zip-release/commit/740ee5a59b4127208aaa1dacfff39eb7aabca208
+        with:
+          type: 'zip'
+          filename: Releases/TOTK-Mods-collection_${{ github.ref_name }}_2.zip # This only works if your workflow triggers on new tags
+          exclusions: '*.git* /*Releases/* *.github* *config.yaml'
+      - name: Push the zip of assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+      - name: Push the zip of assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}_2.zip # This only works if your workflow triggers on new tags
 #      - name: 7Zip mods
 #        uses: HolographicWings/zip-release@0.8.0Test #Fork commit : https://github.com/HolographicWings/zip-release/commit/740ee5a59b4127208aaa1dacfff39eb7aabca208
 #        with:
