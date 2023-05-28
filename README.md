@@ -26,25 +26,28 @@
   - Use asynchronous GPU emulation : On  
   - Accelerate ASTC Texture Decoding : On  
   - Vsync Mode: Mailbox (Recommended)  
-  - NVDEC emulation : GPU Video Decoding (This is for FMV videos, try CPU Video Decoding if you have weak gpu)  
-  - Fullscreen Mode : Exclusive Fullscreen / Borderless Windowed depending on Gsync/HDR  
-  - Aspect Ratio : Default 16:9, use Stretch to Window if using an aspect ratio mod  
-  - Window Adapting Filter : Bicubic if downsampling, FSR if upscaling  
+  - NVDEC emulation : GPU Video Decoding (This is for cutscenes, try CPU Video Decoding if you have a weak gpu)  
+  - Fullscreen Mode : Exclusive Fullscreen or Borderless Windowed and type F11  
+  - Aspect Ratio : Default 16:9, except if you use a ratio mod  
+  - Resolution : will multiply the render resolution, in vanilla it's 1600x900  
+  - Window Adapting Filter : 
+    - Bicubic if the render resoltion is above your monitor resolution  
+    - Bilinear if the render resoltion is equal to your monitor resolution  
+    - FSR if the render resoltion is under your monitor resolution  
   - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)  
-  - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog or increase GPU performances)  
   - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.  
 
 - Yuzu Advanced Graphics :  
-  - Accuracy Level : Normal (high is a large fps loss, and only used for troubleshooting graphical bugs)
-  - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB-8GB BC3, 2GB or lower BC1), can help you at the expense of texture quality)  
+  - Accuracy Level : Normal (High cost GPU performances but increase accuracy and lower risk of visual bugs)
+  - ASTC recompression : Uncompressed (BC3 and BC1 lower the VRAM usage so it depend of your GPU VRAM amount, (BC3 for 4GB-8GB, BC1 for 2GB))  
   - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)  
   - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)  
-  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but will cause black squares and glitched loading screens)  
-  - Enable Reactive Flushing : On (Improves rendering accuracy)  
+  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but cause black squares and glitched loading screens)  
+  - Enable Reactive Flushing : On (Improves syncing of memory)  
   - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)  
-  - Use Fast GPU Time : On (Off have an higher Accuracy with Dynamic FPS and FPS++)  
-  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, and reduced stutters when compiling shaders for all vendors)  
-  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and you experience graphical bugs with an AMD card, switch back to Default)  
+  - Use Fast GPU Time : On (Off if you have a strong GPU, it have an higher Accuracy with Dynamic FPS and FPS++)  
+  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD)  
+  - Anisotropic Filtering : x8 or x16 (Will only work if you use the "Anisotropic Filtering Fix" mod, if you experience graphical bugs with an AMD card, switch back to Default)  
 - Ryujinx settings :  
   - Need more documentation  
 
