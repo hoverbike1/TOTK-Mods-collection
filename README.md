@@ -76,29 +76,29 @@ Do not increase Performances.
 </br>
 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
-You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the FPS "60fps V3.7.2" mod.
+You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the 60FPS mod.
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
 :exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
-This mod is present in the Xbox UI and Playstation UI mods, and should be disabled if using either of those, to avoid issues.
+This mod is already embed in the Xbox UI and Playstation UI mods, and should be disabled if using either of those because they overwrite the same file.
 </br>
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu has its own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI).  
 FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
 </br>
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
 Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.
-**BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
+**BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
 </br>
 
-- Graphics - **Disable Internal FXAA** : Disable internal FXAA and change "Anti-Aliasing Method" to "None" in order to increase GPU performance (?).
-FXAA smoothes certain edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
+- Graphics - **Disable Internal FXAA** : Disable internal FXAA.
+FXAA smoothes edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
 Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.  
 :exclamation:Causing boot failures with yuzu EA3606 & EA3607  
 :exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
@@ -113,8 +113,8 @@ LOD (Level Of Detail) displays higher quality models when you are close to them,
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
 </br>
 
-- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs with ZL.  
-DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.
+- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
+DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.  
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
@@ -147,7 +147,7 @@ Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
     - 720p and x3 = 4K.  
     - 720p and x6 = 8K.  
 
-You can use them with x1 Resolution scale to increase GPU performance.  
+You can use them with x1 Resolution scale or lower to increase GPU performance.  
 To experience the best quality, we advise you to use the double of your monitor's resolution.  
 </br>
 
@@ -158,27 +158,27 @@ To experience the best quality, we advise you to use the double of your monitor'
 
 - **Ratio** : Experimental - change the aspect ratio from 16:9.
   - You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9, 16:10 or "Stretch to Window" if the desired ratio doesn't exist.  
-  - Fixes the 3D scene render, but will stretch the HUD.
+  - Fixes the 3D scene render, but will stretch the HUD.  
 </br>
 
-- **Combos** : They are all-in-one mods, don't combine then with unspecified mods, if you don't know what you are doing.
-  - **30/60fps + Dynamic FPS** are a simple Combo of these two mods, into one.
+- **Combos** : They are all-in-one mods, don't combine then with unspecified mods, if you don't know what you are doing.  
+  - **30/60fps + Dynamic FPS** are a simple Combo of these two mods, into one.  
   - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and Disable FSR, it's a minimal pack for a clean experience.  
 You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
 In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.  
-Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
+Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.  
   - Lazy Pack are made by Hover and merge several useful mods.  
-:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.
+:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.  
 </br>
 
-#### "Lazy Packs"
+#### "Lazy Packs"  
 
-**A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>
-"Lazy packs" are customized according to resolution, framerate, and UI mod compatibility.
-UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.
-Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
-Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.
-Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
+**A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>  
+"Lazy packs" are customized according to resolution, framerate, and UI mod compatibility.  
+UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.  
+Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.  
+Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.  
+Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.  
 </br>
 
 <details><summary> Click to view how to use the lazy pack</summary>
