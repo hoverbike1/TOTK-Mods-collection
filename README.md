@@ -89,6 +89,7 @@ It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpenin
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
 Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.
 **BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.
 </br>
 
@@ -99,22 +100,22 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 :exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
 </br>
 
-- Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
+- Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low (under 30fps).
 :exclamation:Causing boot failures with yuzu EA3606 & EA3607  
 </br>
 
-- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low.  
+- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low (under 30fps).  
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
-By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
+By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs with ZL.  
 DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.
 </br>
 
-- Graphics - **Shadows** : changes the resolution of shadows.
+- Graphics - **Shadows** : changes the resolution of shadows.  
 256 and 512 would increase GPU performance a lot.  
-1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.  
+1024 is the vanilla resolution, so it's useless by default, but it can fix some graphical issues on certain setups.  
 [Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512](https://imgsli.com/MTc5MTM1)  
 [Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024](https://imgsli.com/MTc5MTYx)  
 </br>
