@@ -8,7 +8,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Shadows 1024x1024
+// Shadows Resolution
 @enabled
 00BF002C 0B408052
 00BF0030 17000014
