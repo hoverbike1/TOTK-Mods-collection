@@ -45,7 +45,7 @@
   - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but cause black squares and glitched loading screens)  
   - Enable Reactive Flushing : On (Improves syncing of memory)  
   - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)  
-  - Use Fast GPU Time : On (Off if you have a strong GPU, it have an higher Accuracy with Dynamic FPS and FPS++)  
+  - Use Fast GPU Time : Off ("Off" have Higher Accuracy with "Dynamic FPS" and "FPS++" but for some reason "On" fixed a rare issue while FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report us the result)  
   - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD)  
   - Anisotropic Filtering : x8 or x16 (Will only work if you use the "Anisotropic Filtering Fix" mod, if you experience graphical bugs with an AMD card, switch back to Default)  
 - Ryujinx settings :  
