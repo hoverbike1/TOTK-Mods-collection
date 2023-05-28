@@ -23,6 +23,16 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
+      - name: 7Zip mods
+        uses: HolographicWings/zip-release@0.8.0 #Fork commit : https://github.com/HolographicWings/zip-release/commit/740ee5a59b4127208aaa1dacfff39eb7aabca208
+        with:
+          type: '7zip'
+          filename: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
+          exclusions: '*.git* /*Releases/* *.github*'
+      - name: Push the 7zip of assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
       - name: Switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh_url }}
       - name: Check for changes
