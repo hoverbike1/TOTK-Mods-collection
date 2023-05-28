@@ -292,6 +292,9 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - Cheat - Durability (10x) : SweetMini
 
+- Cheat - Time of day : FrostedMint  
+Unknown compatibily with FPS, Dynamic FPS and FPS++ mods, testing is required, open an issue to report the result if you tried.  
+
 - Graphics - Disable Internal FXAA v2 : SweetMini
 
 - Resolution - 1026p : Zeikken
