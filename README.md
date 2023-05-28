@@ -1,55 +1,54 @@
-# Mods collection for Zelda: Tears of the Kingdom
+# Mods collection for Zelda: Tears of the Kingdom  
 
-#  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍
+#  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍  
 
-## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**
+## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**  
 
-### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
+### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)  
 
-### Latest important information
-:exclamation:These mods seem to prevent booting according to reports from some users with Yuzu EA3606 & EA3607. We recommend updating to EA3608+.
-- VisualFixes_1008P_FXAA_Off_FSR_Off
-- VisualFixes_1008P_FXAA_On_FSR_Off
-- DisableFXAA
-- DisableDynamicResolution
+### Latest important information  
+:exclamation:These mods seem to prevent booting according to reports from some users with Yuzu EA3606 & EA3607. We recommend updating to EA3608+.  
+- VisualFixes_1008P_FXAA_Off_FSR_Off  
+- VisualFixes_1008P_FXAA_On_FSR_Off  
+- DisableFXAA  
+- DisableDynamicResolution  
 
 ### Recommended setup :  
 
-- Mods :
-
-  - Resolution - New 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs
-  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix
-  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
+- Mods :  
+  - Resolution - New 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs  
+  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix  
+  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings  
   
-- Yuzu Graphics :
-  - Render API : Vulkan
-  - Use Disk Pipeline Cache: On
-  - Use asynchronous GPU emulation : On
-  - Accelerate ASTC Texture Decoding : On
-  - Vsync Mode: Mailbox (Recommended)
-  - NVDEC emulation : GPU Video Decoding (This is for FMV videos, try CPU Video Decoding if you have weak gpu)
-  - Fullscreen Mode : Exclusive Fullscreen / Borderless Windowed depending on Gsync/HDR
-  - Aspect Ratio : Default 16:9, use Stretch to Window if using an aspect ratio mod
-  - Window Adapting Filter : Bicubic if downsampling, FSR if upscaling
-  - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)
-  - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog)
-  - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.
+- Yuzu Graphics :  
+  - Render API : Vulkan  
+  - Use Disk Pipeline Cache: On  
+  - Use asynchronous GPU emulation : On  
+  - Accelerate ASTC Texture Decoding : On  
+  - Vsync Mode: Mailbox (Recommended)  
+  - NVDEC emulation : GPU Video Decoding (This is for FMV videos, try CPU Video Decoding if you have weak gpu)  
+  - Fullscreen Mode : Exclusive Fullscreen / Borderless Windowed depending on Gsync/HDR  
+  - Aspect Ratio : Default 16:9, use Stretch to Window if using an aspect ratio mod  
+  - Window Adapting Filter : Bicubic if downsampling, FSR if upscaling  
+  - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)  
+  - Resolution : x2 or higher (x1 to fix pixelated edges through volumetric clouds and fog)  
+  - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.  
 
-- Yuzu Advanced Graphics:
+- Yuzu Advanced Graphics :  
   - Accuracy Level : Normal (high is a large fps loss, and only used for troubleshooting graphical bugs)
-  - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB-8GB BC3, 2GB or lower BC1), can help you at the expense of texture quality) 
-  - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)
-  - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)
-  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but will cause black squares and glitched loading screens)
-  - Enable Reactive Flushing : On (Improves rendering accuracy)
-  - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)
-  - Use Fast GPU Time : Off (Higher Accuracy with Dynamic FPS and FPS++)
-  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, and reduced stutters when compiling shaders for all vendors)
-  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and you experience graphical bugs with an AMD card, switch back to Default)
+  - ASTC recompression : Uncompressed (Best Quality) (Use BC3 or BC1 on GPU's with very low VRAM (4GB-8GB BC3, 2GB or lower BC1), can help you at the expense of texture quality)  
+  - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)  
+  - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)  
+  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but will cause black squares and glitched loading screens)  
+  - Enable Reactive Flushing : On (Improves rendering accuracy)  
+  - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)  
+  - Use Fast GPU Time : Off (Higher Accuracy with Dynamic FPS and FPS++)  
+  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, and reduced stutters when compiling shaders for all vendors)  
+  - Anisotropic Filtering : x8 or x16 (If you use the "Anisotropic Filtering Fix" mod, and you experience graphical bugs with an AMD card, switch back to Default)  
 - Ryujinx settings :  
-  - Need more documentation
+  - Need more documentation  
 
-### Mod description & usage :
+### Mod description & usage :  
 
 - **FPS** : Changes the game's framerate lock  
 If you get under the framerate lock defined by the mod, the game will be in slow motion.  
