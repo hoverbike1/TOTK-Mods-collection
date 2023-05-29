@@ -126,6 +126,7 @@ Unknown compatibility with "LOD Improvement" mod.
 
 - Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scalling.  
 Only required if your resolution scale is over 1x.  
+[Comparaison On/Off](https://i.imgur.com/M01IPBw.png)  
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
