@@ -1,17 +1,17 @@
-@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
 
 
-// FILE VERSION 0.4.1.1 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// FILE VERSION 0.4.5 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 // BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
 
 
 @flag print_values
 @flag offset_shift 0x100
 
-// Shadows Resolution
+// Shadows 1024x1024
 @enabled
-00D075AC 0B808052
-00D075B0 17000014
+00BF002C 0B808052
+00BF0030 17000014
 @stop
 
 // Options for shadow resolution (may effect cascade distance)

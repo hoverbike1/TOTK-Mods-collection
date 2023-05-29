@@ -1,0 +1,15 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+
+// FILE VERSION 0.4.5 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
+
+
+@flag print_values
+@flag offset_shift 0x100
+
+// patchanon Disable quality reduction when framerate dips
+@enabled
+00C40A8C C0000014
+@stop
+
