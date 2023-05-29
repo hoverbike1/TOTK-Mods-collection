@@ -1,0 +1,10 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00CE3410 00902E1E
+@stop
+
+// by youtube.com/fayaz
