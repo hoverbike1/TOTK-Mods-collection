@@ -150,6 +150,7 @@ Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
 :exclamation:Beware to don't confuse 1080p and 1008p !  
   - 1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
   Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
+  [AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)
   Chuck done a fix about that, but require a custom yuzu build until a merge from the yuzu team.  
   - Chuck's 1008p (1792x1008) will not break AO over x1 resolution.  
   - Sweetmini's 1008p (1792x1008) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off.  
