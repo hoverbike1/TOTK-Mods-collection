@@ -51,18 +51,7 @@
 00CC1C20 08008052
 @stop
 
-// Credit: igoticecream
-// Bandaid to ultrahand/bullet time vertical sensitivity at higher FPS
-@enabled
-01D3C830 08AE3714
-02B28050 E1CF1FBC
-02B28054 0110201E
-02B28058 0018211E
-02B2805C E14740BC
-02B28060 C0035FD6
-@stop
-
-// LOD Improvement Test 111
+// LOD Improvement
 // Credit: Sweetmini
 @enabled
 027E07F8 10000014
