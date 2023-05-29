@@ -1,14 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 0b18abd3-5ce9-4577-8ba0-18352c11a388
+title: Movement Speed (1.5x)
 subtitle:
 description:
-version: 2.0.1
-category: 2
+version: 1.1.0
+category: 5
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
-    - 1.1.1
     - 1.1.0
 emulator:
   - 1

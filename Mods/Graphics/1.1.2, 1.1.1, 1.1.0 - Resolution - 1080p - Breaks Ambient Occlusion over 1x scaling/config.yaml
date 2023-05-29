@@ -1,8 +1,8 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
-subtitle:
+id: 7fba162a-204e-4a71-a21e-eecc4d75cb7a
+title: 1080p - Resolution
+subtitle: Breaks Ambient Occlusion over 1x scaling
 description:
-version: 2.0.1
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C011586000

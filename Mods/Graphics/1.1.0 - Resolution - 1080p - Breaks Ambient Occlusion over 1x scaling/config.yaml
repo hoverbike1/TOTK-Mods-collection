@@ -1,14 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 09631ff6-24c5-4eee-9b1a-754ad5eb81d1
+title: 1080p - Breaks Ambient Occlusion over 1x scaling
 subtitle:
 description:
-version: 2.0.1
+version: 1.1.0
 category: 2
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
-    - 1.1.1
     - 1.1.0
 emulator:
   - 1

@@ -1,14 +1,12 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 5647227f-6f63-452c-a5fc-957873ca017c
+title: Climbing Speed (2x)
 subtitle:
 description:
-version: 2.0.1
-category: 2
+version: 1.1.0
+category: 5
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.2
-    - 1.1.1
     - 1.1.0
 emulator:
   - 1

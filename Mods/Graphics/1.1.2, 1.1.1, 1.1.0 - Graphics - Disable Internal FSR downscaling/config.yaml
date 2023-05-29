@@ -1,8 +1,8 @@
-id: 9fd109e8-b968-497e-8de8-ab45656da9ba
-title: Disable Internal FXAA v2
+id: 0ef8f231-8d97-486e-bfa1-e40f578eed9d
+title: Disable Internal FSR downscaling
 subtitle:
 description:
-version: 2.0.1
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C011586000
@@ -13,7 +13,7 @@ game:
 emulator:
   - 1
 compatibility:
-  whitelist:
   blacklist:
+    - 9fd109e8-b968-497e-8de8-ab45656da9ba
 author:
 
