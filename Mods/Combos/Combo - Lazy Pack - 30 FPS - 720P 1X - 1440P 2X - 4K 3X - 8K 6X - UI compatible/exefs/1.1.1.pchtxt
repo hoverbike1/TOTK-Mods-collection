@@ -53,3 +53,9 @@
 @enabled
 02A51694 00102A1E
 @stop
+
+// Lens-flare Removal
+// Credit: SweetMini
+@enabled
+02A4A1E0 1F2003D5
+@stop
