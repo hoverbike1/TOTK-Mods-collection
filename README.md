@@ -124,6 +124,10 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 Unknown compatibility with "LOD Improvement" mod.  
 </br>
 
+- Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scalling.  
+Only required if your resolution scale is over 1x.  
+</br>
+
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
 DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.  
 </br>
