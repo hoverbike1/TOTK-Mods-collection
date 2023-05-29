@@ -3,6 +3,7 @@
 #  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍  
 
 ## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**  
+## **From next update, the compatible versions will be written in a TXT file inside of every mods.**
 
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)  
 
