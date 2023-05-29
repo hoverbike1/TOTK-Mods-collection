@@ -19,7 +19,7 @@
 ### Recommended setup :  
 
 - Mods :  
-  - Resolution - New 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs  
+  - Resolution - SweetMini 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs  
   - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix  
   - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings  
   
@@ -34,22 +34,22 @@
   - Aspect Ratio : Default 16:9, except if you use a ratio mod  
   - Resolution : will multiply the render resolution, in vanilla it's 1600x900  
   - Window Adapting Filter : 
-    - Bicubic if the render resoltion is above your monitor resolution  
-    - Bilinear if the render resoltion is equal to your monitor resolution  
-    - FSR if the render resoltion is under your monitor resolution  
+    - Bicubic if the render resolution is above your monitor resolution  
+    - Bilinear if the render resolution is equal to your monitor resolution  
+    - FSR if the render resolution is under your monitor resolution  
   - Anti-Aliasing Method : No AA or SMAA (FXAA break colors in darkness)  
   - FSR Sharpness : Set to taste, this setting only functions when Window Adapting Filter is set to FSR.  
 
 - Yuzu Advanced Graphics :  
-  - Accuracy Level : Normal (High cost GPU performances but is supposed to increase accuracy and lower risk of visual bugs, rare pretend to see difference)
+  - Accuracy Level : Normal (High has worse GPU performance, but with a lower risk of visual bugs, TotK does not currently need High except for debugging.)
   - ASTC recompression : Uncompressed (BC3 and BC1 lower the VRAM usage so it depend of your GPU VRAM amount, (BC3 for 4GB-8GB, BC1 for 2GB))  
   - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)  
   - Force maximum clocks (Vulkan only) : Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)  
-  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but cause black squares and glitched loading screens)  
+  - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but causes black squares and glitched loading screens)  
   - Enable Reactive Flushing : On (Improves syncing of memory)  
   - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)  
-  - Use Fast GPU Time : Off ("Off" have Higher Accuracy with "Dynamic FPS" and "FPS++" but for some reason "On" fixed a rare issue while FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report us the result)  
-  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD)  
+  - Use Fast GPU Time : Off ("Off" has Higher Accuracy with "Dynamic FPS" and "FPS++" but for some reason "On" fixed a rare issue where FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report the result to us please)  
+  - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, improves shader compilation stutter for NVIDIA and Intel as well)  
   - Anisotropic Filtering : x8 or x16 (Will only work if you use the "Anisotropic Filtering Fix" mod, if you experience graphical bugs with an AMD card, switch back to Default)  
 - Ryujinx settings :  
   - Need more documentation  
@@ -57,11 +57,9 @@
 ### Mod description & usage :  
 
 - **FPS** : Changes the game's framerate lock  
-If you get under the framerate lock defined by the mod, the game will be in slow motion.  
-Vice versa if you get over the defined framerate lock.  
-Cinematics will be sped up when you go over 30FPS.  
-We recommend the 30fps version as the 60fps version is still a work in progress, 15 and 20 FPS being experimental and potentially useless.  
-*Why should I use the 30fps mod ?* : In vanilla, the game seems to lock to 25 or 20 fps when you hit 29fps (This remains to be proven).
+If you are under the framerate lock defined by the mod, the game will be in slow motion, and sped up if you are over the defined framerate lock.  
+Cinematics will be sped up when you go over 30FPS. You need to combine with a dynamic fps mod to fix this behavior.
+*Why should I use the 30fps mod ?* : In vanilla, the game locks to 20 fps when you hit even 29fps, the mod corrects this.
 </br>
 
 - **Dynamic FPS** : Matches the game clock to your framerate and fixes slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.  
@@ -69,59 +67,58 @@ This allows using it alongside the 30FPS mod and to uncheck the "Limit Speed Per
 This way, going over the framerate lock defined by the FPS mod will not 'speed up' your game.  
 You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey on yuzu.  
 When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster cutscenes.  
-**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break ! (Maybe fixed since v1.4, must check).  
+**BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break!.  
 **BEWARE !** Incompatible with FPS++.
 </br>
 
 - **FPS++** : An edited version of the Dynamic FPS mod by "somerandompeople", fix cinematics above 30fps, do not use 30 or 60 FPS mods.
-Do not increase Performances.  
+This mod is to fix the game slowing down or speeding up, its not something that increases your game performance.  
 **BEWARE !** Incompatible with Dynamic FPS.
 </br>
 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the 60FPS mod.
+**BEWARE !** OBSOLETE if you are using Dynamic FPS or FPS++.
 </br>
 
-- Fix - **Over 30FPS Blackscreen Fix**: Fix blackscreen menu bug when playing above 30fps.  
+- Fix - **Over 30FPS Blackscreen Fix**: Fixes blackscreen menu bug when playing above 30fps.  
 :exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.  
-This mod is already embed in the Xbox UI and Playstation UI mods, and should be disabled if using either of those because they overwrite the same file.
+This mod is already included in the Xbox UI and Playstation UI mods, and should be disabled if using either of those because they overwrite the same file.
 </br>
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu has its own FSR in the "Window Adapting Filter" in Graphics settings.  
-FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI).  
+FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI or temporal information).  
 FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on Yuzu.  
 </br>
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
-GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
+GPU Performance cost is already extremely low so disabling it will not improve it.
 Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on Yuzu.  
 **BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
 </br>
 
-- Graphics - **Disable Internal FXAA** : Disable internal FXAA.
+- Graphics - **Disable Internal FXAA v2** : Disables TotK's internal FXAA.
 FXAA smoothes edges to avoid aliasing (jagged edges) and costs very little GPU performance.  
-Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.  
-:exclamation:Causing boot failures with yuzu EA3606 & EA3607  
-:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
+Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, however, it has color banding issues currently, so we recommend SMAA, which currently is a better implementation of anti-aliasing, but uses a bit more GPU performance.   
+:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file!
 </br>
 
-- Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low (under 30fps).
-:exclamation:Causing boot failures with yuzu EA3606 & EA3607  
+- Graphics - **Disable Dynamic resolution when low FPS** : Prevents the resolution being reduced when your framerate is under 30fps.
 </br>
 
-- Graphics - **LOD Improvement** : Increase the Level of Detail.  
+- Graphics - **LOD Improvement** : Increases the Level of Detail on certain models.  
 LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.  
-Will cost more GPU performances and maybe more CPU performances.  
-Unknown compatibility with "Disable LOD Quality Reduction" mod.  
+Potentially has a minor performance impact.  
+Compatible with "Disable LOD Quality Reduction" mod.  
 https://imgsli.com/MTgyMzE5  
 </br>
 
-- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low (under 30fps).  
+- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is under 30fps.  
 LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
-Unknown compatibility with "LOD Improvement" mod.  
+Compatible with "LOD Improvement" mod.  
 </br>
 
 - Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scalling.  
