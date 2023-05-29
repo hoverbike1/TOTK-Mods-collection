@@ -1,5 +1,0 @@
-https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
-If you'd like to support his work he have a ko-fi page at https://ko-fi.com/ChucksFeedAndSeed
-
-Also I modded it to push 120 FPS - You'll need to tweak your emulator to allow higher than 60 FPS though.
-- https://github.com/Krutonium - Krutonium
