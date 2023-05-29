@@ -1,38 +1,36 @@
 # Mods collection for Zelda: Tears of the Kingdom  
 
-#  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍  
+#  [SURVEY of your Emulation performance and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍  
 
-## :exclamation:**WARNING : Read the "Compatible version.txt" in every mod to know the compatible versions with each mods.**  
+## :exclamation:**WARNING : Read the "Compatible version.txt" in every mod to know which game version it is compatible with.**  
 
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)  
 
 ### Compatibility chart (for mods with another version than your game) : 
 ![Compatibility guide](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/Compatibility_chart.webp)
 
-### Latest important information  
-:exclamation:These mods seem to prevent booting according to reports from some users with Yuzu EA3606 & EA3607. We recommend updating to EA3608+.  
-- VisualFixes_1008P_FXAA_Off_FSR_Off  
-- VisualFixes_1008P_FXAA_On_FSR_Off  
-- DisableFXAA  
-- DisableDynamicResolution  
-
 ### Recommended setup :  
 
 - Mods :  
-  - Resolution - SweetMini 1008p - FXAA On (or Off, this is personal preference), FSR Off, DynRes Off - Zero AO Bugs  
-  - FPS - FPS++ - Includes improved 60fps, DynamicFPS, Cutscene-fix  
-  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings  
+  - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
+  - FPS - 60fps Static  
+  - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix- Do not mix with fps++
+  - Fix - Over 30FPS Blackscreen Fix (unless you are using a controller UI mod, which already has this)
+  - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
+  - Graphics - Disable LOD Quality Reduction
+  - Graphics - LOD Improvement
+  - Graphics - Shadows - 1024x - highest stable  
   
 - Yuzu Graphics :  
   - Render API : Vulkan  
   - Use Disk Pipeline Cache: On  
   - Use asynchronous GPU emulation : On  
   - Accelerate ASTC Texture Decoding : On  
-  - Vsync Mode: Mailbox (Or off if you don't mind frame tiring or use any alternate method for avoid it)  
+  - Vsync Mode: Mailbox (Or off if you don't mind frame tearing or use any alternate method for avoid it)  
   - NVDEC emulation : GPU Video Decoding (This is for cutscenes, try CPU Video Decoding if you have a weak gpu)  
-  - Fullscreen Mode : Exclusive Fullscreen or Borderless Windowed and type F11  
-  - Aspect Ratio : Default 16:9, except if you use a ratio mod  
-  - Resolution : will multiply the render resolution, in vanilla it's 1600x900  
+  - Fullscreen Mode : Exclusive Fullscreen or Borderless Windowed and press F11  
+  - Aspect Ratio : Default (16:9) (Use Strech to Window if using an aspect ratio mod)
+  - Resolution : 2x or higher depending on your PC specs. This will multiply the render resolution, in vanilla ToTK it's 1600x900.
   - Window Adapting Filter : 
     - Bicubic if the render resolution is above your monitor resolution  
     - Bilinear if the render resolution is equal to your monitor resolution  
