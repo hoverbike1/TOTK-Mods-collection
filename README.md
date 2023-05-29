@@ -57,7 +57,7 @@
 - **FPS** : Changes the game's framerate lock  
 If you are under the framerate lock defined by the mod, the game will be in slow motion, and sped up if you are over the defined framerate lock.  
 Cinematics will be sped up when you go over 30FPS. You need to combine with a dynamic fps mod to fix this behavior.
-*Why should I use the 30fps mod ?* : In vanilla, the game locks to 20 fps when you hit even 29fps, the mod corrects this.
+*Why should I use the 30fps mod ?* : In vanilla, the game locks to 20 fps if your framerate is anything lower than 30, the mod corrects this.
 </br>
 
 - **Dynamic FPS** : Matches the game clock to your framerate and fixes slow motion when under the framerate lock, works well when coupled with any of the FPS mods above.  
@@ -119,39 +119,39 @@ By default, when your framerate is low, the game lowers the LOD to increase GPU 
 Compatible with "LOD Improvement" mod.  
 </br>
 
-- Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scalling.  
+- Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scaling.  
 Only required if your resolution scale is over 1x.  
-[Comparaison On/Off](https://i.imgur.com/M01IPBw.png)  
+[Comparison On/Off](https://i.imgur.com/M01IPBw.png)  
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
-DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.  
+DOF (Depth-of-Field is an effect that blurs the background when an object is focused by the camera. This particular effect does not scale with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.  
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows.  
-256 and 512 would increase GPU performance a lot.  
-1024 is the vanilla resolution, so it's useless by default, but it can fix some graphical issues on certain setups.  
+256 and 512 could possibly increase your game performance, but sacrifices shadow quality.
+Vanilla has shadow quality at 960 or below.
+1024 will improve shadow quality over vanilla, and it can fix some graphical issues on certain setups.  
 [Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512](https://imgsli.com/MTc5MTM1)  
 [Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024](https://imgsli.com/MTc5MTYx)  
 </br>
 
 - Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering.  
-Anisotropic Filtering is a render method that increase the texture quality in low angles.  
+Anisotropic Filtering is a render method that increase the texture quality when textures are viewed at oblique angles.  
 Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
 [Difference Off/On](https://imgsli.com/MTc5MzQ0)  
 </br>
 
-- **Resolution** : Changes internal render resolution, Vanilla is 1600x900 when the switch is docked.  
-:exclamation:Beware to don't confuse 1080p and 1008p !  
-  - 1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO).  
+- **Resolution** : Changes internal rendering resolution. Vanilla is 1600x900 in Docked mode 1280x720 in Handheld mode.  
+:exclamation:Don't confuse 1080p and 1008p, they aren't the same number!  
+  - 1080p (1920x1080) when scaled over 1x resolution will break Ambient Occlusion (AO), unless you use a custom Yuzu build created by ChucksFeedandSeed.  
   Ambient occlusion is a rendering technique that simulates the exposure of ambient light on an object.  
-  [AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)  
-  Chuck done a fix about that, but require a custom yuzu build until a merge from the yuzu team.  
+  [AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)   
   - Chuck's 1008p (1792x1008) will not break AO over x1 resolution.  
-  - Sweetmini's 1008p (1792x1008) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off.  
-  - 1026p (1824x1026) will not break AO over x1 resolution, disable FSR and exist in two versions for FXAA on or off but is known to break several things, we don't advice it.  
-  :exclamation: the "New 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
-  - 360p, 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but they look a bit blurry.  
+  - SweetMini's 1008p (1792x1008) will not break AO over x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.  
+  - 1026p (1824x1026) will not break AO over x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off but is known to cause artifacts in shadows, we don't recommend this option anymore.  
+  :exclamation: the "SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.  
+  - 540p and 720p require to change the "Resolution" scaling in Yuzu graphics settings (This setting is just called 'resolution'), but since not all game effects scale with the Yuzu scaler, such as the Ambient Occlusion and the UI, they can look worse than using a higher base resolution.  
     - 540p and x2 = 1080p.  
     - 540p and x4 = 4K.  
     - 540p and x8 = 8K.  
@@ -160,20 +160,21 @@ Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
     - 720p and x6 = 8K.  
 
 You can use them with x1 Resolution scale or lower to increase GPU performance.  
-To experience the best quality, we advise you to use the double of your monitor's resolution.  
+To experience the best quality, we advise you to use an internal rendering resolution of double your monitor's resolution.  
 </br>
 
 - Resolution - 1080p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.  
-  - Break AO over 1x scale on Yuzu.  
-  - As written in the name, this mod disable FSR and FXAA too.  
+  - Breaks AO over 1x scale on Yuzu.  
+  - As written in the name, this mod disables FSR and FXAA too.
+  - Uses code editing instead of game file editing.
 </br>
 
 - **Ratio** : Experimental - change the aspect ratio from 16:9.
-  - You have to change "Aspect Ratio" in Graphics Yuzu settings to 21:9, 16:10 or "Stretch to Window" if the desired ratio doesn't exist.  
-  - Fixes the 3D scene render, but will stretch the HUD.  
+  - You should change "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window". 
+  - Fixes the 3D scene render, but will cause the HUD to stretch.  
 </br>
 
-- **Combos** : They are all-in-one mods, don't combine then with unspecified mods, if you don't know what you are doing.  
+- **Combos** : They are all-in-one mods, don't combine them with unspecified mods, if you don't know what you are doing.  
   - **30/60fps + Dynamic FPS** are a simple Combo of these two mods, into one.  
   - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and Disable FSR, it's a minimal pack for a clean experience.  
 You can use it with any Graphics other pack, ratio and cheats but it's not recommended.  
@@ -278,23 +279,23 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 - [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
 </br>
 
-> Thanks to [ChucksFeedAndSeed](https://www.reddit.com/user/ChucksFeedAndSeed/) for the *majority* of the mods in this collection.
+> Thanks to [ChucksFeedAndSeed](https://www.reddit.com/user/ChucksFeedAndSeed/) for many of the mods in this collection.
 
 </br>Copyright and source of mods :
 
 - [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
-- [DynamicFPS v1.31 & 1.4](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : ChucksFeedAndSeed
+- [DynamicFPS](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : ChucksFeedAndSeed
 
 - [FPS++](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : somerandompeople
 
-- New 1008p Resolution : SweetMini, contribution by Socats and Darktalon
+- SweetMini 1008p Resolution : SweetMini, contribution by Socats and Darktalon
 
-- 1080p resolution : ChucksFeedAndSeed
+- 1080p Resolution : ChucksFeedAndSeed
 
 - [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
 
-- All Graphic pactches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
+- Graphic patches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
 
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
 
@@ -313,6 +314,10 @@ Unknown compatibily with FPS, Dynamic FPS and FPS++ mods, testing is required, o
 
 - Graphics - Disable Internal FXAA v2 : SweetMini
 
-- Resolution - 1026p : Zeikken
+- Graphics - Island Fix : SweetMini
 
-- Others : A real mystery. We gather mods found on the yuzu reddit and discord, if you are the owner of one of them, please contact us, so we can give you the credit that you deserve!
+- Graphics - LOD Improvement : SweetMini
+
+- Graphics - Vertical Sensitivity Fix: igoticecream
+
+- Resolution - 1026p : Zeikken
