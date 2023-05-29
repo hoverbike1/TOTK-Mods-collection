@@ -2,8 +2,7 @@
 
 #  [SURVEY of Emulation performances and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍  
 
-## :exclamation:**WARNING : Read the compatible version of the game on the prefix of the mods name.**  
-## **From next update, the compatible versions will be written in a TXT file inside of every mods.  
+## :exclamation:**WARNING : Read the "Compatible version.txt" in every mod to know the compatible versions with each mods.**  
 
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)  
 
@@ -123,6 +122,11 @@ https://imgsli.com/MTgyMzE5
 LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
 Unknown compatibility with "LOD Improvement" mod.  
+</br>
+
+- Graphics - **Island Fix** Fix the Outline edges around islands bugged over 2x resolution scalling.  
+Only required if your resolution scale is over 1x.  
+[Comparaison On/Off](https://i.imgur.com/M01IPBw.png)  
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
