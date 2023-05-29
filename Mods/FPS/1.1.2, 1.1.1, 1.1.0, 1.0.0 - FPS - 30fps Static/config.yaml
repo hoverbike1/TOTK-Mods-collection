@@ -1,12 +1,13 @@
-id: be3872ba-829b-4afd-b4bf-c5f2a31b2f6d
-title: Cutscene-Fix
+id: d5dc6205-ed26-4b8a-8f03-6ec0131f90b8
+title: 30fps Static
 subtitle:
 description:
-version: 1.0.0
+version: 3.0.0
 category: 1
 game:
   titleId: 0100F2C011586000
   version:
+    - 1.1.2
     - 1.1.1
     - 1.1.0
     - 1.0.0

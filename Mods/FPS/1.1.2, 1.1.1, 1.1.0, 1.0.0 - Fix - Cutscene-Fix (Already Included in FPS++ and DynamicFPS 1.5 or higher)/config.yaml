@@ -1,13 +1,16 @@
-id: 2a1e44ac-342a-4603-a691-7b0654188c47
-title: 15fps v3 - DON'T USE
+id: be3872ba-829b-4afd-b4bf-c5f2a31b2f6d
+title: Cutscene-Fix
 subtitle:
 description:
-version: 3.0.0
+version: 1.0.0
 category: 1
 game:
   titleId: 0100F2C011586000
   version:
+    - 1.1.2
+    - 1.1.1
     - 1.1.0
+    - 1.0.0
 emulator:
   - 1
 compatibility:
