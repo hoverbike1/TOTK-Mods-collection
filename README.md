@@ -110,12 +110,15 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 
 - Graphics - **LOD Improvement** : Increase the Level of Detail.  
 LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.  
+Will cost more GPU performances and maybe more CPU performances.  
+Unknown compatibility with "Disable LOD Quality Reduction" mod.  
 https://imgsli.com/MTgyMzE5  
 </br>
 
 - Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low (under 30fps).  
 LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
+Unknown compatibility with "LOD Improvement" mod.  
 </br>
 
 - Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs.  
