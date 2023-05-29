@@ -4,9 +4,8 @@
 @flag offset_shift 0x100
 
 
-// LOD Improvement
+// Lensflare Removal
 // Credit: SweetMini
 @enabled
-027E07F8 10000014
+02A4A1E0 1F2003D5
 @stop
-
