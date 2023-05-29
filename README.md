@@ -108,6 +108,11 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 :exclamation:Causing boot failures with yuzu EA3606 & EA3607  
 </br>
 
+- Graphics - **LOD Improvement** : Increase the Level of Detail.  
+LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
+https://imgsli.com/MTgyMzE5  
+</br>
+
 - Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low (under 30fps).  
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
 By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.  
