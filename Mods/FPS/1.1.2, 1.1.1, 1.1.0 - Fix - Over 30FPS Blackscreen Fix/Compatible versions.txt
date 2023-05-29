@@ -1,0 +1,6 @@
+Mod type : RomFS
+
+1.1.2 : Yes
+1.1.1 : Not recommended
+1.1.0 : Not recommended
+1.0.0 : Not recommended
