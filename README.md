@@ -14,7 +14,7 @@
 - Mods :  
   - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
   - FPS - 60fps Static  
-  - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix- Do not mix with DynamicFPS++
+  - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix- Do not mix with DynamicFPS**++**
   - Fix - Over 30FPS Blackscreen Fix (unless you are using a controller UI mod, which already has this)
   - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
   - Graphics - Disable LOD Quality Reduction
@@ -46,7 +46,7 @@
   - Decode ASTC textures asynchronously : Off ("On" may reduce texture loading stutters, but causes black squares and glitched loading screens)  
   - Enable Reactive Flushing : On (Improves syncing of memory)  
   - Use asynchronous shader building : On (Greatly reduces stuttering when shaders are compiling)  
-  - Use Fast GPU Time : Off ("Off" has Higher Accuracy with "Dynamic FPS" and "DynamicFPS++" but for some reason "On" fixed a rare issue where FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report the result to us please)  
+  - Use Fast GPU Time : Off ("Off" has Higher Accuracy with "Dynamic FPS" and "DynamicFPS**++**" but for some reason "On" fixed a rare issue where FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report the result to us please)  
   - Use Vulkan Pipeline Cache : On (Immense reduction in initial game loading time for AMD, improves shader compilation stutter for NVIDIA and Intel as well)  
   - Anisotropic Filtering : x8 or x16 (Will only work if you use the "Anisotropic Filtering Fix" mod, if you experience graphical bugs with an AMD card, switch back to Default)  
 - Ryujinx settings :  
@@ -66,7 +66,7 @@ This way, going over the framerate lock defined by the FPS mod will not 'speed u
 You can toggle the "Limit Speed Percent" with the "Ctrl + U" shortkey on yuzu.  
 When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster cutscenes.  
 **BEWARE !** When you use Dynamic FPS mod under 15 FPS, the physics will break!.  
-**BEWARE !** Incompatible with DynamicFPS++.
+**BEWARE !** Incompatible with DynamicFPS**++**.
 </br>
 
 - **DynamicFPS++** : An edited version of the Dynamic FPS mod by "somerandompeople", fix cinematics above 30fps, do not use 30 or 60 FPS mods.
@@ -76,7 +76,7 @@ This mod is to fix the game slowing down or speeding up, its not something that 
 
 - Fix - **Cutscene Fix**: Sets the framerate lock to 30 FPS automatically during FMV cutscenes.  
 You must have the Yuzu framerate lock enabled for this to work, and it needs to be paired with the 60FPS mod.
-**BEWARE !** OBSOLETE if you are using Dynamic FPS or DynamicFPS++.
+**BEWARE !** OBSOLETE if you are using Dynamic FPS or DynamicFPS**++**.
 </br>
 
 - Fix - **Over 30FPS Blackscreen Fix**: Fixes blackscreen menu bug when playing above 30fps.  
@@ -242,7 +242,7 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 // Credit: @somerandompeople
 // SOURCED FROM [HERE](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/)
-// 30/60 DynamicFPS++
+// 30/60 DynamicFPS**++**
 // Disable LOD reduction when framerate dips v1.1.1
 
 // Credit: @ChanseyIsTheBest
@@ -310,7 +310,7 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 - Cheat - Durability (10x) : SweetMini
 
 - Cheat - Time of day : FrostedMint  
-Unknown compatibily with FPS, Dynamic FPS and DynamicFPS++ mods, testing is required, open an issue to report the result if you tried.  
+Unknown compatibily with FPS, Dynamic FPS and DynamicFPS**++** mods, testing is required, open an issue to report the result if you tried.  
 
 - Graphics - Disable Internal FXAA v2 : SweetMini
 
