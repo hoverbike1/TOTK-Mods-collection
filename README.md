@@ -8,6 +8,8 @@
 
 ## Recommended setup :
 
+![Recommended Settings](Guide/Readme_Recommendations.png)
+
 - **Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static
