@@ -1,42 +1,29 @@
-name: Create zip asset, push it in release and archive it when a new tag is created
+name: Zip Folders
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
 
 jobs:
-  zip:
+  zip_folders:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
+    strategy:
+      matrix:
+        version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2']
+
     steps:
-      - name: Checkout the code
-        uses: actions/checkout@v3
-      - name: zip mods
-        run: 7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: 7z mods
-        run: 7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: Push the zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: Push the 7zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
-      - name: Switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh_url }}
-      - name: Check for changes
-        run: git status
-      - name: Stage changed files
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Make and zip folders
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add Releases/
-          git commit -a -m "Pushing new release ${{ github.ref_name }}"
-      - name: Push changes on main ✨
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          sudo apt-get update
+          sudo apt-get -y install build-essential zip
+          make zip_folders VERSION=${{ matrix.version }}
+
+      - name: Output zip files
+        run: |
+          ls -l *.zip
+          echo "::set-output name=zip_files::$(ls -l *.zip | awk '{print $9}')"
