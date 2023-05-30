@@ -92,8 +92,7 @@ It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpenin
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is already extremely low so disabling it will not improve it.
-Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
-It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on Yuzu.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Downscaling" if you are on Yuzu.
 **BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
 </br>
 
