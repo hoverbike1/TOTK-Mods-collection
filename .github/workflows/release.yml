@@ -1,22 +1,20 @@
 name: Release
-description: Create zip & 7z assets, push them in release and archive them when a new tag is created
 
+permissions:
+  contents: write
 on:
   push:
     tags:
       - 'v*'
 jobs:
-  runs-on: ubuntu-latest
-  permissions:
-    contents: write
-    strategy:
-      matrix:
-        compress_format: ['zip', '7z']
 
   compress_and_push_mods_versionned_assets:
+    name: "[${{ matrix.compress_format }}] Compress ${{ matrix.mod_version }}"
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         mod_version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2']
+        compress_format: ['zip', '7z']
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -27,24 +25,38 @@ jobs:
       - name: Push the assets
         uses: softprops/action-gh-release@v1
         with:
-          files: Releases/${{ matrix.mod_version }.${{ matrix.compress_format }}
+          files: ${{ matrix.mod_version }}.${{ matrix.compress_format }}
 
   compress_and_push_mods_assets:
+    name: "[zip, 7z] Compress all versions"
+    runs-on: ubuntu-latest
+    steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: ${{ matrix.compress_format }} mods
-      run: 7z a -t${{ matrix.compress_format }} -mx9 ./Releases/TOTK-Mods-collection.${{ matrix.compress_format }} -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-    - name: Switching from HTTPS to SSH
-      run: git remote set-url origin ${{ secrets.ssh_url }}
-    - name: Stage changed files
+    - name: Compress mods to folder Releases
+      run:  |
+        7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+        7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+    - name: Compress mods to root
+      run: |
+        7z a -tzip -mx9 ./TOTK-Mods-collection.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+        7z a -t7z -mx9 ./TOTK-Mods-collection.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+    - name: Push the assets on Tag/Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          Releases/TOTK-Mods-collection.7z
+          Releases/TOTK-Mods-collection.zip
+    - name: Checkout on main before pushing changes
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        clean: false
+    - name: Push new releases on main
       run: |
         git status
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config user.name github-actions
+        git config user.email github-actions@github.com
         git add Releases/
         git commit -a -m "Pushing new release ${{ github.ref_name }}"
-    - name: Push changes on main ✨
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        git push

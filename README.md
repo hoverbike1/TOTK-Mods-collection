@@ -6,6 +6,16 @@
 
 ### [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)  
 
+### Direct download link
+
+| Game version | Zip download link                                                                                                      | 7z download link                                                                                                      |
+|--------------|------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| all included | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/TOTK-Mods-collection.zip) | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/TOTK-Mods-collection.7z) |
+| 1.0.0        | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.0.0.zip)                | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.0.0.7z)                |              |
+| 1.1.0        | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.0.zip)                | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.0.7z)                |
+| 1.1.1        | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.1.zip)                | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.1.7z)                |
+| 1.1.2        | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.2.zip)                | [Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases/latest/download/1.1.2.7z)                |
+
 ### Compatibility chart (for mods with another version than your game) : 
 ![Compatibility guide](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/Compatibility_chart.webp)
 
