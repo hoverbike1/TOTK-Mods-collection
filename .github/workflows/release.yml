@@ -1,10 +1,9 @@
 name: Zip Folders
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    branches:
+      - '**'
 
 jobs:
   zip_folders:
