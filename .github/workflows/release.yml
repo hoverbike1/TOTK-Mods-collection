@@ -1,42 +1,50 @@
-name: Create zip asset, push it in release and archive it when a new tag is created
+name: Release
+description: Create zip & 7z assets, push them in release and archive them when a new tag is created
 
 on:
   push:
     tags:
       - 'v*'
-
 jobs:
-  zip:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+  runs-on: ubuntu-latest
+  permissions:
+    contents: write
+    strategy:
+      matrix:
+        compress_format: ['zip', '7z']
+
+  compress_and_push_mods_versionned_assets:
+    strategy:
+      matrix:
+        mod_version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2']
     steps:
-      - name: Checkout the code
+      - name: Checkout code
         uses: actions/checkout@v3
-      - name: zip mods
-        run: 7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: 7z mods
-        run: 7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: Push the zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: Push the 7zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
-      - name: Switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh_url }}
-      - name: Check for changes
-        run: git status
-      - name: Stage changed files
+      - name: Set up zip
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add Releases/
-          git commit -a -m "Pushing new release ${{ github.ref_name }}"
-      - name: Push changes on main ✨
-        uses: ad-m/github-push-action@master
+          sudo chmod +x zip_script.sh
+          ./zip_script.sh ${{ matrix.mod_version }} Mods/ ${{ matrix.compress_format }}
+      - name: Push the assets
+        uses: softprops/action-gh-release@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          files: Releases/${{ matrix.mod_version }.${{ matrix.compress_format }}
+
+  compress_and_push_mods_assets:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: ${{ matrix.compress_format }} mods
+      run: 7z a -t${{ matrix.compress_format }} -mx9 ./Releases/TOTK-Mods-collection.${{ matrix.compress_format }} -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+    - name: Switching from HTTPS to SSH
+      run: git remote set-url origin ${{ secrets.ssh_url }}
+    - name: Stage changed files
+      run: |
+        git status
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add Releases/
+        git commit -a -m "Pushing new release ${{ github.ref_name }}"
+    - name: Push changes on main ✨
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
