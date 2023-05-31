@@ -6,8 +6,8 @@
 
 ## Download page : [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
-[![Recommended Settings](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings_Light.webp)](https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md#gh-light-mode-only)
-[![Recommended Settings](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings_Dark.webp)](https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md#gh-dark-mode-only)
+[![Recommended Settings#gh-light-mode-only](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings_Light.webp)](https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md#gh-light-mode-only)
+[![Recommended Settings#gh-dark-mode-only](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings_Dark.webp)](https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md)
 
 ## Mod description & usage:
 
