@@ -6,7 +6,7 @@
 
 ## [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
-![Recommended Settings](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings.webp)
+[![Recommended Settings](https://raw.githubusercontent.com/HolographicWings/TOTK-Mods-collection/main/Guide/YuzuRecommendedSettings.webp)](https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md)
 
 ## Mod description & usage:
 
