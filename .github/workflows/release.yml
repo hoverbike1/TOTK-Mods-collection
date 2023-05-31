@@ -35,14 +35,14 @@ jobs:
       uses: actions/checkout@v3
     - name: Compress mods to folder Releases
       run:  |
-        7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-        7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+        7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+        7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
     - name: Push the assets on Tag/Release
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip
-          Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z
+          Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.zip
+          Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.7z
     - name: Checkout on main before pushing changes
       uses: actions/checkout@v3
       with:
