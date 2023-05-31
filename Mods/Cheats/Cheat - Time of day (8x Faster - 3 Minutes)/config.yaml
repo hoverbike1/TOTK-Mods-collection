@@ -1,0 +1,18 @@
+id: d0cd3426-731f-43c9-9893-c699f8772fb1
+title: Time of day (8x Faster - 3 Minutes)
+subtitle:
+description:
+version: 1.0.0
+category: 5
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+author:
+

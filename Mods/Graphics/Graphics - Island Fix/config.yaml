@@ -1,13 +1,14 @@
-id: a1b10877-e3bb-4c5e-8877-dfff0cd0480e
-title: Perfect Thermometer - No temperature damage
+id: c4513114-cc93-4e96-b39f-e69c4f42de95
+title: Island Fix
 subtitle:
 description:
-version: 1.1.0
-category: 5
+version: 1.0.0
+category: 2
 game:
   titleId: 0100F2C011586000
   version:
-    - 1.1.0
+    - 1.1.2
+    - 1.1.1
 emulator:
   - 1
 compatibility:

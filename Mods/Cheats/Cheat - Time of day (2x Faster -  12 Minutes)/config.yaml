@@ -1,0 +1,18 @@
+id: e21943e6-483a-4d2c-b9c7-28d94c695ca7
+title: Time of day (2x Faster - 12 Minutes)
+subtitle:
+description:
+version: 1.0.0
+category: 5
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+author:
+

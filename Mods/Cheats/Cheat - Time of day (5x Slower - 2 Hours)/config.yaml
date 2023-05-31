@@ -1,0 +1,18 @@
+id: 215a9639-e463-4f21-86ef-36072928bebc
+title: Time of day (5x Slower - 2 Hours)
+subtitle:
+description:
+version: 1.0.0
+category: 5
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+author:
+

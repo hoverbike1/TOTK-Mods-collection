@@ -1,0 +1,22 @@
+id: 2d5093d1-e276-4170-be8e-4dc1ffe3a5c9
+title: Aspect ratio - 16-10
+subtitle:
+description:
+version: 1.0.0
+category: 3
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+    - 1.0.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+author:
+    - name: Fayaz
+      link: https://gamebanana.com/mods/updates/443462
+
