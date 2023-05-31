@@ -1,6 +1,6 @@
 # Contents  
-### [Quick Setup](#quick-setup)  
-### [Detailed Setup](#detailed-setup)
+### [Quick Setup](#quick-setup-1)  
+### [Detailed Setup](#detailed-setup-1)
 
 # Quick Setup
 - **Mods:**
