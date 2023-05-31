@@ -7,7 +7,6 @@
 ## [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/TOTK-Mods-collection/total.svg?style=for-the-badge)](https://github.com/HolographicWings/TOTK-Mods-collection/releases)
 
 ## Recommended setup :
-
 - **Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static
@@ -43,6 +42,10 @@
   - Use Fast GPU Time: Off
   - Use Vulkan Pipeline Cache: On
   - Anisotropic Filtering: x16 - Install the mod "Anisotropic Filtering Fix" to work. Switch back to Default if you have bugs on AMD cards.
+
+- After setup your configurations should look like this:
+
+![Recommended Settings](Guide/Readme_Recommendations.png)
 
 - **Ryujinx settings:**
   - Need more documentation  
