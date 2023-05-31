@@ -1,8 +1,8 @@
 # Contents  
-- [Quick Setup](#quick-setup)  
-- [Detailed Setup](#detailed-setup)
+### [Quick Setup](#quick-setup)  
+### [Detailed Setup](#detailed-setup)
 
-## Quick Setup
+# Quick Setup
 - **Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static
@@ -50,7 +50,7 @@
 - **Ryujinx settings:**
   - Need more documentation
 
-## Detailed Setup
+# Detailed Setup
 - **Mods:**
     - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
