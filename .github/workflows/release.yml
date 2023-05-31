@@ -1,42 +1,58 @@
-name: Create zip asset, push it in release and archive it when a new tag is created
+name: Release
 
+permissions:
+  contents: write
 on:
   push:
     tags:
       - 'v*'
-
 jobs:
-  zip:
+
+  compress_and_push_mods_versionned_assets:
+    name: "[${{ matrix.compress_format }}] Compress ${{ matrix.mod_version }}"
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    strategy:
+      matrix:
+        mod_version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2']
+        compress_format: ['zip', '7z']
     steps:
-      - name: Checkout the code
+      - name: Checkout code
         uses: actions/checkout@v3
-      - name: zip mods
-        run: 7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: 7z mods
-        run: 7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
-      - name: Push the zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip # This only works if your workflow triggers on new tags
-      - name: Push the 7zip of assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z # This only works if your workflow triggers on new tags
-      - name: Switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh_url }}
-      - name: Check for changes
-        run: git status
-      - name: Stage changed files
+      - name: Set up zip
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add Releases/
-          git commit -a -m "Pushing new release ${{ github.ref_name }}"
-      - name: Push changes on main ✨
-        uses: ad-m/github-push-action@master
+          sudo chmod +x zip_script.sh
+          ./zip_script.sh ${{ matrix.mod_version }} ${{ matrix.compress_format }} TOTK-Mods-collection_${{ github.ref_name }}_for-${{ matrix.mod_version }}.${{ matrix.compress_format }}
+      - name: Push the assets
+        uses: softprops/action-gh-release@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          files: TOTK-Mods-collection_${{ github.ref_name }}_for-${{ matrix.mod_version }}.${{ matrix.compress_format }}
+
+  compress_and_push_mods_assets:
+    name: "[zip, 7z] Compress all versions"
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Compress mods to folder Releases
+      run:  |
+        7z a -tzip -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+        7z a -t7z -mx9 ./Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z -x!'./.git/' -x!'./Releases/' -x!'./.github/' -x!'./config.yaml' ./
+    - name: Push the assets on Tag/Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          Releases/TOTK-Mods-collection_${{ github.ref_name }}.zip
+          Releases/TOTK-Mods-collection_${{ github.ref_name }}.7z
+    - name: Checkout on main before pushing changes
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        clean: false
+    - name: Push new releases on main
+      run: |
+        git status
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add Releases/
+        git commit -a -m "Pushing new release ${{ github.ref_name }}"
+        git push
