@@ -3,7 +3,8 @@
 ### [Detailed Setup](#detailed-setup-1)
 
 # Quick Setup
-- **Mods:**
+**[Mods Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases)**
+- **Recommended Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static
   - FPS - DynamicFPS v1.5.1
@@ -13,7 +14,7 @@
   - Fix - Over 30FPS Blackscreen Fix
   </br>**BEWARE!** Don't use the Blackscreen Fix if you use any controller UI mod (Playstation/Xbox). In this case use only the version "fix" of the controller mod.
 
-- **Yuzu Graphics:**
+- **Recommended Yuzu Graphics:**
   - Render API: Vulkan
   - Use Disk Pipeline Cache: On
   - Use asynchronous GPU emulation: On
@@ -27,7 +28,7 @@
   - Anti-Aliasing Method: No AA
   - FSR Sharpness: Don't change
 
-- **Yuzu Advanced Graphics:**
+- **Recommended Yuzu Advanced Graphics:**
   - Accuracy Level: Normal
   - ASTC recompression depends on your GPU vRAM:
     </br>BC1 for 2GB,
@@ -51,7 +52,8 @@
   - Need more documentation
 
 # Detailed Setup
-- **Mods:**
+**[Mods Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases)**
+- **Recommended Mods:**
     - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
     - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
@@ -61,7 +63,7 @@
     - Graphics - LOD Improvement (Beta but soon will be promoted to recommended)
     - Graphics - Shadows - 1024x - highest stable (Fix weird shadow flickering and broken Gloom)
 
-- **Yuzu Graphics:**
+- **Recommended Yuzu Graphics:**
   - Render API: Vulkan (OpenGL can have weird visual glitches)
   - Use Disk Pipeline Cache: On
   - Use asynchronous GPU emulation: On
@@ -78,7 +80,7 @@
   - Anti-Aliasing Method: No AA or SMAA (FXAA break colors in darkness)
   - FSR Sharpness: Set to taste, this setting only functions when Window Adapting Filter is set to FSR.
 
-- **Yuzu Advanced Graphics:**
+- **Recommended Yuzu Advanced Graphics:**
   - Accuracy Level: Normal (High has worse GPU performance, but with a lower risk of visual bugs, TotK does not currently need High except for debugging)
   - ASTC recompression depends on your GPU vRAM:
     </br>BC1 for 2GB,
