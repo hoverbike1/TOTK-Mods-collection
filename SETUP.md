@@ -6,7 +6,7 @@
 **[Mods Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases)**
 - **Recommended Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
-  - FPS - 60fps Static
+  - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
   - FPS - DynamicFPS v1.5.1
   - Graphics - Anisotropic Filtering Fix
   - Graphics - Disable LOD Quality Reduction
