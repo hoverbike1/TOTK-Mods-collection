@@ -204,7 +204,7 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - [Updated 1.1.1 and 1.1.2 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) by bad1dea
 
-- [21'9 HUD Fix v7 Plus Western Xbox UI v2](https://gamebanana.com/mods/447208) by Jaddey
+- [21'9 HUD Fix v7 + Western Controller UI (Xbox&PS)](https://gamebanana.com/mods/447208) by Jaddey
 
 </br>Useful links :
 
