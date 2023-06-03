@@ -1,7 +1,7 @@
 id: 19e79eef-53c0-4ad1-a681-b17814d9b4b1
-title: 'Lazy Pack - Combo -1.1.1, 1.1.0 - 1080P 1X'
-subtitle:
-description:
+title: 'Lazy Pack - 60 FPS - 1080P 1X'
+subtitle: One patch solution.
+description: UI Mod Incompatible - Already has blackscreen-fix.
 version:
 category: 6
 game:
@@ -11,8 +11,11 @@ game:
     - 1.1.0
 emulator:
   - 1
+  - 2
 compatibility:
   whitelist:
   blacklist:
+  - 62ba7b3a-052e-457e-9424-bcf57ce75171
 author:
+    - name: ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini
 

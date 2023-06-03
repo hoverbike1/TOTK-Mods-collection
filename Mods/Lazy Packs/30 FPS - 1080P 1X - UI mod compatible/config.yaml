@@ -1,7 +1,7 @@
 id: 4bfe995e-36cc-4225-8fee-86cda47eb208
-title: 'Lazy Pack - Combo -1.1.1, 1.1.0 - UI compatible'
-subtitle:
-description:
+title: 'Lazy Pack - 30 FPS - 1080P 1X - UI mod compatible'
+subtitle: One patch solution.
+description: UI Mod compatible - feel free to add a controller UI mod to this.
 version:
 category: 6
 game:
@@ -11,8 +11,10 @@ game:
     - 1.1.0
 emulator:
   - 1
+  - 2
 compatibility:
   whitelist:
   blacklist:
 author:
+    - name: ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini
 
