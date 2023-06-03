@@ -1,8 +1,8 @@
-id: 84706472-cc97-475b-ad07-a699d2cf7410
-title: 'Playstation UI Mod V11.5 - Normal - White'
-subtitle: 
-description: 'Contains Blackscreenfix, disable other instances of blackscreenfix, or this mod wont work'
-version: 11.5
+id: 137ba435-d6e0-41da-ba20-13685baf6471
+title: "Playstation UI Mod V11.5 - Normal - White"
+subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Playstation icons.
+description: "Contains Blackscreenfix, disable other instances of blackscreenfix, or this mod wont work"
+version: 11.5.0
 category: 7
 game:
   titleId: 0100F2C011586000
@@ -12,8 +12,11 @@ game:
     - 1.1.0
 emulator:
   - 1
+  - 2
 compatibility:
   whitelist:
-  blacklist: UI Blackscreen Fix
-author: Alerion921
-
+  blacklist:
+  - 62ba7b3a-052e-457e-9424-bcf57ce75171
+author:
+    - name: Alerion921
+    - link: https://gamebanana.com/mods/443201
