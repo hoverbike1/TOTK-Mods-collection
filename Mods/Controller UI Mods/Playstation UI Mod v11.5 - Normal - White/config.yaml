@@ -3,7 +3,7 @@ title: "Playstation UI Mod V11.5 - Normal - White"
 subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Playstation icons.
 description: "Contains Blackscreenfix, disable other instances of blackscreenfix, or this mod wont work"
 version: 11.5.0
-category: 7
+category: 3
 game:
   titleId: 0100F2C011586000
   version:
