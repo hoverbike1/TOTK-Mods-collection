@@ -1,6 +1,6 @@
 id: 94201fd9-8f4d-4bb3-b87f-94ffc2b6e66d
 title: DynamicFPS
-subtitle:
+subtitle: Use with standalone fps mods only
 description:
 version: 1.5.2
 category: 1
@@ -18,4 +18,3 @@ compatibility:
     - 771f46a1-7593-4f67-832e-69839978f559
     - 006614d4-5626-4779-893f-0d06f4420a9e
 author:
-

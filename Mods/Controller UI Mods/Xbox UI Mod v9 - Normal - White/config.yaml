@@ -1,3 +1,4 @@
+---
 id: b36c7084-7df8-460c-bc93-0a372e4b98f1
 title: Xbox UI Mod V9 - Normal - White
 subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Xbox icons.
@@ -18,5 +19,4 @@ compatibility:
   blacklist:
   - 62ba7b3a-052e-457e-9424-bcf57ce75171
 author:
-    - name: Alerion921
-    - link: https://gamebanana.com/mods/443354
+    - { name: Alerion921, link: https://gamebanana.com/mods/443354 }

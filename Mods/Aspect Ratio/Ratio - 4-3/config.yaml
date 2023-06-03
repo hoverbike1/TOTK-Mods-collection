@@ -17,6 +17,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
-    - name: Fayaz
-      link: https://gamebanana.com/mods/updates/443462
+    - { name: Fayaz, link: https://gamebanana.com/mods/updates/443462 }
 

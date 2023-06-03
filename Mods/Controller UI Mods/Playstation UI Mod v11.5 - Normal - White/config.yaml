@@ -1,3 +1,4 @@
+---
 id: 137ba435-d6e0-41da-ba20-13685baf6471
 title: "Playstation UI Mod V11.5 - Normal - White"
 subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Playstation icons.
@@ -17,6 +18,5 @@ compatibility:
   whitelist:
   blacklist:
   - 62ba7b3a-052e-457e-9424-bcf57ce75171
-author:
-    - name: Alerion921
-    - link: https://gamebanana.com/mods/443201
+author:   
+    - { name: Alerion921, link: https://gamebanana.com/mods/443201 }
