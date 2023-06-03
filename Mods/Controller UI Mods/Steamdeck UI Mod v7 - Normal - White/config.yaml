@@ -18,5 +18,4 @@ compatibility:
   blacklist:
   - 62ba7b3a-052e-457e-9424-bcf57ce75171
 author:
-    - name: Alerion921
-    - link: https://gamebanana.com/mods/447721
+    - { name: Alerion921, link: https://gamebanana.com/mods/447721 }
