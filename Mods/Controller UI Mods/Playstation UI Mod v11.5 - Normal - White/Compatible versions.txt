@@ -1,4 +1,4 @@
-Mod type : Exefs and Romfs
+Mod type : Romfs
 
 1.1.2 : Yes
 1.1.1 : Yes
