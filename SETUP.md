@@ -12,7 +12,7 @@
   - Graphics - Anisotropic Filtering Fix
   - Graphics - Disable LOD Quality Reduction
   - Graphics - Shadows - 1024x
-  - Fix - Over 30FPS Blackscreen Fix
+  - Fix - UI Blackscreen Fix
   </br>**BEWARE!** Don't use the Blackscreen Fix if you use any controller UI mod (Playstation/Xbox). In this case use only the version "fix" of the controller mod.
 
 - **Recommended Yuzu Graphics:**
@@ -59,7 +59,7 @@
     - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
     - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
-    - Fix - Over 30FPS Blackscreen Fix (unless you are using a controller UI mod, which already has this)
+    - Fix - UI Blackscreen Fix (unless you are using a controller UI mod, which already has this)
     - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
     - Graphics - Disable LOD Quality Reduction
     - Graphics - LOD Improvement (Beta but soon will be promoted to recommended)
