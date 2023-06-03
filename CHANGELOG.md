@@ -1,5 +1,14 @@
 # Changelog
 
+v1.9 :
+- Now you can get mods specifically for your game version!
+- Added @Socats s Install Guide PDF and @SpockBauru Recommended Settings page.
+- Added Alerion's Xbox, Playstation & Steam Deck 'Controller UI Mods' - "Normal, white" versions.
+- Added Sweetmini's 10**80**p FXAA On/Off, with FSR Disabler and DynRes Disabler (breaks AO with resolution scale above 1x on Yuzu).
+- Updated Sweetmini's Improved LOD to v2.0 (improved performance compared to v1.0).
+- Renamed MarethyuX's "Over 30fps Blackscreen Fix" to "UI Blackscreen Fix" since is needed even for 30fps if you use DynamicFPS mods.
+- Cleaned outdated/broken mods.
+
 v1.8.5 :
 - Updated DynamicFPS++ (old FPS++) to version 0.5
 
