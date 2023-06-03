@@ -1,5 +1,5 @@
 id: ab4dc0a9-3e8c-4a53-b43b-9c5a83a7cbed
-title: New 1008p
+title: Sweetmini 1008p
 subtitle: FXAA On - Includes FSR and DynRes Disabler  - Zero AO Bugs
 description:
 version: 1.0.1
@@ -14,5 +14,8 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author:
+    - 0ef8f231-8d97-486e-bfa1-e40f578eed9d
+    - d356a7a2-4e8f-4187-8321-7f4d56d1a2f6
+author: 
+  - name: Sweetmini
 

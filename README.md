@@ -24,7 +24,7 @@
 </br>This mod may have less stuttering depending on your hardware. We recommend to test by yourself and compare with the combo Dynamic FPS and FPS 30/60 mods.
 </br>**BEWARE!** Incompatible with Dynamic FPS.
 
-- FPS - **Fix Over 30FPS Blackscreen Fix:** Fixes black background on weapon switch UI when playing above 30fps.
+- FPS - **Fix - UI Blackscreen Fix:** Fixes black background on weapon switch UI when playing above 30fps.
 </br>:exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.
 </br>This mod overwrite the Xbox UI and Playstation UI mods. Use the version "fix" of these mods instead (they include the Blackscreen-fix).
 
@@ -70,15 +70,18 @@
 </br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
-</br>:exclamation:Don't confuse 1080p and 1008p, they aren't the same number!
+</br>:exclamation:Don't confuse 10**80**p and 10**08**p, they aren't the same number!
   
-  - 1080p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x.
+  - 10**80**p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x.
   </br>*Ambient occlusion* is a rendering technique that simulates the exposure of ambient light on an object.
   </br>[AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)
   
-  - Chuck's 1008p (1792x1008) will not break AO above x1 resolution.
+  - Chuck's 10**08**p (1792x1008) will not break AO above x1 resolution.
   
-  - SweetMini's 1008p (1792x1008) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  - SweetMini's 10**08**p (1792x1008) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
+  
+  - SweetMini's 10**80**p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
   </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
   - 1026p (1824x1026) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA On or Off. Can cause artifacts in shadows, we don't recommend this option anymore.
@@ -221,6 +224,8 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - SweetMini 1008p Resolution : SweetMini, contribution by Socats and Darktalon
 
+- SweetMini 1080p Resolution : SweetMini, contribution by Socats and Darktalon
+
 - 1080p Resolution : ChucksFeedAndSeed
 
 - [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
@@ -235,7 +240,7 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 
 - Graphic - Disable Targeting DOF : theboy181
 
-- Fix - Over 30FPS Blackscreen Fix : by MarethyuX
+- Fix - UI Blackscreen Fix : by MarethyuX
 
 - Cheat - Durability (10x) : SweetMini
 

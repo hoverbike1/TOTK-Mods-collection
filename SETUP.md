@@ -4,6 +4,7 @@
 
 # Quick Setup
 **[Mods Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases)**
+- **Recommended Game Version:** 1.1.2
 - **Recommended Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
@@ -53,6 +54,7 @@
 
 # Detailed Setup
 **[Mods Download](https://github.com/HolographicWings/TOTK-Mods-collection/releases)**
+- **Recommended Game Version:** 1.1.2
 - **Recommended Mods:**
     - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
