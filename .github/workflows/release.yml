@@ -43,16 +43,16 @@ jobs:
         files: |
           Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.zip
           Releases/TOTK-Mods-collection_${{ github.ref_name }}_full.7z
-    - name: Checkout on main before pushing changes
-      uses: actions/checkout@v3
-      with:
-        ref: main
-        clean: false
-    - name: Push new releases on main
-      run: |
-        git status
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add Releases/
-        git commit -a -m "Pushing new release ${{ github.ref_name }}"
-        git push
+#    - name: Checkout on main before pushing changes
+#      uses: actions/checkout@v3
+#      with:
+#        ref: main
+#        clean: false
+ #   - name: Push new releases on main
+ #     run: |
+ #       git status
+#        git config user.name github-actions
+#        git config user.email github-actions@github.com
+#        git add Releases/
+#        git commit -a -m "Pushing new release ${{ github.ref_name }}"
+#        git push
