@@ -1,4 +1,4 @@
-# Mods collection for Zelda: Tears of the Kingdom
+# Mods collection for Zelda: Tears of the Kingdom (TOTK)
 
 #  [SURVEY of your Emulation performance and Recommended configuration, Please reply.](https://github.com/HolographicWings/TOTK-Mods-collection/issues/72)👍
 
@@ -70,24 +70,24 @@
 </br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
-</br>:exclamation:Don't confuse 10**80**p and 10**08**p, they aren't the same number!
+</br>:exclamation:Don't confuse 10**8**0p and 100**8**p, they aren't the same number!
   
-  - 10**80**p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x.
+  - 10**8**0p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x.
   </br>*Ambient occlusion* is a rendering technique that simulates the exposure of ambient light on an object.
   </br>[AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)
   
-  - Chuck's 10**08**p (1792x1008) will not break AO above x1 resolution.
+  - Chuck's 100**8**p (1792x1008) will not break AO above x1 resolution.
   
-  - SweetMini's 10**08**p (1792x1008) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  - SweetMini's 100**8**p (1792x1008) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
   </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
-  - SweetMini's 10**80**p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  - SweetMini's 10**8**0p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
   </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
   - 1026p (1824x1026) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA On or Off. Can cause artifacts in shadows, we don't recommend this option anymore.
   </br>:exclamation:"1026p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
-  - 1080p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.
+  - 10**8**0p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.
     - Breaks AO above 1x scale on Yuzu.
     - As written in the name, this mod disables FSR and FXAA too.
     - Uses code editing instead of game file editing.
@@ -108,20 +108,14 @@ To experience the best quality, we advise you to use an internal rendering resol
 - **Ratio:** Experimental - change the aspect ratio from 16:9.
   - You should change "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window".
   - Fixes the 3D scene render, but will cause the HUD to stretch.
-
-- **Combos:** They are all-in-one mods, don't combine them with unspecified mods, if you don't know what you are doing.
-  - **30/60fps + Dynamic FPS** are a simple Combo of these two mods, into one.
-  - **Light pack and Unlimited FPS** : Pack made by HolographicWings, combine Dynamic FPS, 1008p and Disable FSR, it's a minimal pack for a clean experience.
-You can use it with any Graphics other pack, ratio and cheats but it's not recommended.
-In order to play above 30 FPS, press Ctrl + U in game to unlock your framerate, like that you can play at 60, or more, with normal game speed.
-Don't forget to press Ctrl + U again, to lock back your framerate to 30fps, when you get a cutscene.
-  - Lazy Pack are made by Hover and merge several useful mods.
-</br>:exclamation:The versions without "UI Mod compatible" in their name Overwrites "Common.Product.110.Nin_NX_NVN.blarc.zs", don't install two mods overwriting the same file.
+  
+### Performance
+The main TOTK performance issue comes from the CPU and not the GPU, but unfortunately we don't have an easy way of increasing CPU performance.
 
 ### "Lazy Packs"
 
 **A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>
-"Lazy packs" are customized according to resolution, framerate, and UI mod compatibility.
+"Lazy packs" are are made by Hoverbike and merge several useful mods. They are customized according to resolution, framerate, and UI mod compatibility.
 UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.
 Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
 Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.
@@ -184,75 +178,43 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 // Credit: @OldManKain
 // 1080p, Disabled FXAA and FSR scaler v1.1.1
 </details>
-</br>
 
-- Cheats :
+## Cheats
   - 10x Durability overwrites all Weapons, Bows, Shields, don't install two mods overwriting the same file.
   - The Movement Speed cheats breaks the game time (time will be wrong when saving)
   - Stamina cheat doesn't seem to work.
   - Infinite amiibo usage is pointless since yuzu has a similar feature, go in Yuzu settings → Controls → Advanced and check "Use random Amiibo ID".
-  - Beware, all cheats can cause unwanted side effects.
+  - **Beware, all cheats can cause unwanted side effects.**
 
-</br>
-</br>The main TOTK performance issue comes from the CPU and not the GPU, but unfortunately we don't have an easy way of increasing CPU performance.
-</br>
-</br>
-</br>Other good mods :
+## Other good mods
 
-- [Xbox / Steam Deck UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
-
-- [Playstation UI + Blackscreenfix](https://gamebanana.com/mods/443201) by Alerion921
-
+- [Controller UI Mods (Playstation/Xbox/SteamDeck](https://gamebanana.com/members/1944248) by Alerion921
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
-
-- [Updated 1.1.1 and 1.1.2 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) by bad1dea
-
+- [Updated 1.1.1 and 1.1.2 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) by bad1dea.
 - [21'9 HUD Fix v7 + Western Controller UI (Xbox&PS)](https://gamebanana.com/mods/447208) by Jaddey
 
-</br>Useful links :
+## Useful links
 
 - [Save Editor](https://www.marcrobledo.com/savegame-editors/zelda-totk/) by Marc Robledo
-</br>
 
-</br>Copyright and source of mods :
+## Copyright and source of mods
 
 - [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
-
 - [DynamicFPS](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : ChucksFeedAndSeed
-
 - [DynamicFPS++](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : somerandompeople
-
-- SweetMini 1008p Resolution : SweetMini, contribution by Socats and Darktalon
-
-- SweetMini 1080p Resolution : SweetMini, contribution by Socats and Darktalon
-
+- SweetMini 1008p and 1080p Resolution : SweetMini, contribution by Socats and Darktalon
 - 1080p Resolution : ChucksFeedAndSeed
-
-- [Combo - VisualFixes](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
-
 - Graphic patches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
-
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
-
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
-
 - FPS - Cutscene-fix : theboy181
-
 - Graphic - Disable Targeting DOF : theboy181
-
 - Fix - UI Blackscreen Fix : by MarethyuX
-
 - Cheat - Durability (10x) : SweetMini
-
 - Cheat - Time of day : FrostedMint
-Unknown compatibily with FPS, Dynamic FPS and DynamicFPS++ mods, testing is required, open an issue to report the result if you tried.
-
+  </br>Unknown compatibily with FPS, Dynamic FPS and DynamicFPS++ mods, testing is required, open an issue to report the result if you tried.
 - Graphics - Disable Internal FXAA v2 : SweetMini
-
 - Graphics - Island Fix : SweetMini
-
 - Graphics - LOD Improvement : SweetMini
-
 - Graphics - Vertical Sensitivity Fix: igoticecream
-
 - Resolution - 1026p : Zeikken
