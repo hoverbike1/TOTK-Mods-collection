@@ -10,7 +10,7 @@
   - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
   - FPS - DynamicFPS
   - Graphics - Anisotropic Filtering Fix
-  - Graphics - Disable LOD Quality Reduction
+  - Graphics - LOD Improvement
   - Graphics - Shadows - 1024x
   - Fix - UI Blackscreen Fix
   </br>**BEWARE!** Don't use the Blackscreen Fix if you use any controller UI mod (Playstation/Xbox). In this case use only the version "fix" of the controller mod.
@@ -61,8 +61,7 @@
     - FPS - DynamicFPS - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
     - Fix - UI Blackscreen Fix (unless you are using a controller UI mod, which already has this)
     - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
-    - Graphics - Disable LOD Quality Reduction
-    - Graphics - LOD Improvement (Beta but soon will be promoted to recommended)
+    - Graphics - LOD Improvement - Version 2.0 improve LOD while also having a minor performance improvement. More info on the [README](README.md)
     - Graphics - Shadows - 1024x - highest stable (Fix weird shadow flickering and broken Gloom)
 
 - **Recommended Yuzu Graphics:**

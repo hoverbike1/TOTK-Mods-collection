@@ -41,14 +41,13 @@
 
 - Graphics - **LOD Improvement:** Increases the Level of Detail on certain models.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
-</br>Potentially has a minor performance impact.
-</br>Compatible with "Disable LOD Quality Reduction" mod.
+</br>Version 2.0 has a minor performance improvement (we spent days testing on different hardware to believe it). Our theory is that less model swappings helps the emulator because there's less things changing at the same time.
 </br>[Comparison On/Off](https://imgsli.com/MTgyMzE5)
 
-- Graphics - **Disable LOD Quality Reduction:** when low FPS : Prevents the LOD decreasing when your framerate is under 30fps.
+- Graphics - **Disable LOD Quality Reduction:** Prevents the LOD decreasing when your framerate is under 30fps.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
 </br>By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
-</br>Compatible with "LOD Improvement" mod.
+</br>**BEWARE!** Do not use with Sweetmini resolution mods. Mandatory if using Chucks Resolution Mods.
 
 - Graphics - **Island Fix:** Fix the Outline edges around the Sky Islands bugged over 2x resolution scaling.
 </br>Only required if your Resolution scale in Graphics settings" is over 1x. May cause edge artifacts.
