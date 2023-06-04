@@ -8,7 +8,7 @@
 - **Recommended Mods:**
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
-  - FPS - DynamicFPS v1.5.1
+  - FPS - DynamicFPS
   - Graphics - Anisotropic Filtering Fix
   - Graphics - Disable LOD Quality Reduction
   - Graphics - Shadows - 1024x
@@ -58,7 +58,7 @@
 - **Recommended Mods:**
     - Resolution - SweetMini 1008p - FXAA Off (or On, this is personal preference) - Includes FSR and DynRes Disabler - Zero AO Bugs
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
-    - FPS - DynamicFPS v1.5.1 - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
+    - FPS - DynamicFPS - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
     - Fix - UI Blackscreen Fix (unless you are using a controller UI mod, which already has this)
     - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
     - Graphics - Disable LOD Quality Reduction
