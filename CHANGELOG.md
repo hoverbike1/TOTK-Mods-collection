@@ -1,4 +1,16 @@
 # Changelog
+v1.9.2.3 :
+- Fixed files for mods managers.
+
+v1.9.2.2 :
+- Graphics, Aspect Ratio, FPS and Resolution rebuilt with the same strategy as Cheats.
+
+v1.9.2.1 :
+ - Cheats folder structure rebuilt for better reading legibility.
+
+v1.9.2 : 
+- Over 50 new cheats, for version 1.1.2 only.
+- Updated Readme and Guide with new recommendations.
 
 v1.9.1 : 
 - Updated ChucksFeedAndSeed's DynamicFPS to 1.5.2.
