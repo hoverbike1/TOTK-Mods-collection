@@ -16,4 +16,4 @@ compatibility:
   whitelist:
   blacklist:
 author: 
-  - name: MarethyuX
+  - { name: MarethyuX, link: https://www.reddit.com/user/MarethyuX/ }

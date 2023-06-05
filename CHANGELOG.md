@@ -138,10 +138,10 @@ v.1.4.5 :
 
 v.1.4.4:
 - New series of combo patches - "Lazy Packs"!
-<b>A single patch containing all patches that you want 
-Simply choose a "lazy pack" with the desired resolution, framerate, and UI mod compatibility.  
-UI compatibility means that the patch is compatible with mods such as the Xbox UI mod above.  
-Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
+<br>A single patch containing all patches that you want 
+<br>Simply choose a "lazy pack" with the desired resolution, framerate, and UI mod compatibility.  
+<br>UI compatibility means that the patch is compatible with mods such as the Xbox UI mod above.  
+<br>Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
 - Updated guide! Click the fourth, bottom arrow in this release post to see
 
 v1.4.3 : 

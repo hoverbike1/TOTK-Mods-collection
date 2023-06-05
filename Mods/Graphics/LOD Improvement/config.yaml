@@ -14,5 +14,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: Sweetmini
+author: 
+  - { name: Sweetmini, link: }
 

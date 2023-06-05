@@ -1,4 +1,4 @@
-id: d6872271-b722-4948-8c2a-41a196ccba6e
+id: da552403-cff8-41c8-b403-5a5bdf19eac2
 title: Ignore Paralysis & Slow Effects
 subtitle:
 description:
@@ -14,5 +14,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: NXCheats
+author:
+  - {  name: NXCheats, link: https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom/0100F2C0115B6000%20v262144%20for%20Yuzu }
 

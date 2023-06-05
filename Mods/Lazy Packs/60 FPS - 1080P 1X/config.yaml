@@ -17,5 +17,5 @@ compatibility:
   blacklist:
   - 62ba7b3a-052e-457e-9424-bcf57ce75171
 author:
-    - name: ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini
+    - { name: 'ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini' }
 

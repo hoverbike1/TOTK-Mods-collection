@@ -1,4 +1,4 @@
-id: d6872271-b722-4948-8c2a-41a196ccba6e
+id: 1e71421f-7950-47a7-94fd-3fc8747e4399
 title: Damage Multiplier (10x)
 subtitle:
 description:
@@ -14,5 +14,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: NXCheats
+author:
+  - {  name: NXCheats, link: https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom/0100F2C0115B6000%20v262144%20for%20Yuzu }
 

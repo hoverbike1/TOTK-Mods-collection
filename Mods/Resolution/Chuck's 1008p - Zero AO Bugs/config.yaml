@@ -16,4 +16,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
+  - { name: ChucksFeedAndSeed, link: https://www.reddit.com/user/ChucksFeedAndSeed/ }
 

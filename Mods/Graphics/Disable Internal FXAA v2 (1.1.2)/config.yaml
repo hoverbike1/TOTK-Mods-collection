@@ -14,4 +14,4 @@ compatibility:
   whitelist:
   blacklist:
 author:
-
+  - { name: Sweetmini, link: }

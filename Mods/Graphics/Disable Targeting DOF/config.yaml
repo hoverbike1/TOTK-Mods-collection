@@ -17,4 +17,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
+  - { name: theboy181, link: }
 
