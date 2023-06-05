@@ -1,0 +1,2 @@
+[#38a Item Pickup Multiplier (2x)]
+040E0000 0162F888 52800041

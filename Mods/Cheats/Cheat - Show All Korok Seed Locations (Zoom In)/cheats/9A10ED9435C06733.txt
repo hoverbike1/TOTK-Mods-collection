@@ -1,0 +1,2 @@
+[#42. Show All Korok Seed Locations (Must Zoom In)]
+040E0000 00D32310 14000019

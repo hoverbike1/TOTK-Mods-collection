@@ -1,0 +1,2 @@
+[#16. Faster Weapon Charge]
+040E0000 015DDC8C 1E211000

@@ -1,0 +1,3 @@
+[#09. Perfect Goldilocks Thermometer (No Hot or Cold)]
+040E0000 00B41684 2A1F03E0
+040E0000 00B41750 2A1F03E0

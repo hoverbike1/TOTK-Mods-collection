@@ -1,0 +1,2 @@
+[#34. Inf. Zonai Device Duration (No Blink + Despawn)]
+040E0000 0126C19C 1E2703E1
