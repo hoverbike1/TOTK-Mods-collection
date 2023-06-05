@@ -32,9 +32,9 @@
 - **Recommended Yuzu Advanced Graphics:**
   - Accuracy Level: Normal
   - ASTC recompression depends on your GPU vRAM:
-    </br>BC1 for 2GB,
-    </br>BC3 for 4-8GB,
-    </br>Uncompressed for more.
+    - BC1 for 2GB,
+    - BC3 for 4-8GB,
+    - Uncompressed for more.
   - Enable asynchronous presentation (Vulkan only): Off
   - Force maximum clocks (Vulkan only): Off
   - Decode ASTC textures asynchronously: Off
@@ -45,7 +45,7 @@
   - Use Vulkan Pipeline Cache: On
   - Anisotropic Filtering: x16
 
-- After setup your configurations should look like this:
+- After setup your configurations should look like this example (your settings may vary, read above):
 
 ![Recommended Settings](Guide/Readme_Recommendations.png)
 

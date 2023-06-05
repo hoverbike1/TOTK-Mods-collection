@@ -1,5 +1,16 @@
 # Changelog
 
+v1.9.1 : 
+- Updated ChucksFeedAndSeed's DynamicFPS to 1.5.2.
+Changelog of the mod : 
+  -  added hitch detection similar to FPS++ (thanks to SomeRandomPeople)
+  -  added game-speed smoothing, helps with jittery gliding animations, likely other animations too
+  -  added sensitivity fixes when in conversations, sensitivity should now remain the same as 30FPS across all framerates
+  -  extended conversation fix to innkeeper conversations too (likely other kinds still need sensitivity fixes too, let me know if you find any)
+  -  changed max framerate limit from 288FPS to 145FPS, appears to help with shrine out-of-bounds glitches when using limiter disabled
+  -  minor fix to framelimiter code, might help make 30FPS video playback smoother
+  -  code reorganization, very minor tweaks (will try and setup a repo for it soon)
+
 v1.9 :
 - Now you can get mods specifically for your game version!
 - Added @Socats s Install Guide PDF and @SpockBauru Recommended Settings page.
