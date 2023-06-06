@@ -68,6 +68,11 @@
 </br>Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
 </br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 
+- Graphics - **Camera JPEG Quality Increase:** Enhance the picture quality allowing camera photos to look much better quality & less compressed.
+</br>:exclamation: If you disable this mod & then play the game with any photos saved from using this mod, your albums tab will likely hang the game while any larger photos are still around.
+You can clear the photos by just going into your savegame album folder & deleting them, anything larger than 64KB was likely taken from this mod.
+</br>**BEWARE!** "Camera JPEG Quality Increase" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file like **Sweetmini resolution mods and FXAA Disabler**.
+
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
 </br>:exclamation:Don't confuse 10**8**0p and 100**8**p, they aren't the same number!
   
