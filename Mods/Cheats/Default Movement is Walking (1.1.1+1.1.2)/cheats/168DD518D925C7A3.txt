@@ -1,0 +1,2 @@
+[#30. Default Movement is Walking]
+040E0000 01D72AE0 396B6288

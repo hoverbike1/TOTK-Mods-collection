@@ -1,0 +1,2 @@
+[#38c Item Pickup Multiplier (8x)]
+040E0000 0163D988 52800101

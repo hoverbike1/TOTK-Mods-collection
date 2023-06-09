@@ -1,5 +1,5 @@
-id: 2f221032-7c1b-47cd-9a84-a31f697a3976
-title: Infinite Materials & Zonai Devices
+id: 0e30df71-7381-4de1-aa65-3b133172b92d
+title: Movement Speed (1.5x)
 subtitle:
 description:
 version: 1.1.2
@@ -9,6 +9,7 @@ game:
   version:
     - 1.1.2
     - 1.1.1
+    - 1.1.0
 emulator:
   - 1
   - 2

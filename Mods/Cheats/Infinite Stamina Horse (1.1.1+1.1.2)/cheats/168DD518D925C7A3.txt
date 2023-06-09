@@ -1,0 +1,2 @@
+[#06. Inf. Horse Stamina]
+040E0000 01CB6060 D503201F
