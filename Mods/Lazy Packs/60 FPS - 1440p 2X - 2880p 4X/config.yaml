@@ -1,0 +1,21 @@
+id: 0f45f20e-b015-4bb3-a53d-7ed307903841
+title: Lazy Pack - 60 FPS - 1440p 2X - 2880p 4X
+subtitle: 'it just werks'
+description: Combination of over a dozen patches. Compatible with most mods. Use UI Mod Compatible version if you want to use a controller mod such as Playstation UI.
+version: 3
+category: 6
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author: 
+    - { name: 'ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini' }
+    

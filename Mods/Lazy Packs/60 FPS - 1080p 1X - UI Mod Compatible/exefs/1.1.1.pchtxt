@@ -1,0 +1,73 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: Wollnashorn
+// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
+@enabled
+008714D0 28E0A0F2    // movk x8,#0x701, LSL #16
+@stop
+
+// Force bilinear terrain samplers to be trilinear
+@enabled
+0069B218 4A008052    // mov w10,#0x2
+@stop
+
+// Credit: ChucksFeedAndSeed
+// Disable quality reduction when framerate dips
+// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
+@enabled
+00CC1C2C C0000014
+@stop
+
+// Shadows 1024x1024
+@enabled
+00BF002C 0B808052
+00BF0030 17000014
+@stop
+
+// Disable FSR scaling
+@enabled
+00CC1C20 08008052
+@stop
+
+// Credit: Sweetmini
+// LOD Improvement
+@enabled
+027E07F8 10000014
+@stop
+
+// Credit: SomeRandomPeople
+// FILE VERSION 0.4.4 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
+// Set 60 FPS Framecap
+@enabled
+00ECF81C 21008052
+0081FFB8 35008052
+00820028 28008052
+0081FFC0 2C008052
+0081FF0C EB031F2A
+019BCC40 1F2003D5
+019C84D8 1F2003D5
+@stop
+
+// Credit: theboy181 & OldManKain
+// Removes the DOF effect when targeting
+@enabled
+00C25898 C0035FD6
+@stop
+
+// set 1080p
+@enabled
+00CECC0C 15000014
+@stop
+
+// Disable FXAA
+@enabled
+00CC1C10 08008052
+@stop
+
+// Lens-flare Removal
+@enabled
+02A4A1E0 1F2003D5
+@stop

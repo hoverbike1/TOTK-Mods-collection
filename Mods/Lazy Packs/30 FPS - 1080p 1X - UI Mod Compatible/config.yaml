@@ -1,0 +1,21 @@
+id: a7c96bac-c052-4693-ae49-1cf0f5a2d4de
+title: Lazy Pack - 30 FPS - 1080p 1X - UI Mod Compatible
+subtitle: 'it just werks'
+description: Combination of over a dozen patches. Compatible with most mods. This one is compatible with your controller mod.
+version: 3
+category: 6
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author: 
+    - { name: 'ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini' }
+    
