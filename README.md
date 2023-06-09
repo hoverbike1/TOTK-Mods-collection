@@ -47,7 +47,7 @@
 - Graphics - **Disable LOD Quality Reduction:** Prevents the LOD decreasing when your framerate is under 30fps.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
 </br>By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
-</br>**BEWARE!** Do not use with Sweetmini resolution mods. Mandatory if using Chucks Resolution Mods.
+</br>**BEWARE!** Mandatory if using Chucks Resolution Mods (Or another Pchtxt resolution Mod). Not necessary with Sweetmini resolution Mods, especially if you use LOD Improvement Mod.
 
 - Graphics - **Island Fix:** Fix the Outline edges around the Sky Islands bugged over 2x resolution scaling.
 </br>Only required if your Resolution scale in Graphics settings" is over 1x. May cause edge artifacts.
