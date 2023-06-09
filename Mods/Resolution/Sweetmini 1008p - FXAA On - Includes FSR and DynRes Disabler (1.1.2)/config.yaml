@@ -1,8 +1,8 @@
-id: 599b778c-add3-455f-8554-4fb39c925f11
-title: Sweetmini 1080p
-subtitle: FXAA Off - Includes FSR and DynRes Disabler - Bugs AO
+id: 9908e2a4-91b4-41a2-b16e-10c1974885af
+title: Sweetmini 1008p
+subtitle: FXAA On - Includes FSR and DynRes Disabler
 description:
-version: 1.0.0
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C011586000
