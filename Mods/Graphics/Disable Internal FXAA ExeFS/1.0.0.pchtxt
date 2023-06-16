@@ -1,12 +1,17 @@
-@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+// The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] - Disable FXAA v1.0.0
 
 @flag print_values
 @flag offset_shift 0x100
 
-// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
-// Compilation/distribution of exefs FXAA by Bighead. Because I'm not 100% sure of who did what I just gave credit to
-// everyone involved up to this point. I also list myself as someone to point fingers at if I messed anything up.
+// Disables FXAA
 
 @enabled
-00CAD330 08008052
+00C40A70 08008052
 @stop
+
+// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
+
+// Compilation/distribution of exefs FXAA by Bighead. Because I'm not 100% sure of who did what I just gave credit to
+// everyone involved up to this point. I also list myself as someone to point fingers at if I messed anything up.
