@@ -1,4 +1,4 @@
-@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE6
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
 
 @flag print_values
 @flag offset_shift 0x100
@@ -6,7 +6,7 @@
 // Credit: theboy181 & OldManKain
 // disable FXAA
 @enabled
-00C76FE0 08008052
+00CC1C10 08008052
 @stop
 
 // derived from OldManKain 1080p patch
