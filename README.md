@@ -169,7 +169,7 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/ <br>
 // 30/60 FPS Static<br>
 
-// Credit: @NXCheats<br>
+// Credit: @bad1dea<br>
 // Docked 720p<br>
 
 // Credit: @Sweetmini<br>
@@ -177,12 +177,12 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // LOD Improvement 1.1.1/1.1.2<br>
 // Lens Flare Removal 1.1.1/1.1.2<br>
   
-// Credit: @StevenssND
+// Credit: @StevensND<br>
 // Sky Island Fix 1.1.0<br>
 // LOD Improvement 1.1.0<br>
 // Lens Flare Removal 1.1.0<br>
   
-// Credit: @OldManKain & theboy181 <br>
+// Credit: @OldManKain & @theboy181 <br>
 // 1080p Resolution 1.1.1/1.1.2<br>
 // Disable FXAA<br>
 // DOF Removal <br>
@@ -232,5 +232,5 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 - Graphics - LOD Improvement : SweetMini
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
-- Thanks to StevenssND for providing us with multiple ports to 1.1.0, including Island Fix, LOD Improvements and Lens Flare Removal
+- Thanks to StevensND for providing us with multiple ports to 1.1.0, including Island Fix, LOD Improvements and Lens Flare Removal
 - Thanks to MaxLastBreath for providing us with multiple ports to 1.0.0, including Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches. 
