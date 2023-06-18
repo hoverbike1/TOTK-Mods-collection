@@ -156,7 +156,6 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 <br>
 
 // Credit: @ChucksFeedAndSeed<br>
-// Disable LOD Reduction<br>
 // Shadow Resolution set to 1024<br>
 // Disable LOD Reduction 1.1.0/1.1.1/1.1.2<br>
 // Disable FSR Scaling 1.1.0/1.1.1/1.1.2<br>
