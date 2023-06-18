@@ -168,7 +168,7 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // 30/60 FPS Static<br>
 
 // Credit: @bad1dea<br>
-// Docked 720p<br>
+// 720p resolution 1.1.0/1.1.1/1.1.2<br>
 
 // Credit: @Sweetmini<br>
 // Sky Island Fix 1.1.1/1.1.2<br>
@@ -179,6 +179,12 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // Sky Island Fix 1.1.0<br>
 // LOD Improvement 1.1.0<br>
 // Lens Flare Removal 1.1.0<br>
+
+// Credit: @MaxLastBreath
+// Sky Island Fix 1.0.0
+// Lens Flare Removal 1.0.0
+// 1080p resolution 1.0.0
+// 720p resolution 1.0.0
   
 // Credit: @OldManKain & @theboy181 <br>
 // 1080p Resolution 1.1.1/1.1.2<br>
