@@ -1,4 +1,24 @@
 # Changelog
+v2.0
+- <b> Mod Managers released by both 89Pleasure and Vasilvestre! Check them out above!</b>
+- <b>Lazy packs now support game version 1.1.2!</b>
+<details>
+<summary> Click to view lazy pack changes</summary>
+
+  - Now compatible with game version 1.1.2! All of the best patches, combined <b>correctly</b> into a single patch solution.
+  - Scaling specific versions. Some patches used when scaling above 1X, are not desirable <b>at 1X.</b>
+  - Updated a number of patches, such as dynamicFPS.
+  - Generally cleaned everything up, made it real nice, mostly for my own sanity moving forward, as these patches update.
+
+</details>
+
+- Included ChucksFeedAndSeed's "Camera JPEG Quality Increase" mod.
+- Major additions to cheats! Over 50 new cheats for 1.1.1!
+- Fixed missing/bugged mods.
+- Deleted "Disable Dynamic Resolution" Mod. When Low FPS it was causing crashes and Disable LOD Quality Reduction have similar effects.
+- Renamed some mods and edited guide/recommendations with latest EA update in mind.
+- **We are moving to weekly releases to improve stability.**
+
 v1.9.2.3 :
 - Fixed files for mods managers.
 
