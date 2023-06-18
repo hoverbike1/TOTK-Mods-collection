@@ -1,0 +1,10 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: Port by MaxLastBreath, based on Chucks/Patchanons 1080p patches
+// set 1080p
+@enabled
+00c6325c 15000014
+@stop

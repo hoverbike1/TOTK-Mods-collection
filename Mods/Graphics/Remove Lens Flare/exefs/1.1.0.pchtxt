@@ -1,0 +1,11 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+	
+@flag print_values
+@flag offset_shift 0x100
+
+
+// Lens Flare 1.1.0 (StevenssND port)
+// Credit: SweetMini (u/StevenssND port)
+@enabled
+02A42490 1F2003D5
+@stop

@@ -1,0 +1,11 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+	
+@flag print_values
+@flag offset_shift 0x100
+
+
+// Credit: SweetMini - Ported by MaxLastBreath
+// Sky island fix
+@enabled
+029d1574 00102A1E
+@stop
