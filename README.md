@@ -150,61 +150,61 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 <details>
 <summary>Click to view the patches included in the lazy pack </summary>
 
-// Credit: @Wollnashorn
-// Force bilinear terrain samplers to be trilinear
-// Set mipmap filter to nearest on shadow map sampler
+// Credit: @Wollnashorn<br>
+// Force bilinear terrain samplers to be trilinear<br>
+// Set mipmap filter to nearest on shadow map sampler<br>
 <br>
 
-// Credit: @ChucksFeedAndSeed
-// Disable LOD Reduction
-// Shadow Resolution set to 1024
-// Disable LOD Reduction 1.1.0/1.1.1/1.1.2
-// Disable FSR Scaling 1.1.0/1.1.1/1.1.2
-// DynamicFPS 1.5.2
+// Credit: @ChucksFeedAndSeed<br>
+// Disable LOD Reduction<br>
+// Shadow Resolution set to 1024<br>
+// Disable LOD Reduction 1.1.0/1.1.1/1.1.2<br>
+// Disable FSR Scaling 1.1.0/1.1.1/1.1.2<br>
+// DynamicFPS 1.5.2<br>
 <br>
 
-// Credit: @Patchanon
-// 1080p Resolution 1.1.0
-// Disable FSR Scaling 1.0.0
-// Disable LOD Reduction 1.0.0
+// Credit: @Patchanon<br>
+// 1080p Resolution 1.1.0<br>
+// Disable FSR Scaling 1.0.0<br>
+// Disable LOD Reduction 1.0.0<br>
 <br>
 
-// Credit: @somerandompeople
-// SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
-// 30/60 FPS Static
+// Credit: @somerandompeople<br>
+// SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/<br>
+// 30/60 FPS Static<br>
 <br>
 
-// Credit: @bad1dea
-// 720p resolution 1.1.0/1.1.1/1.1.2
+// Credit: @bad1dea<br>
+// 720p resolution 1.1.0/1.1.1/1.1.2<br>
 <br>
 
-// Credit: @Sweetmini
-// Sky Island Fix 1.1.1/1.1.2
-// LOD Improvement 1.1.1/1.1.2
-// Lens Flare Removal 1.1.1/1.1.2
+// Credit: @Sweetmini<br>
+// Sky Island Fix 1.1.1/1.1.2<br>
+// LOD Improvement 1.1.1/1.1.2<br>
+// Lens Flare Removal 1.1.1/1.1.2<br>
 <br>
   
-// Credit: @StevensND
-// Sky Island Fix 1.1.0
-// LOD Improvement 1.1.0
-// Lens Flare Removal 1.1.0
+// Credit: @StevensND<br>
+// Sky Island Fix 1.1.0<br>
+// LOD Improvement 1.1.0<br>
+// Lens Flare Removal 1.1.0<br>
 <br>
 
-// Credit: @MaxLastBreath
-// Sky Island Fix 1.0.0
-// Lens Flare Removal 1.0.0
-// 1080p resolution 1.0.0
-// 720p resolution 1.0.0
+// Credit: @MaxLastBreath<br>
+// Sky Island Fix 1.0.0<br>
+// Lens Flare Removal 1.0.0<br>
+// 1080p resolution 1.0.0<br>
+// 720p resolution 1.0.0<br>
 <br>
 
-// Credit: @OldManKain & @theboy181
-// 1080p Resolution 1.1.1/1.1.2
-// Disable FXAA
-// DOF Removal
+// Credit: @OldManKain & @theboy181<br>
+// 1080p Resolution 1.1.1/1.1.2<br>
+// Disable FXAA<br>
+// DOF Removal<br>
 <br>
   
-// Credit: @Marethyu
-// Blackscreen-fix
+// Credit: @Marethyu<br>
+// Blackscreen-fix<br>
 <br>
 
 </details>
