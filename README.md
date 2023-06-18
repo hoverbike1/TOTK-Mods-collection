@@ -121,8 +121,9 @@ Using an non-compatible version, along with a UI mod, will result in the UI mod 
 Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
 
 <details><summary> Click to view how to use the lazy pack</summary>
-<a href="https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/SETUP.md#gh-light-mode-only">Follow this guide to configure Yuzu correctly for Tears of the Kingdom.</a><br>
-Install Tears of the Kingdom Patch 1.1.0., 1.1.1 or 1.1.2 - I recommend 1.1.2<br>
+<a href="https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/Guide/Guide.pdf">Follow this guide to configure Yuzu correctly for Tears of the Kingdom.</a><br>
+Update your Tears of the Kingdom - I recommend 1.1.2, however, the patches work on all versions of the game.<br>
+Pick a single Lazy Pack that suits your needs.
 Decide on a framerate. 30 or 60?<br>
 Decide on a resolution. 720p, 1080p, 1440p, 4K or 8K?<br>
 Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked below, some of which we also ship in the archive.<br>
