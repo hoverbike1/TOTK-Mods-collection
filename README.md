@@ -156,36 +156,39 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // Force bilinear terrain samplers to be trilinear<br>
 // Set mipmap filter to nearest on shadow map sampler<br>
 
-// Credit: @Marethyu<br>
-// Blackscreen-fix<br>
-
 // Credit: @ChucksFeedAndSeed<br>
-// Disable Dynamic Resolution<br>
-// Disable FSR sharpening filter<br>
+// Disable LOD Reduction<br>
 // Shadow Resolution set to 1024<br>
-// FXAA disabler V1<br>
-// LOD fix<br>
+// Disable FSR Scaling<br>
+// DynamicFPS 1.5.2
 
 // Credit: @Patchanon<br>
-// Disable FSR up/downscaling<br>
-// Disable LOD reduction when framerate dips v1.1.0<br>
-// 1080p v1.1.0<br>
+// 1080p Resolution 1.1.0<br>
 
 // Credit: @somerandompeople<br>
 // SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/ <br>
-// Disable LOD reduction when framerate dips v1.1.1
-// 30/60 FPS++<br>
+// 30/60 FPS Static<br>
 
-// Credit: @ChanseyIsTheBest<br>
+// Credit: @NXCheats<br>
 // Docked 720p<br>
 
-// Credit: @OldManKain<br>
-// 1080p, Disabled FXAA and FSR scaler v1.1.1<br>
-
 // Credit: @Sweetmini<br>
-Sky Island Fix<br>
-LOD Improvement<br>
-FXAA Disabler V2<br>
+// Sky Island Fix 1.1.1/1.1.2<br>
+// LOD Improvement 1.1.1/1.1.2<br>
+// Lens Flare Removal 1.1.1/1.1.2<br>
+  
+// Credit: @StevenssND
+// Sky Island Fix 1.1.0<br>
+// LOD Improvement 1.1.0<br>
+// Lens Flare Removal 1.1.0<br>
+  
+// Credit: @OldManKain & theboy181 <br>
+// 1080p Resolution 1.1.1/1.1.2<br>
+// Disable FXAA<br>
+// DOF Removal <br>
+  
+// Credit: @Marethyu<br>
+// Blackscreen-fix<br>
 
 </details>
 
