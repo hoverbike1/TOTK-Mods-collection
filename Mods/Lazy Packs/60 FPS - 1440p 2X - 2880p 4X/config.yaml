@@ -10,6 +10,7 @@ game:
     - 1.1.2
     - 1.1.1
     - 1.1.0
+    - 1.0.0
 emulator:
   - 1
   - 2
@@ -17,5 +18,5 @@ compatibility:
   whitelist:
   blacklist:
 author: 
-    - { name: 'ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini' }
+    - { name: 'ChucksFeedAndSeed, Marethyu, Wollnashorn, Patchanon, somerandompeople, ChanseyIsTheBest, OldManKain, Sweetmini, StevensND, MaxLastBreath' }
     
