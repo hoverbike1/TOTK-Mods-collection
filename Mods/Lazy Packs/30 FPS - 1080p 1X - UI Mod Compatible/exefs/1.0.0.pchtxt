@@ -1,0 +1,71 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: Wollnashorn
+// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
+@enabled
+00895558 28E0A0F2    // movk x8,#0x701, LSL #16
+@stop
+
+// Force bilinear terrain samplers to be trilinear
+@enabled
+0070CD2C 4A008052    // mov w10,#0x2
+@stop
+
+// Credit: Patchanon 
+// Disable quality reduction when framerate dips
+@enabled
+00C40A8C C0000014
+@stop
+
+// Disable FSR downscaling
+@enabled
+00C40A70 08008052
+@stop
+
+// Credit: ChucksFeedAndSeed
+// Shadows Resolution 1024
+@enabled
+00B7214C 0B808052
+00B72150 17000014
+@stop
+
+// Disables FXAA
+// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
+@enabled
+00C40A70 08008052
+@stop
+
+// Credit: SweetMini - 1.0 Port by MaxLastBreath
+// Lens Flare Removal
+@enabled
+029ca250 1F2003D5
+@stop
+
+// Credit: Port by MaxLastBreath, based on Chucks/Patchanons 1080p patches
+// set 1080p
+@enabled
+00c6325c 15000014
+@stop
+
+// Credit: SomeRandomPeople
+// Set 30 FPS Framerate Cap
+@enabled
+00E9D8A0 41008052
+008F6D90 48008052
+008F6C74 EB031F2A
+0196591C 1F2003D5
+019707AC 1F2003D5
+008F6C78 55008052
+008F6CAC 41008052
+008F6D28 4C008052
+008F6D20 55008052
+@stop
+
+// Credit: theboy181
+// Removes the DOF effect when targeting
+@enabled
+00BD0f14 C0035FD6
+@stop
