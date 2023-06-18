@@ -74,23 +74,20 @@ You can clear the photos by just going into your savegame album folder & deletin
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
 </br>:exclamation:Don't confuse 10**8**0p and 100**8**p, they aren't the same number!
   
-  - 10**8**0p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x.
-  </br>*Ambient occlusion* is a rendering technique that simulates the exposure of ambient light on an object.
-  </br>[AO vs no AO](https://imgsli.com/MTc5MTI4/2/3)
+  - Chuck's 10**8**0p (1920x1080) resolution.
   
-  - Chuck's 100**8**p (1792x1008) will not break AO above x1 resolution.
+  - Chuck's 100**8**p (1792x1008) resolution.
   
-  - SweetMini's 100**8**p (1792x1008) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  - SweetMini's 100**8**p (1792x1008) Automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
   </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
-  - SweetMini's 10**8**0p (1920x1080) when scaled above 1x resolution will break *Ambient Occlusion (AO)* (unless you use a custom Yuzu build created by ChucksFeedandSeed). Use if you are using Resolution at 1x. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
+  - SweetMini's 10**8**0p (1920x1080) Automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA on or off.
   </br>:exclamation:"SweetMini 1008p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
-  - 1026p (1824x1026) will not break AO above x1 resolution. It also automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA On or Off. Can cause artifacts in shadows, we don't recommend this option anymore.
+  - 1026p (1824x1026) Automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA On or Off. Can cause artifacts in shadows, we don't recommend this option anymore.
   </br>:exclamation:"1026p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
   
   - 10**8**0p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.
-    - Breaks AO above 1x scale on Yuzu.
     - As written in the name, this mod disables FSR and FXAA too.
     - Uses code editing instead of game file editing.
   
