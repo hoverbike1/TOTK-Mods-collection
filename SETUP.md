@@ -33,7 +33,7 @@
   - Accuracy Level: Normal
   - ASTC recompression depends on your GPU vRAM:
     - BC1 for 2GB,
-    - BC3 for 4-8GB,
+    - BC3 for 4-6GB,
     - Uncompressed for more.
   - Enable asynchronous presentation (Vulkan only): Off
   - Force maximum clocks (Vulkan only): Off
@@ -85,7 +85,7 @@
   - Accuracy Level: Normal (High has worse GPU performance, but with a lower risk of visual bugs, TotK does not currently need High except for debugging)
   - ASTC recompression depends on your GPU vRAM:
     - BC1 for 2GB,
-    - BC3 for 4-8GB,
+    - BC3 for 4-6GB,
     - Uncompressed for more.
   - Enable asynchronous presentation (Vulkan only): Off (framepacing is negatively impacted if you enable, only use if you are 1-2 fps from your locked fps target)
   - Force maximum clocks (Vulkan only): Off (possible small benefit if using very slow or fast hardware, but will waste power efficency)
