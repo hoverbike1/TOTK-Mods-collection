@@ -180,11 +180,11 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 // LOD Improvement 1.1.0<br>
 // Lens Flare Removal 1.1.0<br>
 
-// Credit: @MaxLastBreath
-// Sky Island Fix 1.0.0
-// Lens Flare Removal 1.0.0
-// 1080p resolution 1.0.0
-// 720p resolution 1.0.0
+// Credit: @MaxLastBreath<br>
+// Sky Island Fix 1.0.0<br>
+// Lens Flare Removal 1.0.0<br>
+// 1080p resolution 1.0.0<br>
+// 720p resolution 1.0.0<br>
   
 // Credit: @OldManKain & @theboy181 <br>
 // 1080p Resolution 1.1.1/1.1.2<br>
