@@ -145,6 +145,8 @@ If you were to decide to play on a <b>SUPER</b> beefy <b>4K</b> PC at <b>60 FPS<
 <b>60 FPS</b> - <b>4K 2X</b> - <b>8K 4X</b> - <b>UI Mod Compatible</b> - and set the scaling in Yuzu to X2, in order to achieve 1080p x 2 = 2160p - along with enabling the Playstation UI Mod.
 
 The non-UI compatible versions contain Blackscreen-fix, which is incompatible with UI mods, and must be combined correctly, to avoid issues that arise from conflicting fixes. The UI Mods make changes to the same files as blackscreen-fix - so make sure to combine/avoid combining these according to what you're trying to do.
+  
+If you experience any issues with Lazy Packs, please feel free to contact me on discord at Hoverbike#8377 or @hoverbike1 
 </details>
 
 <details>
