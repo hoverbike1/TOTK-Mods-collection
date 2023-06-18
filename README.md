@@ -232,3 +232,5 @@ The non-UI compatible versions contain Blackscreen-fix, which is incompatible wi
 - Graphics - LOD Improvement : SweetMini
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
+- Thanks to StevenssND for providing us with multiple ports to 1.1.0, including Island Fix, LOD Improvements and Lens Flare Removal
+- Thanks to MaxLastBreath for providing us with multiple ports to 1.0.0, including Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches. 
