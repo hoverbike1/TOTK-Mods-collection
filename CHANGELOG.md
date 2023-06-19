@@ -1,4 +1,15 @@
 # Changelog
+v2.1
+- <b>Lazy Packs now supports 1.0.0! Every game version is now supported by Lazy Packs! And not just with some crappy, lacklustre pack either, all of them feature all of the same patches, and gives the same lovely picture - game updates only dictate the performance now. </b>
+- Included Disable Internal FXAA ExeFS.
+- Fixed bugs with mod managers.
+- 1.1.0 ports by @StevensND of Island Fix, Remove Lens Flare and LOD Improvements patches.
+- 1.0.0 ports by @MaxLastBreath of Island Fix, Remove Lens Flare and 1080p & 1008p Resolution patches.
+- Fixed issue with FXAA in 1.1.0 Lazy Packs.
+- Added new Remove Lens Flare, LOD Improvements and Island Fix to appropriate 1.1.0 Lazy Packs.
+- Added 1.0.0 versions of 512/256 Shadow Patches.
+- Updated the PDF guide accordingly.
+
 v2.0
 - <b> Mod Managers released by both 89Pleasure and Vasilvestre! Check them out above!</b>
 - <b>Lazy packs now support game version 1.1.2!</b>

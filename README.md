@@ -63,6 +63,7 @@
 
 - Graphics - **Anisotropic Filtering fix:** Fixes Anisotropic Filtering.
 </br>Anisotropic Filtering increase the texture quality when textures are viewed at oblique angles, like the floor at distance.
+</br>It's not needed on new Yuzu versions anymore! Use only if you are stuck with old versions (Before mainline 1473 of EA 3580)
 </br>Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.
 </br>[Difference Off/On](https://imgsli.com/MTc5MzQ0)
 

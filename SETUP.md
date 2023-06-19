@@ -9,7 +9,6 @@
   - Resolution - SweetMini 1008p - FXAA Off
   - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
   - FPS - DynamicFPS
-  - Graphics - Anisotropic Filtering Fix
   - Graphics - LOD Improvement
   - Graphics - Shadows - 1024x
   - Fix - UI Blackscreen Fix
@@ -41,7 +40,7 @@
   - Enable Reactive Flushing: On
   - Use asynchronous shader building: On
     </br>Turn Off if you have weird weapons icons and then right click the game name -> Remove -> Remove Cache Storage.
-  - Use Fast GPU Time: Off
+  - Use Fast GPU Time: Off (Only on TOTK settings in Right Click -> Properties)
   - Use Vulkan Pipeline Cache: On
   - Anisotropic Filtering: x16
 
@@ -60,7 +59,6 @@
     - FPS - 60fps Static (use 30fps Static if you can't reach 60fps)
     - FPS - DynamicFPS - Includes Cutscene Fix, Ultrahand Fix - **Do not mix with DynamicFPS++**
     - Fix - UI Blackscreen Fix (unless you are using a controller UI mod, which already has this)
-    - Graphics - Anisotropic Filtering Fix - Set AF to 16 in Yuzu advanced graphics settings
     - Graphics - LOD Improvement - Version 2.0 improve LOD while also having a minor performance improvement. More info on the [README](README.md)
     - Graphics - Shadows - 1024x - highest stable (Fix weird shadow flickering and broken Gloom)
 
@@ -92,7 +90,7 @@
   - Decode ASTC textures asynchronously: Off ("On" may reduce texture loading stutters, but causes black squares and glitched loading screens)
   - Enable Reactive Flushing: On (Improves syncing of memory)
   - Use asynchronous shader building: On (Greatly reduces stuttering when shaders are compiling. Turn Off if you have weird weapons icons and right click the game name -> Remove -> Remove Cache Storage.)
-  - Use Fast GPU Time: Off ("Off" has Higher Accuracy with "Dynamic FPS" and "DynamicFPS++" but for some reason "On" fixed a rare issue where FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report the result to us please)
+  - Use Fast GPU Time: Off ("Off" has Higher Accuracy with "Dynamic FPS" and "DynamicFPS++" but for some reason "On" fixed a rare issue where FPS was extremely low and GPU usage extremely High, if you get that issue, try On and report the result to us please). Use "Off" only for TOTK (Right click -> Properties)
   - Use Vulkan Pipeline Cache: On (Immense reduction in initial game loading time for AMD, improves shader compilation stutter for NVIDIA and Intel as well)
   - Anisotropic Filtering: x8 or x16 (Will only work if you use the "Anisotropic Filtering Fix" mod, if you experience graphical bugs with an AMD card, switch back to Default)
 
