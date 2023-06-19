@@ -4,10 +4,9 @@
 @flag offset_shift 0x100
 
 // Credit: Port by MaxLastBreath, based on ChucksFeedAndSeeds 1008p patch
-// set 1008p
+//1008p
 @enabled
 00c63098 F50300AA
-00c6309c 2D52FE97
 00c630a0 140040B9
 00c630a4 E00315AA
 00c630b0 F50700F9
