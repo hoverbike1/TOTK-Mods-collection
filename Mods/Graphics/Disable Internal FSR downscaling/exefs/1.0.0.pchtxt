@@ -8,8 +8,8 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// patchanon Disable FSR downscaling
+// Credit: Patchanon
+// Disable FSR downscaling 1.0.0 (fixed by MaxLastBreath)
 @enabled
-00C40A70 08008052
+00c40a80 08008052
 @stop
-
