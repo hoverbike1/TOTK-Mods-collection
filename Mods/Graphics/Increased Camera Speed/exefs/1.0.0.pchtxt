@@ -1,0 +1,11 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Increases the camera speed, can be adjusted in the settings. 
+// Credit: theboy181 - Ported by StevensND
+@enabled
+03775f6c 0000A03f
+00d0531c 09902E1E
+@stop
