@@ -37,6 +37,8 @@
 </br>If you want a better anti aliasing, we recommend using SMAA on the "Anti-Aliasing Method" in Graphics settings (at a slightly cost on GPU performance). Using a resolution above your monitor can also work as anti-alising, but have high cost on your GPU (see the **Resolution** section).
 </br>:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file!
 
+- Graphics - **Disable Internal FXAA ExeFS:** uses the exefs method instead of romfs, which FXAA v2 uses, which should have less issue with incompatibility with other mods.
+
 - Graphics - **LOD Improvement:** Increases the Level of Detail on certain models.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
 </br>Version 2.0 has a minor performance improvement (we spent days testing on different hardware to believe it). Our theory is that less model swappings helps the emulator because there's less things changing at the same time.
@@ -71,6 +73,8 @@
 </br>:exclamation: If you disable this mod & then play the game with any photos saved from using this mod, your albums tab will likely hang the game while any larger photos are still around.
 You can clear the photos by just going into your savegame album folder & deleting them, anything larger than 64KB was likely taken from this mod.
 </br>**BEWARE!** "Camera JPEG Quality Increase" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file like **Sweetmini resolution mods and FXAA Disabler**.
+
+- Graphics - **Increased Camera Speed:** Increases in-game camera speeds, which can be adjusted ingame using the control settings in the menu.
 
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
 </br>:exclamation:Don't confuse 10**8**0p and 100**8**p, they aren't the same number!
