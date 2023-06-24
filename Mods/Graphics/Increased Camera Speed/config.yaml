@@ -16,5 +16,5 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: { name: 'theboy181, u/StevenssND' }
+author: { name: 'theboy181', 'StevensND' link: 'https://linktr.ee/theboy181' }
 

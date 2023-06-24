@@ -4,8 +4,11 @@
 @flag offset_shift 0x100
 
 
-// Credit: SweetMini - Ported by MaxLastBreath
+// Credit: theboy181 - Ported by MaxLastBreath
 // Sky island fix
 @enabled
 029d1574 00102A1E
 @stop
+
+@theboy181
+https://linktr.ee/theboy181

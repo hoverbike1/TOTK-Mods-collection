@@ -3,6 +3,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
+// Credit: igoticecream
 // Unlimited Amiibo Usage
 @enabled
 0195BADC 14000014

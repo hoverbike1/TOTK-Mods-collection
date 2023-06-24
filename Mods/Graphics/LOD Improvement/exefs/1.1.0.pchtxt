@@ -4,8 +4,11 @@
 @flag offset_shift 0x100
 
 
-// LOD Improvement V2 version 1.1.0
-// Credit: SweetMini (StevenssND port 1.1.0)
+// LOD Improvement
+// Credit: SweetMini, based on theboy181's work (StevenssND port 1.1.0)
 @enabled
 027D9448 24000014
 @stop
+
+@theboy181
+https://linktr.ee/theboy181

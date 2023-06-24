@@ -41,7 +41,7 @@
 
 - Graphics - **LOD Improvement:** Increases the Level of Detail on certain models.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
-</br>Version 2.0 has a minor performance improvement (we spent days testing on different hardware to believe it). Our theory is that less model swappings helps the emulator because there's less things changing at the same time.
+</br>Has a minor performance improvement (we spent days testing on different hardware to believe it). Our theory is that less model swappings helps the emulator because there's less things changing at the same time.
 </br>[Comparison On/Off](https://imgsli.com/MTgyMzE5)
 
 - Graphics - **Disable LOD Quality Reduction:** Prevents the LOD decreasing when your framerate is under 30fps.
@@ -191,9 +191,7 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 <br>
   
 // Credit: @StevensND<br>
-// Sky Island Fix 1.1.0<br>
-// LOD Improvement 1.1.0<br>
-// Lens Flare Removal 1.1.0<br>
+// Blackscreen-fix 1.0.0 <br>
 <br>
 
 // Credit: @MaxLastBreath<br>
@@ -206,7 +204,13 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 // Credit: @OldManKain & @theboy181<br>
 // 1080p Resolution 1.1.1/1.1.2<br>
 // Disable FXAA<br>
-// DOF Removal<br>
+<br>
+
+// Credit: @theboy181 <br>
+// DOF Removal <br>
+// Sky Island Fix <br>
+// LOD Improvement <br>
+// Lens Flare Removal <br>
 <br>
   
 // Credit: @Marethyu<br>
@@ -241,19 +245,23 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 - [DynamicFPS++](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : somerandompeople
 - SweetMini 1008p and 1080p Resolution : SweetMini, contribution by Socats and Darktalon
 - 1080p Resolution : ChucksFeedAndSeed
-- Graphic patches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is especially from patchanon
+- Graphic patches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is from patchanon
 - [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
 - FPS - Cutscene-fix : theboy181
-- Graphic - Disable Targeting DOF : theboy181
+- Graphics - Disable Targeting DOF : theboy181
+- Graphics - Island Fix : theboy181
+- Graphics - LOD Improvement : theboy181
+- Graphics - Remove Lens Flare : theboy181
+- Ports to 1.1.1/1.1.2 by Sweetmini
 - Fix - UI Blackscreen Fix : by MarethyuX
+- [Cheat - 1.1.1 & 1.1.2 Cheats](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) : By bad1dea
+- [Cheat - 1.1.0 & 1.1.1 Cheats](https://gbatemp.net/threads/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-cheats.632193/)
 - Cheat - Durability (10x) : SweetMini
 - Cheat - Time of day : FrostedMint
   </br>Unknown compatibily with FPS, Dynamic FPS and DynamicFPS++ mods, testing is required, open an issue to report the result if you tried.
 - Graphics - Disable Internal FXAA v2 : SweetMini
-- Graphics - Island Fix : SweetMini
-- Graphics - LOD Improvement : SweetMini
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
-- Thanks to StevensND for providing us with multiple ports to 1.1.0, including Island Fix, LOD Improvements and Lens Flare Removal
-- Thanks to MaxLastBreath for providing us with multiple ports to 1.0.0, including Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches. 
+- Thanks to StevensND for being an invaluable asset, providing us with help, knowledge, and porting a number of mods.
+- Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches. 

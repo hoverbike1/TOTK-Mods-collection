@@ -3,12 +3,11 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Modified version by StevenssND based on theboy181's work
 // Increases the camera speed, can be adjusted in the settings. 
-
+// Ported by StevensND
 @enabled
-0380EE6C 0000A03F
-00D1411C 0990211E
+0380ee6c 0000A03f
+00d1411c 09902E1E
 @stop
 
 @theboy181
