@@ -264,4 +264,5 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
 - Thanks to StevensND for being an invaluable asset, providing us with help, knowledge, and porting a number of mods.
-- Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches. 
+- Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches.
+- [Thanks to Fruithapje for providing us with every aspect ratio mod we could need!](https://github.com/Fruithapje21/TOTK-Ultrawide)
