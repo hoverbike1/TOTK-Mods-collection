@@ -109,10 +109,12 @@ You can clear the photos by just going into your savegame album folder & deletin
 You can use resolution mods with x1 Resolution scale or lower to increase GPU performance.
 To experience the best quality, we advise you to use an internal rendering resolution of double your monitor's resolution.
 
-- **Ratio:** Experimental - change the aspect ratio from 16:9.
-  - You should change "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window".
-  - Fixes the 3D scene render, but will cause the HUD to stretch.
-  
+- Aspect Ratio: Applies changes to the 3D scene render and UI elements to fit different aspect ratios
+	Set "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window"
+</br>Disable BlackscrenFix (already included)
+</br>Incompatible with controller mods (can be merged using custom tool)
+</br>UI rescaling only works for 16:10 and ultrawide (>16:9) aspect ratios
+</br> 
 ### Performance
 The main TOTK performance issue comes from the CPU and not the GPU, but unfortunately we don't have an easy way of increasing CPU performance.
 
