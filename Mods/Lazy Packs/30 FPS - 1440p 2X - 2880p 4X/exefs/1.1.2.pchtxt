@@ -16,7 +16,6 @@
 
 // Credit: ChucksFeedAndSeed
 // Disable quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
 @enabled
 00C76FFC C0000014
 @stop
@@ -30,17 +29,6 @@
 // Disable FSR scaling
 @enabled
 00C76FF0 08008052
-@stop
-
-// Credit: SweetMini
-// LOD Improvement
-@enabled
-027D04F8 24000014
-@stop
-
-// Island Fix
-@enabled
-02A40AA4 00102A1E
 @stop
 
 // Credit: SomeRandomPeople & ActualMandM
@@ -58,18 +46,29 @@
 008F6730 41008052
 @stop
 
-// Credit: theboy181 & OldManKain
+// Disable FXAA
+@enabled
+00C76FE0 08008052
+@stop
+
+// Credit: theboy181
+// Lens-flare Removal
+@enabled
+02A395F0 1F2003D5
+@stop
+
 // Removes the DOF effect when targeting
 @enabled
 00C4B934 C0035FD6
 @stop
 
-// disable FXAA
+// Credit: theboy181, ported by SweetMini
+// Island Fix
 @enabled
-00C76FE0 08008052
+02A40AA4 00102A1E
 @stop
 
-// Lensflare Removal
+// LOD Improvement
 @enabled
-02A395F0 1F2003D5
+027D04F8 24000014
 @stop

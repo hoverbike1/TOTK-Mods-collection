@@ -16,7 +16,6 @@
 
 // Credit: ChucksFeedAndSeed
 // Disable quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
 @enabled
 00CC1C2C C0000014
 @stop
@@ -32,13 +31,7 @@
 00CC1C20 08008052
 @stop
 
-// Credit: Sweetmini
-// LOD Improvement
-@enabled
-027E07F8 10000014
-@stop
-
-// Credit: SomeRandomPeople
+// Credit: SomeRandomPeople & ActualMandm
 // FILE VERSION 0.4.4 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 // Set 60 FPS Framecap
 @enabled
@@ -51,18 +44,24 @@
 019C84D8 1F2003D5
 @stop
 
-// Credit: theboy181 & OldManKain
-// Removes the DOF effect when targeting
-@enabled
-00C25898 C0035FD6
-@stop
-
 // Disable FXAA
 @enabled
 00CC1C10 08008052
 @stop
 
+// Credit: theboy181
 // Lens-flare Removal
 @enabled
 02A4A1E0 1F2003D5
+@stop
+
+// Removes the DOF effect when targeting
+@enabled
+00C25898 C0035FD6
+@stop
+
+// Credit: theboy181, ported by Sweetmini
+// LOD Improvement
+@enabled
+027E07F8 10000014
 @stop

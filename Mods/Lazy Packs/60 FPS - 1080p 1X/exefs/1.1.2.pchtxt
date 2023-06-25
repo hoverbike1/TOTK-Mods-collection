@@ -16,7 +16,6 @@
 
 // Credit: ChucksFeedAndSeed
 // Disable quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
 @enabled
 00C76FFC C0000014
 @stop
@@ -30,12 +29,6 @@
 // Disable FSR scaling
 @enabled
 00C76FF0 08008052
-@stop
-
-// Credit: SweetMini
-// LOD Improvement
-@enabled
-027D04F8 24000014
 @stop
 
 // Credit: SomeRandomPeople & ActualMandM
@@ -52,22 +45,29 @@
 @stop
 
 // Credit: theboy181 & OldManKain
-// Removes the DOF effect when targeting
-@enabled
-00C4B934 C0035FD6
-@stop
-
 // set 1080p
 @enabled
 00CDD58C 15000014
 @stop
 
-// disable FXAA
+// Disable FXAA
 @enabled
 00C76FE0 08008052
 @stop
 
-// Lensflare Removal
+// Credit: theboy181
+// Lens-flare Removal
 @enabled
 02A395F0 1F2003D5
+@stop
+
+// Removes the DOF effect when targeting
+@enabled
+00C4B934 C0035FD6
+@stop
+
+// Credit: theboy181, ported by SweetMini
+// LOD Improvement
+@enabled
+027D04F8 24000014
 @stop

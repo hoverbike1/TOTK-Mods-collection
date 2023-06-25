@@ -16,7 +16,6 @@
 
 // Credit: ChucksFeedAndSeed
 // Disable LOD quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
 @enabled
 00CAD34C C0000014
 @stop
@@ -32,38 +31,7 @@
 00CAD340 08008052
 @stop
 
-// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
-// Compilation/distribution of exefs FXAA by Bighead.
-// Disable FXAA
-@enabled
-00CAD330 08008052
-@stop
-
-// LOD Improvement V2 version 1.1.0
-// Credit: SweetMini (StevenssND port 1.1.0)
-@enabled
-027D9448 24000014
-@stop
-
-// Lens Flare 1.1.0 (StevenssND port)
-// Credit: SweetMini (u/StevenssND port)
-@enabled
-02A42490 1F2003D5
-@stop
-
-// Island Fix 1.1.0
-// Credit: SweetMini (u/StevenssND port)
-@enabled
-02A49934 00102A1E
-@stop
-
-//Credit: Patchanon
-// 1080p
-@enabled
-00cea77c 15000014
-@stop
-
-// Credit: SomeRandomPeople
+// Credit: SomeRandomPeople & ActualMandm
 // FILE VERSION 0.4.4 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 // Set 60 FPS framecap
 @enabled
@@ -76,8 +44,37 @@
 019CA668 1F2003D5
 @stop
 
+// Credit: Patchanon
+// set 1080p
+@enabled
+00cea77c 15000014
+@stop
+
+// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
+// Compilation/distribution of exefs FXAA by Bighead.
+// Disable FXAA
+@enabled
+00CAD330 08008052
+@stop
+
 // Credit: theboy181
+// Lens-flare Removal
+@enabled
+02A42490 1F2003D5
+@stop
+
 // Removes the DOF effect when targeting
 @enabled
 00C488B4 C0035FD6
+@stop
+
+// Island Fix
+@enabled
+02A49934 00102A1E
+@stop
+
+// LOD Improvement V2 version 1.1.0
+// Credit: SweetMini - based on theboy181's work
+@enabled
+027D9448 24000014
 @stop
