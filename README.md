@@ -111,11 +111,11 @@ To experience the best visual quality, we advise using an internal rendering res
 </br></br>
 
 
-- **Aspect Ratio:** Applies changes to the 3D scene render and UI elements to fit different aspect ratios
-</br>Set "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window"
-</br>Disable BlackscrenFix (already included)
-</br>Incompatible with controller mods (can be merged using custom tool)
-</br>UI rescaling only works for 16:10 and ultrawide (>16:9) aspect ratios
+**Aspect Ratio:** Applies changes to the 3D scene render and UI elements to fit different aspect ratios
+- Set "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window"
+- Disable BlackscrenFix (already included)
+- Incompatible with controller mods (can be merged using custom tool)
+- UI rescaling only works for 16:10 and ultrawide (>16:9) aspect ratios
 </br>
 
 ### Performance
