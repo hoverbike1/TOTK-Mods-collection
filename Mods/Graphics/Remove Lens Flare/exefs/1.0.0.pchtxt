@@ -3,7 +3,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Credit: theboy181 - 1.0 Port by MaxLastBreath
+// Credit: theboy181 - 1.0.0 Port by MaxLastBreath
 // Lens Flare Removal
 @enabled
 029ca250 1F2003D5

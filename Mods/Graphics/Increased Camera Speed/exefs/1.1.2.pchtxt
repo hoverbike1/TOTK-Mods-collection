@@ -4,7 +4,6 @@
 @flag offset_shift 0x100
 
 // Increases the camera speed, can be adjusted in the settings. 
-// Ported by StevensND
 @enabled
 0380ee6c 0000A03f
 00d1411c 09902E1E
