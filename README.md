@@ -237,7 +237,7 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 
 ## Other good mods
 
-- [Controller UI Mods (Playstation/Xbox/SteamDeck](https://gamebanana.com/members/1944248) by Alerion921
+- [Controller UI Mods (Playstation/Xbox/SteamDeck)](https://gamebanana.com/members/1944248) by Alerion921
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 - [Updated 1.1.1 and 1.1.2 Cheat Codes](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) by bad1dea.
 - [21'9 V2/HUD Fix v7 + Controller UI (Xbox&PS)](https://gamebanana.com/mods/447208) by Jaddey
