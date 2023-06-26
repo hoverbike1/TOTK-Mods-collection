@@ -17,4 +17,6 @@ compatibility:
   whitelist:
   blacklist:
 author:
-  - { name: 'Fayaz', 'Fruithapje21' link: 'https://gamebanana.com/mods/updates/443462', 'https://github.com/Fruithapje21/TOTK-Ultrawide' }
+author:
+  - { name: 'Fayaz', link: 'https://gamebanana.com/mods/updates/443462' }
+  - { name: 'Fruithapje21', link: 'https://github.com/Fruithapje21/TOTK-Ultrawide' }
