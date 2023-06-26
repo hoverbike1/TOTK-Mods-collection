@@ -76,6 +76,10 @@ You can clear the photos by just going into your savegame album folder & deletin
 
 - Graphics - **Increased Camera Speed:** Increases in-game camera speeds, which can be adjusted ingame using the control settings in the menu.
 
+- Graphics - **First Person +**: Changes camera to first person view. Different versions offer different fields of view (FOV)
+</br>  For 16:9 or 16:10 screens we recommend either (Narrow 70 FOV) or (Normal 90 FOV)
+</br>  For 21:9 and upwards, we recommend either (Normal 90 FOV) or (Wide 110 FOV)
+
 - **Resolution:** Changes internal rendering resolution. Original is 1600x900 in Docked mode and 1280x720 in Handheld mode.
 </br>:exclamation:Don't confuse 10**8**0p and 100**8**p, they aren't the same number!
   
@@ -268,5 +272,5 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 - Graphics - Disable Internal FXAA v2 : SweetMini
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
-- Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal and 1080p & 1008p resolution patches.
+- Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal, 1080p & 1008p resolution patches, and FPV+ mods!
 - [Thanks to Fruithapje for providing us with every aspect ratio mod we could need!](https://github.com/Fruithapje21/TOTK-Ultrawide)
