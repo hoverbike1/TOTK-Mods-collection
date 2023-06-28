@@ -1,3 +1,7 @@
+author_element:
+  name: str()
+  link: str()
+---
 id: regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$')
 title: str()
 subtitle: str(required=False)
@@ -11,9 +15,4 @@ emulator: list(int())
 compatibility:
   whitelist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'))
   blacklist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'))
-author: list(
-  map(
-    name: str(),
-    link: str()
-  )
-)
+author: list(includes('author_element'))
