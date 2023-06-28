@@ -27,4 +27,4 @@ jobs:
 
       - name: Run validation
         run: |
-          find './Mods/' -type f -name "*.yaml" -o -name "*.yml" -print0 | xargs -0 -I {} sh -c 'echo "Validating file: {}"; yamale -s schema.yaml "{}" || (echo "Validation failed for file: {}"; exit 1)'
+          find . -type f -name "*.yaml" -o -name "*.yml" -print0 | xargs -0 -I {} sh -c 'echo "Validating file: {}"; yamale -s schema.yaml "{}" || (echo "Validation failed for file: {}"; exit 1)'
