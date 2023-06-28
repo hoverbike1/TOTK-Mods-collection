@@ -16,6 +16,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author:
-  - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople and ActualMandM', link: }
+author:  
+  - { name: 'Fayaz', 'Fruithapje21' link: 'https://gamebanana.com/mods/updates/443462', 'https://github.com/Fruithapje21/TOTK-Ultrawide' }
 

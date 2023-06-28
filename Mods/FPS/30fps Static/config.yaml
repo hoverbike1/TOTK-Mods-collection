@@ -18,4 +18,5 @@ compatibility:
   blacklist:
 author:
   - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople and ActualMandM', link: }
+  - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople and ActualMandM' }
 

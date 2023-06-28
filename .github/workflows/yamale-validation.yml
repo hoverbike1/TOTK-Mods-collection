@@ -27,12 +27,4 @@ jobs:
 
       - name: Run validation
         run: |
-          for file in $(git diff --name-only --diff-filter=d HEAD~1..HEAD); do
-            if [[ $file == *.yaml || $file == *.yml ]]; then
-              yamale -s schema.yaml $file
-              if [ $? -ne 0 ]; then
-                echo "Validation failed for file: $file"
-                exit 1
-              fi
-            fi
-          done
+          find . -type f -name "*.yaml" -o -name "*.yml" | xargs yamale -s schema.yaml
