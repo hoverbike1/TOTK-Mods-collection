@@ -24,22 +24,21 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install yamale
+
       - name: Run validation
         run: |
           find . -type f -name "config.yaml" -not -path "./config.yaml" > file_list.txt
           validation_failed=false
           while IFS= read -r file; do
             echo "Validating file: $file"
-            validation_result=$(yamale -s schema.yaml "$file")
-            return_code=$?
-            if [ $return_code -ne 0 ]; then
+            validation_result=""
+            if ! validation_result=$(yamale -s schema.yaml "$file" 2>&1); then
               echo "Validation failed for file: $file"
               echo "Validation result:"
               echo "$validation_result"
               validation_failed=true
             fi
           done < file_list.txt
-          exit $validation_failed
           if [ "$validation_failed" = true ]; then
             echo "Validation failed for one or more files."
             exit 1
