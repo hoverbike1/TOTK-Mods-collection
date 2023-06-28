@@ -27,7 +27,7 @@ jobs:
 
       - name: Run validation
         run: |
-          for file in $(find './Mods/' -type f -name "*.yaml" -o -name "*.yml"); do
+          find './Mods/' -type f -name "*.yaml" -o -name "*.yml" -print0 | while IFS= read -r -d '' file; do
             echo "Validating file: $file"
             yamale -s schema.yaml "$file"
             if [ $? -ne 0 ]; then
