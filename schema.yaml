@@ -11,8 +11,8 @@ emulator: list(int())
 compatibility:
   whitelist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'))
   blacklist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'))
-author: list(includes('author_element'))
-
+author: list(include('author_element'))
+---
 author_element:
   name: str()
   link: str(required=False)
