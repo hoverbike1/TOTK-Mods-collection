@@ -1,4 +1,21 @@
 # Changelog
+v2.2.1 - Hotfix
+- Fixed several mod manager files
+- Fixed Shadow 1024x NSO Build ID for 1.0.0
+- Added narrow 70 fov version of max fpv mod
+- Updated UI mods
+
+v2.2
+- <b> Added @MaxLastBreath's brand new 'First Person +' First Person View mod!</b>
+- All new Aspect Ratios, now with built in HUD fixes, and Blackscreenfix! (Thanks @Fruithapje21)
+- Added DynamicFPS 1.5.3 (Thanks @chucksfeedandseed)
+- Added DynamicFPS 1.5.3 to Lazy Packs
+- Added new 'Increased Camera Speed' exefs patch, which doubles camera sensitivity. (Thanks @theboy181)
+- Added new 1.0.0 version of Blackscreen-fix
+- Fixed issues with 1.0.0 FSR and 1008p (Thanks @MaxLastBreath)
+- Fixed same issues in Lazy Packs 
+- Lots of new cheats for 1.0.0, and a few for 1.1.0/1.1.1/1.1.2
+
 v2.1
 - <b>Lazy Packs now supports 1.0.0! Every game version is now supported by Lazy Packs! And not just with some crappy, lacklustre pack either, all of them feature all of the same patches, and gives the same lovely picture - game updates only dictate the performance now. </b>
 - Included Disable Internal FXAA ExeFS.
