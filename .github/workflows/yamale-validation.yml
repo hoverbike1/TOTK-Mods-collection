@@ -29,14 +29,8 @@ jobs:
         run: |
           find . -type f -name "config.yaml" -not -path "./config.yaml" > file_list.txt
           exit_code=0
-          issues=""
           while IFS= read -r file; do
-            echo "Validating file: $file"            
-            validation_output=$(yamale -s schema.yaml "$file" 2>&1)
-            if [ $? -ne 0 ]; then
-              issues+="Validation failed for file: $file\n$validation_output\n"
-              exit_code=1
-            fi
+            echo "Validating file: $file"
+            yamale -s schema.yaml "$file" || (echo "Validation failed for file: $file"; exit_code=1)
           done < file_list.txt
-          echo "$issues"
           exit $exit_code
