@@ -27,7 +27,7 @@ jobs:
 
       - name: Run validation
         run: |
-          for file in $(find Mods/ -type f -name "*.yaml" -o -name "*.yml"); do
+          for file in $(find './Mods/' -type f -name "*.yaml" -o -name "*.yml"); do
             yamale -s schema.yaml $file
             if [ $? -ne 0 ]; then
               echo "Validation failed for file: $file"
