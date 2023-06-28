@@ -14,5 +14,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: { name: 'Zeikken, Socats, Darktalon' }
+author:
+  - { name: 'Zeikken, Socats, Darktalon' }
 

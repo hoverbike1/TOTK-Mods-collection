@@ -16,5 +16,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: { name: 'MaxLastBreath', link: 'https://www.reddit.com/user/Maxlastbreath/' }
+author:
+  - { name: 'MaxLastBreath', link: 'https://www.reddit.com/user/Maxlastbreath/' }
 

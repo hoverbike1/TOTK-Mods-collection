@@ -14,5 +14,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: { name: 'FrostedMint', link: 'https://github.com/FrostedMint' }
+author:
+  - { name: 'FrostedMint', link: 'https://github.com/FrostedMint' }
 

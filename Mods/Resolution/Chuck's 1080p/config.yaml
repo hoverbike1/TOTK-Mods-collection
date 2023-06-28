@@ -16,5 +16,6 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
-author: { name: 'ChucksFeedAndSeed, Patchanon, MaxLastBreath' }
+author:
+  - { name: 'ChucksFeedAndSeed, Patchanon, MaxLastBreath' }
 
