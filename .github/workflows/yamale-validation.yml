@@ -32,13 +32,10 @@ jobs:
           while IFS= read -r file; do
             validation_result=""
             if ! validation_result=$(yamale -s schema.yaml "$file" 2>&1); then
-              echo "Validation failed for file: $file"
-              echo "Validation result:"
               echo "$validation_result"
               validation_failed=true
             fi
           done < file_list.txt
-          exit $validation_failed
           if [ "$validation_failed" = true ]; then
             echo "Validation failed for one or more files."
             exit 1
