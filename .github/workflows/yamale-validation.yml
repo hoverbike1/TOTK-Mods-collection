@@ -27,4 +27,10 @@ jobs:
 
       - name: Run validation
         run: |
-          find . -type f -name "*.yaml" -o -name "*.yml" | xargs yamale -s schema.yaml
+          for file in $(find . -type f -name "*.yaml" -o -name "*.yml"); do
+            yamale -s schema.yaml $file
+            if [ $? -ne 0 ]; then
+              echo "Validation failed for file: $file"
+              exit 1
+            fi
+          done
