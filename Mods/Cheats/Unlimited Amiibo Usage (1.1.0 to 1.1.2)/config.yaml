@@ -17,5 +17,6 @@ compatibility:
   whitelist:
   blacklist:
 author:
-  -  { name: 'bad1dea', 'igoticecream', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }
+  -  { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }
+  -  { name: 'igoticecream' }
 
