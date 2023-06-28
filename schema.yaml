@@ -2,15 +2,15 @@ id: regex('^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]
 title: str()
 subtitle: str(required=False)
 description: str(required=False)
-version: num()
+version: any(int(), num(), str())
 category: int()
 game:
   titleId: str()
   version: list(str())
 emulator: list(int())
 compatibility:
-  whitelist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'), required=False)
-  blacklist: list(regex('^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$'), required=False)
+  whitelist: list(regex('^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$'), required=False)
+  blacklist: list(regex('^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$'), required=False)
 author: list(include('author_element'))
 ---
 author_element:
