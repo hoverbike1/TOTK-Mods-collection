@@ -16,5 +16,6 @@ compatibility:
   whitelist:
   blacklist:
 author: 
-  - { name: 'theboy181', 'Sweetmini', link: 'https://linktr.ee/theboy181' }
+  - { name: 'theboy181', link: 'https://linktr.ee/theboy181' }
+  - { name: 'Sweetmini' }
 
