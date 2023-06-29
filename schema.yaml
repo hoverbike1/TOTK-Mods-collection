@@ -2,7 +2,7 @@ id: regex('^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]
 title: str()
 subtitle: str(required=False)
 description: str(required=False)
-version: any(int(), num(), str(), required=False)
+version: any(regex('^\d+\.\d+.\d+$'), required=False)
 category: int()
 game:
   titleId: str()
