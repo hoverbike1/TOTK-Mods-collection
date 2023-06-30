@@ -1,6 +1,6 @@
 # Changelog
 v2.2.1 - Hotfix
-- Fixed several mod manager files
+- **Fixed several bugs that were breaking mod managers**
 - Fixed Shadow 1024x NSO Build ID for 1.0.0
 - Added narrow 70 fov version of max fpv mod
 - Updated UI mods
