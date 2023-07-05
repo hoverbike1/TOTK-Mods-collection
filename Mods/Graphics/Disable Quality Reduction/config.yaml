@@ -1,5 +1,5 @@
 id: ea286eb0-f976-4d2a-96cd-dc45ecaf333b
-title: Disable LOD Quality Reduction
+title: Disable Quality Reduction
 subtitle:
 description:
 version: 1.0.2
@@ -18,4 +18,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
+  - { name: 'patchanon, ChucksFeedAndSeed, Stevens', link: 'https://ko-fi.com/ChucksFeedAndSeed' }
 

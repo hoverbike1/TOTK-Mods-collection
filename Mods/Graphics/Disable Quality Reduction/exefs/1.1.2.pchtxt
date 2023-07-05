@@ -7,7 +7,7 @@
 @flag offset_shift 0x100
 
 // Disable quality reduction when framerate dips
-// (game changes model LODs etc to match handheld, causing textures etc to visibly change)
+// (game changes model LODs to match handheld, reduce resolution, textures, etc, causing to visible change)
 @enabled
 00C76FFC C0000014
 @stop
