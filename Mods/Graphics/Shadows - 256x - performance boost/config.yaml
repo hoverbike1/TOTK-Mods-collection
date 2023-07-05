@@ -7,6 +7,7 @@ category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
@@ -18,4 +19,5 @@ compatibility:
   blacklist:
 author:
   - { name: 'somerandompeople', link: https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/ }
+  - { name: 'Stevens' }
 

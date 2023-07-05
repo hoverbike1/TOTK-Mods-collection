@@ -7,15 +7,16 @@ category: 1
 game:
   titleId: 0100F2C0115B6000
   version:
-    - 1.0.0
-    - 1.1.0
-    - 1.1.1
+    - 1.2.0
     - 1.1.2
+    - 1.1.1
+    - 1.1.0
+    - 1.0.0
 emulator:
   - 1
 compatibility:
   whitelist:
   blacklist:
 author:
-  - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople and ActualMandM', link: }
+  - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople, ActualMandM and Stevens', link: }
 

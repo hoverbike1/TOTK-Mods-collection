@@ -7,6 +7,7 @@ category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
@@ -18,4 +19,5 @@ compatibility:
 author: 
   - { name: 'theboy181', link: 'https://linktr.ee/theboy181' }
   - { name: 'Sweetmini' }
+  - { name: 'Stevens' }
 

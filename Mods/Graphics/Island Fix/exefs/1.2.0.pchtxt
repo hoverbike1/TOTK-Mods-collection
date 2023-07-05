@@ -1,0 +1,14 @@
+@nsobid-6F32C68DD3BC7D77AA714B80E92A096A737CDA77
+	
+@flag print_values
+@flag offset_shift 0x100
+
+// Island Fix
+// Credit: theboy181 - Ported by SweetMini
+// Ported to v1.2.0 by Stevens
+@enabled
+02a34904 00102A1E
+@stop
+
+@theboy181
+https://linktr.ee/theboy181
