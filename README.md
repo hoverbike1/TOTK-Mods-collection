@@ -275,4 +275,4 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 - Resolution - 1026p : Zeikken
 - Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal, 1080p & 1008p resolution patches, and FPV+ mods!
 - [Thanks to Fruithapje for providing us with every aspect ratio mod we could need!](https://github.com/Fruithapje21/TOTK-Ultrawide)
-- Thanks to Stevens for provinding us with ports to 1.2.0 of Disable FSR downscaling, Resolution 1080p, Disable LOD Quality Reduction, Shadows 1024x, LOD Improvement v2, Island Fix, Removes the DOF effect when targeting, Lensflare Removal, Disable FXAA, 60fps Static and Increased Camera Speed.
+- Thanks to StevenssND for provinding us with ports to 1.2.0 of Disable FSR downscaling, Resolution 1080p, Resolution 1008p, Disable LOD Quality Reduction, Shadows 1024x, LOD Improvement v2, Island Fix, Removes the DOF effect when targeting, Lensflare Removal, Disable FXAA, 60fps Static, Increased Camera Speed and Anisotropic Filtering Fix.

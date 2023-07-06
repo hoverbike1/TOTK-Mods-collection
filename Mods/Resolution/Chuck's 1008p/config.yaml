@@ -2,11 +2,12 @@ id: 616ba43c-cda1-412c-8593-13949feaf315
 title: Chuck's 1008p
 subtitle:
 description:
-version: 1.0.1
+version: 1.0.2
 category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
@@ -17,5 +18,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
-  - { name: 'ChucksFeedAndSeed, MaxLastBreath', link: https://www.reddit.com/user/ChucksFeedAndSeed/ }
+  - { name: 'ChucksFeedAndSeed, MaxLastBreath, StevenssND', link: https://www.reddit.com/user/ChucksFeedAndSeed/ }
 

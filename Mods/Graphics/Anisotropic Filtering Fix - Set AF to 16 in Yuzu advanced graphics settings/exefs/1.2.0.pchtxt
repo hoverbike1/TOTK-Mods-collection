@@ -1,0 +1,20 @@
+@nsobid-6F32C68DD3BC7D77AA714B80E92A096A737CDA77
+
+# The Legend of Zelda: Tears of the Kingdom v1.2.0 - Anisotropic Filtering Fix
+
+// Ported to 1.2.0 by StevenssND
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Set mipmap filter to nearest on shadow map sampler (maybe fixes something, maybe breaks something)
+@enabled
+00b3bf24 28E0A0F2    // movk x8,#0x701, LSL #16
+@stop
+
+// Force bilinear terrain samplers to be trilinear
+@enabled
+00723ae4 4A008052    // mov w10,#0x2
+@stop
+
+@Wollnashorn
