@@ -18,11 +18,6 @@
 - FPS - **Dynamic FPS:** Matches the game clock to your framerate and fixes slow motion/speed up. Recommended to use with FPS mods above.
 </br>Alternativelly you can uncheck the Yuzu's "Limit Speed Percent" in General settings (Ctrl + U) as well as setting "VSync Mode" to OFF without 'speed up' your game.
 </br>**BEWARE!** When you use Dynamic FPS mod under 15 FPS, the physics will break!.
-</br>**BEWARE!** Incompatible with DynamicFPS++.
-
-- FPS - **DynamicFPS++:** An alternative version of the Dynamic FPS mod by "somerandompeople", do not use 20, 30 or 60 FPS mods (its included already).
-</br>This mod may have less stuttering depending on your hardware. We recommend to test by yourself and compare with the combo Dynamic FPS and FPS 30/60 mods.
-</br>**BEWARE!** Incompatible with Dynamic FPS.
 
 - FPS - **Fix - UI Blackscreen Fix:** Fixes black background on weapon switch UI when playing above 30fps.
 </br>:exclamation:Overwrites "Common.Product.110.Nin_NX_NVN.blarc", don't install two mods overwriting the same file.
@@ -37,7 +32,7 @@
 </br>If you want a better anti aliasing, we recommend using SMAA on the "Anti-Aliasing Method" in Graphics settings (at a slightly cost on GPU performance). Using a resolution above your monitor can also work as anti-alising, but have high cost on your GPU (see the **Resolution** section).
 </br>:exclamation:Overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file!
 
-- Graphics - **Disable Internal FXAA ExeFS:** uses the exefs method instead of romfs, which FXAA v2 uses, which should have less issue with incompatibility with other mods.
+- Graphics - **Disable Internal FXAA ExeFS:** uses the exefs method instead of romfs, which FXAA v2 uses. This should have less compatibility issues with other mods.
 
 - Graphics - **LOD Improvement:** Increases the Level of Detail on certain models.
 </br>LOD (Level Of Detail) shows higher quality models when you are close to them, and lower quality models when they are further away.
@@ -96,10 +91,6 @@ You can clear the photos by just going into your savegame album folder & deletin
   
   - 1026p (1824x1026) Automatically disables FSR, disables dynamic resolution, and exists in two versions for FXAA On or Off. Can cause artifacts in shadows, we don't recommend this option anymore.
   </br>:exclamation:"1026p" overwrites "Bootup.Nin_NX_NVN.pack.zs", don't install two mods overwriting the same file.
-  
-  - 10**8**0p OldManKain - Disable FSR-FXAA : From OldManKain based and theboy181.
-    - As written in the name, this mod disables FSR and FXAA too.
-    - Uses code editing instead of game file editing.
   
   - 540p and 720p require to change the "Resolution" scaling in Yuzu Graphics Settings to reach your monitor resolution or better. Use the table bellow:  
     - 540p and x2 = 1080p.

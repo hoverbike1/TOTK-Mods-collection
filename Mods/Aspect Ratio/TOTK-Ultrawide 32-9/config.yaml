@@ -2,11 +2,12 @@ id: e25e5f1c-35c2-4553-9893-60397688941a
 title: Aspect ratio - 32-9
 subtitle:
 description:
-version: 1.0.0
+version: 2.0.0
 category: 3
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0

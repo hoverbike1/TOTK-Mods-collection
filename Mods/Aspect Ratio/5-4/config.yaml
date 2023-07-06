@@ -2,11 +2,12 @@ id: 5fe9997e-b321-41ff-9a33-b4cbb7422936
 title: Aspect ratio - 5-4
 subtitle:
 description:
-version: 1.0.0
+version: 1.0.1
 category: 3
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
@@ -17,5 +18,5 @@ compatibility:
   whitelist:
   blacklist:
 author:
-  - { name: Fayaz, link: https://gamebanana.com/mods/updates/443462 }
+  - { name: 'Fayaz, StevenssND', link: https://gamebanana.com/mods/updates/443462 }
 
