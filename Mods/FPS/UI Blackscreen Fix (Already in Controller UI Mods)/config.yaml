@@ -2,11 +2,12 @@ id: 62ba7b3a-052e-457e-9424-bcf57ce75171
 title: UI Blackscreen Fix
 subtitle:
 description:
-version: 1.0.1
+version: 1.0.2
 category: 1
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0

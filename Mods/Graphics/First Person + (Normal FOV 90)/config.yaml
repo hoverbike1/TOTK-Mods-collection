@@ -2,11 +2,12 @@ id: 6a3185c3-6bd7-4347-9b3f-0740cbe7ca11
 title: First Person + (Normal FOV 90)
 subtitle:
 description:
-version: 1.0.0
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0

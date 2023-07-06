@@ -2,11 +2,12 @@ id: fbffe9b6-d89b-493d-842b-fc30e758de46
 title: First Person + (Wide FOV 110)
 subtitle:
 description:
-version: 1.0.0
+version: 1.0.1
 category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0

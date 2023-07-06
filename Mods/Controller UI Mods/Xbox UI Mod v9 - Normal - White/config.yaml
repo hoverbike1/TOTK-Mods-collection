@@ -3,11 +3,12 @@ id: ce066e61-a817-43d7-8c5c-3a1bbb1a2dab
 title: Xbox UI Mod V9 - Normal - White
 subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Xbox icons.
 description: "Contains Blackscreenfix, disable other instances of blackscreenfix, or this mod wont work"
-version: 9.0.0
+version: 9.0.1
 category: 3
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
