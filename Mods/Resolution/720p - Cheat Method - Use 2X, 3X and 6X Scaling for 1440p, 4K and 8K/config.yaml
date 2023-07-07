@@ -2,11 +2,12 @@ id: b1446948-e4df-42e6-a4da-7240f51d8353
 title: 720p - Cheat Method - Use 2X, 3X and 6X Scaling for 1440p, 4K and 8K
 subtitle:
 description:
-version: 1.0.0
+version: 1.2.0
 category: 2
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.0
     - 1.1.2
     - 1.1.1
     - 1.1.0
