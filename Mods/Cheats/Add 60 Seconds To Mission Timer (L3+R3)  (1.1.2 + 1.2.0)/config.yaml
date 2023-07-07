@@ -1,0 +1,20 @@
+id: 4657dea0-0264-47ca-be69-83ebdb2fe9e6
+title: Add 60 Seconds to Mission Timer (L3+R3)
+subtitle:
+description:
+version: 1.2.0
+category: 5
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  - { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }
+

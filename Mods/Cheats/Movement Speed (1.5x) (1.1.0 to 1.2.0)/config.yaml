@@ -1,5 +1,5 @@
-id: be68098b-ddea-4211-b337-1c5d68d31d06
-title: Free Autobuild (no Zonai cost)
+id: 0e30df71-7381-4de1-aa65-3b133172b92d
+title: Movement Speed (1.5x)
 subtitle:
 description:
 version: 1.2.0
@@ -18,4 +18,4 @@ compatibility:
   whitelist:
   blacklist:
 author:
-  -  { name: 'igic, StevenssND', link: https://gamebanana.com/mods/449615}
+  -  { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }

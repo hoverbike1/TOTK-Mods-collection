@@ -1,0 +1,2 @@
+[♯ 8. Ignore Fall Damage & Reaction]
+040E0000 0094F0DC 17FFFF6C

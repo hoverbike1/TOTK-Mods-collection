@@ -1,0 +1,20 @@
+id: 41cc3036-831d-48be-9d6a-9325bd1d27f2
+title: Infinite Horse Stamina
+subtitle:
+description:
+version: 1.2.0
+category: 5
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+    - 1.1.1
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  -  { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }

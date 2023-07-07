@@ -1,6 +1,0 @@
-Mod type : Cheat
-
-1.1.2 : Yes
-1.1.1 : No
-1.1.0 : No
-1.0.0 : No

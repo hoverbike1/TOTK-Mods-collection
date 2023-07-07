@@ -1,0 +1,2 @@
+[♯45. Show All Shrine Locations]
+080E0000 00F213E0 D65F03C0 52800020

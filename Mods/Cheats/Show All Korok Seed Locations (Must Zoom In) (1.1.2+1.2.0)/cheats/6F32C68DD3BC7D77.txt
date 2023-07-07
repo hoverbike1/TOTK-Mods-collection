@@ -1,0 +1,2 @@
+[♯46. Show All Korok Seed Locations (Must Zoom In)]
+040E0000 00CFBC18 14000019

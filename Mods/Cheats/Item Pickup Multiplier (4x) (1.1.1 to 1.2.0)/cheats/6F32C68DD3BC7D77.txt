@@ -1,0 +1,2 @@
+[♯42b Item Pickup Multiplier (4x)]
+040E0000 0161C298 52800081

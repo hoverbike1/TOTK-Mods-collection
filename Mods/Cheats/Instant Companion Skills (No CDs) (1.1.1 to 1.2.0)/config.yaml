@@ -1,0 +1,20 @@
+id: f90cb539-34fd-4cb5-96b7-e24af23294e4
+title: Instant Companion Skills (NO CDs)
+subtitle:
+description:
+version: 1.2.0
+category: 5
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+    - 1.1.1
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  -  { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }

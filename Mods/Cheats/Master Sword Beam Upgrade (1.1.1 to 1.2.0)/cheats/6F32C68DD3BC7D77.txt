@@ -1,0 +1,2 @@
+[♯20. Master Sword Beam Upgrade]
+040E0000 01E2A1EC 1E201000

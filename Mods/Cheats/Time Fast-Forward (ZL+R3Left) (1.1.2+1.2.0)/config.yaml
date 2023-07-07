@@ -1,0 +1,20 @@
+id: 5c538817-6752-4a09-842e-e78d2f9f336b
+title: Time Fast-Forward (ZL+R3Left) 
+subtitle: (did he mean right?)
+description:
+version: 1.2.0
+category: 5
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  -  { name: 'bad1dea', link: 'https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom' }
+

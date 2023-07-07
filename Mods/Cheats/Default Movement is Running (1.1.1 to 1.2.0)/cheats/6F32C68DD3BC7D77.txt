@@ -1,0 +1,2 @@
+[♯32. Default Movement is Running]
+040E0000 01D5EA40 52800028
