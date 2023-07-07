@@ -1,0 +1,21 @@
+id: be68098b-ddea-4211-b337-1c5d68d31d06
+title: Free Autobuild (no Zonai cost)
+subtitle:
+description:
+version: 1.0.0
+category: 5
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+emulator:
+  - 1
+  - 2
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  -  { name: 'igic, StevenssND', link: https://gamebanana.com/mods/449615}

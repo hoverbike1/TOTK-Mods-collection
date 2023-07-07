@@ -17,6 +17,7 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
+    - c3b36da0-67f4-4ffe-8b94-6293494fb90a
 author:
   - { name: 'ChucksFeedAndSeed, patchanon, somerandompeople, ActualMandM and StevenssND', link: }
 

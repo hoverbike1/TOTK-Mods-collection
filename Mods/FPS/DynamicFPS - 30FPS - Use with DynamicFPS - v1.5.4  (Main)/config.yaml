@@ -1,0 +1,27 @@
+id: 53ccd7d6-a126-4bcc-9c47-2e855adc73ae
+title: DynamicFPS - 30FPS
+subtitle: Use with DynamicFPS - v1.5.4 or higher
+description: Configuration file for newer DynamicFPS. Configure the .ini file with the desired FPS.
+version: 1.0.0
+category: 1
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+    - 1.0.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+    - 771f46a1-7593-4f67-832e-69839978f559
+    - 006614d4-5626-4779-893f-0d06f4420a9e
+    - 56d955c5-81d4-40d5-8061-4b9f9fb47459
+    - 13b8e6a3-a007-4543-b761-51c81385c88d
+    - d5dc6205-ed26-4b8a-8f03-6ec0131f90b8
+    - f9a904ad-d16e-403d-b799-680c69ad4258
+author:
+  - { name: ChucksFeedAndSeed, link: https://www.reddit.com/user/ChucksFeedAndSeed/ }
