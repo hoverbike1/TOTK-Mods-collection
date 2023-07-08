@@ -1,14 +1,13 @@
-id: bfdbdc2a-189e-43d4-ae0b-bcc662f0d93d
+id: f5ef2244-3bd1-4537-8a56-f6a267369b3f
 title: Sweetmini 1008p
-subtitle: FXAA On - Includes FSR and DynRes Disabler
+subtitle: FXAA Off - Includes FSR and DynRes Disabler
 description:
-version: 1.0.1
+version: 1.0.2
 category: 2
 game:
-  titleId: 0100F2C0115B6000
+  titleId: 0100F2C011586000
   version:
-    - 1.1.1
-    - 1.1.0
+    - 1.2.0
 emulator:
   - 1
 compatibility:
@@ -16,5 +15,6 @@ compatibility:
   blacklist:
     - 0ef8f231-8d97-486e-bfa1-e40f578eed9d
     - d356a7a2-4e8f-4187-8321-7f4d56d1a2f6
-author: 
+author:
   - { name: Sweetmini, link: }
+
