@@ -181,11 +181,6 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 // Disable LOD Reduction 1.0.0<br>
 <br>
 
-// Credit: @somerandompeople<br>
-// SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/<br>
-// 30/60 FPS Static<br>
-<br>
-
 // Credit: @bad1dea<br>
 // 720p resolution 1.1.0/1.1.1/1.1.2<br>
 <br>
