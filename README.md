@@ -223,6 +223,10 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 // Blackscreen-fix<br>
 <br>
 
+//Credit: @StevensND
+// Porting many patches to 1.2.0
+<br>
+
 </details>
 
 ## Cheats
