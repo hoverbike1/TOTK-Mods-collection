@@ -1,4 +1,4 @@
-TotK DynamicFPS 1.5.3release by /u/ChucksFeedAndSeed
+TotK DynamicFPS 1.5.4 stable release by /u/ChucksFeedAndSeed
 Check https://www.reddit.com/user/ChucksFeedAndSeed/ for updates.
 
 ---
