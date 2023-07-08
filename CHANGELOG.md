@@ -1,4 +1,29 @@
 # Changelog
+v2.3
+- Added [ChucksFeedAndSeed's](https://www.reddit.com/user/ChucksFeedAndSeed/) DynamicFPS 1.5.4 and its 20/30/45/60fps config companions.
+- "Disable LOD Quality Reduction" name changed to just "Disable Quality Reduction". It was also ported to TOTK 1.2.0 by @StevensND
+- Updated 56 cheats from @bad1dea's to TOTK 1.2.0
+- Added [igic's](https://gamebanana.com/members/2722002) Free Autobuild cheat
+- Updated @Fruithapje21 Aspect Ratios 16/10, 2/1, 18/9, 19,5/9, 20/9, 21/9, 21.5/9, 32/9, 48/9 and 256/135 to v2.1.1
+- Aspect Ratios 1/1 (VR), 3/2, 4/3 and 5/4 ported to TOTK 1.2.0 by @StevensND
+- 20/30/60fps Static ported to TOTK 1.2.0 by @StevensND
+- Disable Internal FSR downscaling ported to TOTK 1.2.0 by @StevensND
+- Disable Internal FXAA ExeFS ported to TOTK 1.2.0 by @StevensND
+- Disable Targeting DOF ported to TOTK 1.2.0 by @StevensND
+- Increased Camera Speed ported to TOTK 1.2.0 by @StevensND
+- Island Fix ported to TOTK 1.2.0 by @StevensND
+- LOD Improvement ported to TOTK 1.2.0 by @StevensND
+- Remove Len's Flare ported to TOTK 1.2.0 by @StevensND
+- Shadows 256/512/1024x ported to TOTK 1.2.0 by @StevensND
+- Chuck's 1080p ported to TOTK 1.2.0 by @StevensND
+- Chuck's 1008p ported to TOTK 1.2.0 by @StevensND
+- Anisotropic Filtering Fix ported to TOTK 1.2.0 by @StevensND
+- Sweetmini 1008p FXAA On/Off ported to TOTK 1.2.0
+- Sweetmini 1080p FXAA On/Off ported to TOTK 1.2.0
+- Lazy Packs updated to 1.2.0
+- Identified mods that are still working on TOTK 1.2.0
+- Removed outdated mods
+
 v2.2.1 - Hotfix
 - **Fixed several bugs that were breaking mod managers**
 - Fixed Shadow 1024x NSO Build ID for 1.0.0
