@@ -8,7 +8,7 @@
 - **Recommended Mods:**
   - Resolution - SweetMini 1008p - FXAA Off (1.1.2)
   - FPS - 60fps Static (Use 30fps Static if you can't reach 60)
-  - FPS - DynamicFPS
+  - FPS - DynamicFPS v1.5.3
   - Graphics - LOD Improvement
   - Graphics - Shadows - 1024x
   - FPS - UI Blackscreen Fix
