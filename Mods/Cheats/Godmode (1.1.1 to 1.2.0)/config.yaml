@@ -2,13 +2,14 @@ id: b52789aa-507d-4209-87c3-3c88661385e5
 title: God-mode (Ignore Hits)
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
     - 1.2.0
     - 1.1.2
+    - 1.1.1
 emulator:
   - 1
   - 2
