@@ -1,0 +1,18 @@
+@nsobid-6F32C68DD3BC7D77AA714B80E92A096A737CDA77
+
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.2.0 - Sky Island Proper Fix 2x
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Fixes multiple rendering issue when using emulator scaling, such as outlines on sky islands, shimmering light sources and other lighting artifacts
+// Must be used only when scaling to exactly 3x
+
+@enabled
+02A348A0 1B10211E
+02A348A8 BF000014
+02A34BA4 00083B1E
+02A34BA8 21083B1E
+@stop
+
+@PixelKiri based on @theboy181 work.

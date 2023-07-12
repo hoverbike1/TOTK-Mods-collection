@@ -1,0 +1,22 @@
+id: 26d9bbd5-2219-47c0-accb-9fedfae7b484
+title: Sky Island Fix for 3x Resolution
+subtitle:
+description:
+version: 1.0.0
+category: 2
+game:
+  titleId: 0100F2C0115B6000
+  version:
+    - 1.2.0
+    - 1.1.2
+    - 1.1.1
+    - 1.1.0
+    - 1.0.0
+emulator:
+  - 1
+compatibility:
+  whitelist:
+  blacklist:
+author:
+  - { name: 'PixelKiri', link: 'https://www.reddit.com/user/PixelKiri' }
+

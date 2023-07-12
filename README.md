@@ -50,9 +50,10 @@
 </br>When this happens the game also reduce the resolution, causing pixelated images.
 </br>**BEWARE!** Mandatory if using Chucks Resolution Mods (Or another Pchtxt resolution Mod). Not necessary with Sweetmini resolution Mods, especially if you use LOD Improvement Mod.
 
-- Graphics - **Island Fix:** Fix the Outline edges around the Sky Islands bugged over 2x resolution scaling.
-</br>Only required if your Resolution scale in Graphics settings" is over 1x. May cause edge artifacts.
-</br>[Comparison On/Off](https://i.imgur.com/M01IPBw.png)
+- Graphics - **Sky Island Fix for XX Resolution:** Fix bugged Outline edges around distant Sky Islands  over 2x Resolution scaling.
+</br>Use only one option, corresponding to the resolution scale currently being used.
+</br>Only required if your Resolution scale in "Graphics settings" is over 1x. May cause edge artifacts.
+</br>[Comparison Off/On](https://i.imgur.com/M01IPBw.png)
 
 - Graphics - **Disable Targeting DOF:** Disables the Depth-of-Field blurring effect when targeting enemies or NPCs.
 </br>DOF (Depth-of-Field) is an effect that blurs the background when an object is focused by the camera. Install if you don't like the effect.
@@ -246,29 +247,28 @@ If you experience any issues with Lazy Packs, please feel free to contact me on 
 ## Copyright and source of mods
 
 - [20/30 and 60 fps v3](https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople"
-- [DynamicFPS](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : ChucksFeedAndSeed
-- [DynamicFPS++](https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/) : somerandompeople
+- [DynamicFPS](https://www.reddit.com/user/ChucksFeedAndSeed/) : ChucksFeedAndSeed
+- FPS - UI Blackscreen Fix : by MarethyuX
 - SweetMini 1008p and 1080p Resolution : SweetMini, contribution by Socats and Darktalon
-- 1080p Resolution : ChucksFeedAndSeed
-- Graphic patches : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is from patchanon
-- [Aspect Ratio](https://gamebanana.com/mods/443462) : From Fayaz
+- [1080p Resolution](https://www.reddit.com/user/ChucksFeedAndSeed/comments/13sofgg/) : ChucksFeedAndSeed
+- [Graphic patches](https://www.reddit.com/user/ChucksFeedAndSeed/comments/13sofgg/) : Authors are "ChucksFeedAndSeed, patchanon and somerandompeople", theses patches are split from the VisualFixes, FSR Disabler is from patchanon
+- [Aspect Ratio](https://github.com/Fruithapje21/TOTK-Ultrawide) : From Fruithapje21 and Fayaz
 - [Graphics - Anisotropic filtering fix](https://github.com/Wollnashorn/switch-mods/tree/master/0100F2C0115B6000) : @Wollnashorn
-- FPS - Cutscene-fix : theboy181
-- Graphics - Disable Targeting DOF : theboy181
-- Graphics - Island Fix : theboy181
-- Graphics - LOD Improvement : theboy181
-- Graphics - Remove Lens Flare : theboy181
-- Ports to 1.1.1/1.1.2 by Sweetmini
-- Fix - UI Blackscreen Fix : by MarethyuX
+- [FPS - Cutscene-fix](https://github.com/theboy181/switch-ptchtxt-mods/tree/main/The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom) : theboy181
+- [Graphics - Disable Targeting DOF](https://github.com/theboy181/switch-ptchtxt-mods/tree/main/The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom) : theboy181
+- [Graphics - LOD Improvement](https://github.com/theboy181/switch-ptchtxt-mods/tree/main/The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom) : theboy181
+- [Graphics - Remove Lens Flare](https://github.com/theboy181/switch-ptchtxt-mods/tree/main/The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom) : theboy181
+  - Ports to 1.1.1/1.1.2 by Sweetmini
+- [Graphics - Sky Island Fix for XX Resolution](https://www.reddit.com/user/PixelKiri/comments/14u57mr/) : PixelKiri
+- Graphics - First Person + (Narrow/Wide FOV XX) : [MaxLastBreath](https://www.reddit.com/user/Maxlastbreath)
 - [Cheat - 1.1.1 & 1.1.2 Cheats](https://github.com/bad1dea/NXCheats/tree/main/The%20Legend%20of%20Zelda%20Tears%20of%20the%20Kingdom) : By bad1dea
 - [Cheat - 1.1.0 & 1.1.1 Cheats](https://gbatemp.net/threads/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-cheats.632193/)
 - Cheat - Durability (10x) : SweetMini
 - Cheat - Time of day : FrostedMint
-  </br>Unknown compatibily with FPS, Dynamic FPS and DynamicFPS++ mods, testing is required, open an issue to report the result if you tried.
+  </br>Unknown compatibily with FPS and Dynamic FPS mods, testing is required, open an issue to report the result if you tried.
 - Graphics - Disable Internal FXAA v2 : SweetMini
 - Graphics - Vertical Sensitivity Fix: igoticecream
 - Resolution - 1026p : Zeikken
 - Thanks to MaxLastBreath for providing us with ports to 1.0.0 of Island Fix, LOD Improvements, Lens Flare Removal, 1080p & 1008p resolution patches, and FPV+ mods!
-- [Thanks to Fruithapje for providing us with every aspect ratio mod we could need!](https://github.com/Fruithapje21/TOTK-Ultrawide)
 - Thanks to StevenssND for provinding us with ports to 1.2.0 of Disable FSR downscaling, Resolution 1080p, Resolution 1008p, Disable LOD Quality Reduction, Shadows 256/512/1024x, LOD Improvement v2, Island Fix, Removes the DOF effect when targeting, Lensflare Removal, Disable FXAA, 20/30/60fps Static, Increased Camera Speed and Anisotropic Filtering Fix.
 - Thanks to Father Of Egg for provinding us with several game version ports of Infinite Rupees, Show All Korok Seed Locations, Swimming Speed 2x and 3x.
