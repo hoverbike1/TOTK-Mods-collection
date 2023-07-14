@@ -1,0 +1,27 @@
+@nsobid-168DD518D925C7A327677286E72FEDA833314919
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: ChucksFeedAndSeed
+// Disable quality reduction when framerate dips
+@enabled
+00CC1C2C C0000014
+@stop
+
+// Disable FSR scaling
+@enabled
+00CC1C20 08008052
+@stop
+
+// Credit: theboy181 & OldManKain
+// Disable FXAA
+@enabled
+00CC1C10 08008052
+@stop
+
+// Credit: theboy181, ported by Sweetmini
+// LOD Improvement
+@enabled
+027E07F8 10000014
+@stop
