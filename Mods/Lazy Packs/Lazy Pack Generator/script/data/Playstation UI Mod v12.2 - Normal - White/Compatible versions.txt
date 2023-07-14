@@ -1,0 +1,7 @@
+Mod type : Romfs
+
+1.2.0 : Yes
+1.1.2 : Yes
+1.1.1 : Yes
+1.1.0 : Yes
+1.0.0 : No

@@ -1,0 +1,21 @@
+@nsobid-082CE09B06E33A123CB1E2770F5F9147709033DB
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: Patchanon 
+// Disable LOD quality reduction when framerate dips
+@enabled
+00C40A8C C0000014
+@stop
+
+// Disable FSR downscaling (Fixed by MaxLastBreath)
+@enabled
+00C40A80 08008052
+@stop
+
+// Disables FXAA
+// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
+@enabled
+00C40A70 08008052
+@stop

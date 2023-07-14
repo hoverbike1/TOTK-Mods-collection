@@ -1,0 +1,28 @@
+@nsobid-D5AD6AC71EF53E3E52417C1B81DBC9B4142AA3B3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Credit: ChucksFeedAndSeed
+// Disable LOD quality reduction when framerate dips
+@enabled
+00CAD34C C0000014
+@stop
+
+// Disable FSR scaling
+@enabled
+00CAD340 08008052
+@stop
+
+// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
+// Compilation/distribution of exefs FXAA by Bighead.
+// Disable FXAA
+@enabled
+00CAD330 08008052
+@stop
+
+// LOD Improvement V2 version 1.1.0
+// Credit: SweetMini - based on theboy181's work
+@enabled
+027D9448 24000014
+@stop

@@ -1,0 +1,29 @@
+@nsobid-6F32C68DD3BC7D77AA714B80E92A096A737CDA77
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1.2.0 Patch ports by StevenssND
+
+// Credit: ChucksFeedAndSeed
+// Disable quality reduction when framerate dips
+@enabled
+00c4275c C0000014
+@stop
+
+// Disable FSR downscaling
+@enabled
+00c42750 08008052
+@stop
+
+// Credit: theboy181 & OldManKain
+// disable FXAA
+@enabled
+00c42740 08008052
+@stop
+
+// LOD Improvement
+// Credit: SweetMini, based on theboy181's work
+@enabled
+027c3ea8 24000014
+@stop
