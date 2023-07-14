@@ -123,42 +123,21 @@ To experience the best visual quality, we advise using an internal rendering res
 ### Performance
 The main TOTK performance issue comes from the CPU and not the GPU, but unfortunately we don't have an easy way of increasing CPU performance.
 
-### "Lazy Packs"
+### "Lazy Pack Generator"
 
-**A patch containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>
-"Lazy packs" are are made by Hoverbike and merge several useful mods. They are customized according to resolution, framerate, and UI mod compatibility.
-UI compatibility means that the patch is compatible with mods such as the Xbox UI mod below.
-Otherwise, blackscreenfix is enabled in the non-compatible versions, for use with normal Nintendo UI.
-Using an non-compatible version, along with a UI mod, will result in the UI mod largely not functioning, or not at all.
-Please see below for details on how to use, and below that, the exact contents of the patch, and credits to the developers of them.
+**A script containing over a dozen fixes and mods, with the intent of "just making it work like its supposed to".**</br>
+"Lazy pack generator" is a script made by Hoverbike.
+Simply run the exe, select your desired resolution, framerate, and preferred controller UI, and click "Generate!"
 
-<details><summary> Click to view how to use the lazy pack</summary>
+<details><summary> Click to view how to use the lazy pack generator</summary>
 <a href="https://github.com/HolographicWings/TOTK-Mods-collection/blob/main/Guide/Guide.pdf">Follow this guide to configure Yuzu correctly for Tears of the Kingdom.</a><br>
 Update your Tears of the Kingdom - I recommend 1.1.2, however, the patches work on all versions of the game.<br>
-Pick a single Lazy Pack that suits your needs.
-Decide on a framerate. 30 or 60?<br>
-Decide on a resolution. 720p, 1080p, 1440p, 4K or 8K?<br>
-Decide if you want to use the Nintendo controller UI, or a UI mod, such as the Xbox and Playstation mods linked below, some of which we also ship in the archive.<br>
-<br>
-
-Here are some examples:
-<b>60 FPS</b> -  <b>1440p 2X</b> - <b>2880p 4X</b> - <b>UI Mod compatible</b>
-- This patch caps at 60 FPS.
-- It is intended to scale between 1440p and 2880p (supersampled 1440p for those <b>crisp</b> visuals) depending on what resolution scaling you choose in Yuzu's graphics settings, as shown in picture 7 in the guide below, for reference.
-- And it features compatibility with UI controller mods, such as the Xbox, Playstation and Steam Deck UI Mods.
-
-If you were to decide to target <b>30 FPS</b>, <b>1080p</b>, and you would like the <b>Xbox UI</b>, you should choose:
-<b>30 FPS</b> - <b>1080P 1X</b> - <b>UI Mod Compatible</b> - and set the scaling in Yuzu to X1, in order to achieve 1080p - and enable the Xbox UI Mod.
-
-If you were to decide to play on a beefy <b>1080p</b> PC at <b>60 FPS</b>, using your Switch Pro controller, and you would like the <b>Normal, Nintendo controller UI</b>, you should choose:
-<b>60 FPS</b> - <b>1080P 1X</b> - and set the scaling in Yuzu to X1, in order to achieve 1080p - with no controller mod, to use the default nintendo icons and layout, and blackscreen-fix prepackaged in this non-ui compatible lazy patch.
-
-If you were to decide to play on a <b>SUPER</b> beefy <b>4K</b> PC at <b>60 FPS</b>, using your Playstation controller, and you would like the <b>Playstation controller UI</b>, you should choose:
-<b>60 FPS</b> - <b>4K 2X</b> - <b>8K 4X</b> - <b>UI Mod Compatible</b> - and set the scaling in Yuzu to X2, in order to achieve 1080p x 2 = 2160p - along with enabling the Playstation UI Mod.
-
-The non-UI compatible versions contain Blackscreen-fix, which is incompatible with UI mods, and must be combined correctly, to avoid issues that arise from conflicting fixes. The UI Mods make changes to the same files as blackscreen-fix - so make sure to combine/avoid combining these according to what you're trying to do.
-  
-If you experience any issues with Lazy Packs, please feel free to contact me on discord at Hoverbike#8377 or @hoverbike1 
+Select a resolution.<br>
+Select a framerate.<br>
+Select your preferred controller user interface.<br>
+Click "Generate!"<br>
+Thats it! The patch has been installed in Yuzu's mod directory, it has been enabled by default, and your settings has been changed to reflect your choices made in the generator.
+If you experience any issues with the Lazy Pack Generator, please feel free to contact me on discord at Hoverbike#8377 or @hoverbike1, or simply create an issue on our issue tracker.
 </details>
 
 <details>
