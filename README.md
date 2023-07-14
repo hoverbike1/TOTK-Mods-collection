@@ -141,64 +141,36 @@ If you experience any issues with the Lazy Pack Generator, please feel free to c
 </details>
 
 <details>
-<summary>Click to view the patches included in the lazy pack </summary>
+<summary>Click to view the patches included in the lazy pack generator </summary>
 
-// Credit: @Wollnashorn<br>
-// Force bilinear terrain samplers to be trilinear<br>
-// Set mipmap filter to nearest on shadow map sampler<br>
+// Credit: @ChucksFeedAndSeed
+// Disable LOD Reduction 1.1.0/1.1.1/1.1.2
+// Disable FSR Scaling 1.1.0/1.1.1/1.1.2
+// DynamicFPS 1.5.5 beta 1
 <br>
 
-// Credit: @ChucksFeedAndSeed<br>
-// Shadow Resolution set to 1024<br>
-// Disable LOD Reduction 1.1.0/1.1.1/1.1.2<br>
-// Disable FSR Scaling 1.1.0/1.1.1/1.1.2<br>
-// DynamicFPS 1.5.2<br>
+// Credit: @Patchanon
+// Disable FSR Scaling 1.0.0
+// Disable LOD Reduction 1.0.0
 <br>
 
-// Credit: @Patchanon<br>
-// 1080p Resolution 1.1.0<br>
-// Disable FSR Scaling 1.0.0<br>
-// Disable LOD Reduction 1.0.0<br>
-<br>
-
-// Credit: @bad1dea<br>
-// 720p resolution 1.1.0/1.1.1/1.1.2<br>
-<br>
-
-// Credit: @Sweetmini<br>
-// Sky Island Fix 1.1.1/1.1.2<br>
-// LOD Improvement 1.1.1/1.1.2<br>
-// Lens Flare Removal 1.1.1/1.1.2<br>
+// Credit: @Sweetmini
+// LOD Improvement 1.1.1/1.1.2 ports
 <br>
   
-// Credit: @StevensND<br>
-// Blackscreen-fix 1.0.0 <br>
+// Credit: @OldManKain & @theboy181
+// Disable FXAA
 <br>
 
-// Credit: @MaxLastBreath<br>
-// Sky Island Fix 1.0.0<br>
-// Lens Flare Removal 1.0.0<br>
-// 1080p resolution 1.0.0<br>
-// 720p resolution 1.0.0<br>
-<br>
-
-// Credit: @OldManKain & @theboy181<br>
-// 1080p Resolution 1.1.1/1.1.2<br>
-// Disable FXAA<br>
-<br>
-
-// Credit: @theboy181 <br>
-// DOF Removal <br>
-// Sky Island Fix <br>
-// LOD Improvement <br>
-// Lens Flare Removal <br>
+// Credit: @theboy181
+// LOD Improvement
 <br>
   
-// Credit: @Marethyu<br>
-// Blackscreen-fix<br>
+// Credit: @Marethyu
+// Blackscreen-fix
 <br>
 
-//Credit: @StevensND
+// Credit: @StevensND
 // Porting many patches to 1.2.0
 <br>
 
