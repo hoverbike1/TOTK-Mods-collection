@@ -16,7 +16,7 @@
 </br>**BEWARE!** When you use Dynamic FPS mod under 15 FPS, the physics will break!. Some issues also can happen above 60fps.
 </br>**BEWARE!** On version 1.5.5 or higher, use with **Dynamic FPS - 20/30/45/60FPS AND Resolutions!**
 </br>**BEWARE!** On version 1.5.4 or higher, use with **Dynamic FPS - 20/30/45/60FPS**.
-</br>**BEWARE!** On version 1.5.3 or bellow, use with **20fps/30fps/60fps Static**.
+</br>**BEWARE!** On version 1.5.3 or below, use with **20fps/30fps/60fps Static**.
 
 - FPS - **Dynamic FPS - 20/30/45/60FPS:** Configuration files for DynamicFPS 1.5.4 or newer. Use only one of the options with DynamicFPS 1.5.4. You can edit the .ini file inside to whathever FPS you want! :D (may cause issues bellow 20fps and above 60fps)
 </br>*Why use the 30fps mod?* : The game locks to 20 fps if your framerate is anything lower than 30, the mod corrects this.
