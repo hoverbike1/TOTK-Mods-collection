@@ -18,7 +18,9 @@
 </br>**BEWARE!** On version 1.5.4 or higher, use with **Dynamic FPS - 20/30/45/60FPS**.
 </br>**BEWARE!** On version 1.5.3 or below, use with **20fps/30fps/60fps Static**.
 
-- FPS - **Dynamic FPS - 20/30/45/60FPS:** Configuration files for DynamicFPS 1.5.4 or newer. Use only one of the options with DynamicFPS 1.5.4. You can edit the .ini file inside to whathever FPS you want! :D (may cause issues bellow 20fps and above 60fps)
+- FPS - **Dynamic FPS - 1920x1080 / 2560x1400 / 3840x2160 / 5120x2880 Resolution:** Configuration files for DynamicFPS 1.5.5 or newer. Use only one of the options with DynamicFPS 1.5.5. You can edit the .ini file inside to whatever resolution you want!
+
+- FPS - **Dynamic FPS - 20/30/45/60FPS:** Configuration files for DynamicFPS 1.5.4 or newer. Use only one of the options with DynamicFPS 1.5.4. You can edit the .ini file inside to whathever FPS you want! (may cause issues below 20fps and above 60fps)
 </br>*Why use the 30fps mod?* : The game locks to 20 fps if your framerate is anything lower than 30, the mod corrects this.
 
 - FPS - **20fps/30fps/60fps Static:** Changes the game's framerate lock. Use with DynamicFPS 1.5.3 or bellow.
