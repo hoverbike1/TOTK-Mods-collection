@@ -14,6 +14,7 @@
 - FPS - **Dynamic FPS:** Matches the game clock to your framerate and fixes slow motion/speed up. Recommended to use with FPS mods above.
 </br>Alternativelly you can uncheck the Yuzu's "Limit Speed Percent" in General settings (Ctrl + U) as well as setting "VSync Mode" to OFF without 'speed up' your game.
 </br>**BEWARE!** When you use Dynamic FPS mod under 15 FPS, the physics will break!. Some issues also can happen above 60fps.
+</br>**BEWARE!** On version 1.5.5 or higher, use with **Dynamic FPS - 20/30/45/60FPS AND Resolutions!**
 </br>**BEWARE!** On version 1.5.4 or higher, use with **Dynamic FPS - 20/30/45/60FPS**.
 </br>**BEWARE!** On version 1.5.3 or bellow, use with **20fps/30fps/60fps Static**.
 
