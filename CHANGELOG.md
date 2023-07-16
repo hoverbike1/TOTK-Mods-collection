@@ -1,4 +1,14 @@
 # Changelog
+v2.4
+- Renamed Resolutions "Chucks 1008p" and "Chucks 1080p" to "1008p - ExeFS" and "1080p - ExeFS"
+- Added [ChucksFeedAndSeed](https://www.reddit.com/user/ChucksFeedAndSeed/)'s DynamicFPS v1.5.5 beta 3
+- **New Lazy Pack "Generator"!**
+- Added PixelKiri's (@alexkiri) Improved Sky Island Fix
+- Added [Father_Of_Egg](https://www.reddit.com/user/Father_Of_Egg/)'s "Free Aubobuild Alternate"
+- Deleted the old Free Aubobuild due the infinite loading bug.
+- Added [Father_Of_Egg](https://www.reddit.com/user/Father_Of_Egg/)'s ports for cheats Swim 3x, Swim 2x, Show Korok, and Infinite Rupee
+- General fixes on Cheats
+
 v2.3
 - Added [ChucksFeedAndSeed's](https://www.reddit.com/user/ChucksFeedAndSeed/) DynamicFPS 1.5.4 and its 20/30/45/60fps config companions.
 - "Disable LOD Quality Reduction" name changed to just "Disable Quality Reduction". It was also ported to TOTK 1.2.0 by @StevensND
