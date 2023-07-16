@@ -8,14 +8,3 @@
 @enabled
 00C40A8C C0000014
 @stop
-
-// Disable FSR downscaling (Fixed by MaxLastBreath)
-@enabled
-00C40A80 08008052
-@stop
-
-// Disables FXAA
-// Credits: @Father_Of_Egg, @InfiniteParallel, @OldManKain, @theboy181.
-@enabled
-00C40A70 08008052
-@stop

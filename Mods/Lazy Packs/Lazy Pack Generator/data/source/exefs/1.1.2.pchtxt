@@ -9,17 +9,6 @@
 00C76FFC C0000014
 @stop
 
-// Disable FSR scaling
-@enabled
-00C76FF0 08008052
-@stop
-
-// Credit: theboy181 & OldManKain
-// Disable FXAA
-@enabled
-00C76FE0 08008052
-@stop
-
 // Credit: theboy181, ported by SweetMini
 // LOD Improvement
 @enabled
