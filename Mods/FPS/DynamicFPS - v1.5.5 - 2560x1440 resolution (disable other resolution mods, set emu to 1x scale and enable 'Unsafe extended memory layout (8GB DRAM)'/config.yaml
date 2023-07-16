@@ -17,6 +17,7 @@ emulator:
 compatibility:
   whitelist:
   blacklist:
+    - a6f439e7-abd3-457b-99f0-3bf2ae94e7d7
     - 624c62b4-c142-47a5-a0c7-9144798e812a
     - 7f83659e-2e3d-449e-9a6f-dbff26435c15
     - 25cafd04-3ebc-432c-bc61-fedddfe251ca
