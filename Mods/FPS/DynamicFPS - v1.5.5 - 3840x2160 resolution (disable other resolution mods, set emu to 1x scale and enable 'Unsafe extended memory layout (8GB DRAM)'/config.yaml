@@ -1,5 +1,5 @@
 id: 7f83659e-2e3d-449e-9a6f-dbff26435c15
-title: DynamicFPS - 3840x2160 resolution (set emu to 1x scale and enable 'alternate memory layout')
+title: DynamicFPS - 3840x2160 resolution (disable other resolution mods, set emu to 1x scale and enable 'Unsafe extended memory layout (8GB DRAM)')
 subtitle: Use with DynamicFPS - v1.5.5 or higher
 description: Configuration file for newer DynamicFPS. Configure the .ini file with the desired resolution.
 version: 1.0.0

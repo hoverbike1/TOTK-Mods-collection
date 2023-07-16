@@ -1,5 +1,5 @@
-id: 25cafd04-3ebc-432c-bc61-fedddfe251ca
-title: DynamicFPS - 5120x2880 resolution (set emu to 1x scale and enable 'alternate memory layout')
+id: 43b13035-3afc-4796-ad89-175199527e1b
+title: DynamicFPS - 2560x1440 resolution (disable other resolution mods, set emu to 1x scale and enable 'Unsafe extended memory layout (8GB DRAM)')
 subtitle: Use with DynamicFPS - v1.5.5 or higher
 description: Configuration file for newer DynamicFPS. Configure the .ini file with the desired resolution.
 version: 1.0.0
@@ -18,7 +18,7 @@ compatibility:
   whitelist:
   blacklist:
     - 624c62b4-c142-47a5-a0c7-9144798e812a
-    - 43b13035-3afc-4796-ad89-175199527e1b
     - 7f83659e-2e3d-449e-9a6f-dbff26435c15
+    - 25cafd04-3ebc-432c-bc61-fedddfe251ca
 author:
   - { name: ChucksFeedAndSeed, link: https://www.reddit.com/user/ChucksFeedAndSeed/ }
