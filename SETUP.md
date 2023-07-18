@@ -65,9 +65,6 @@ After setup your configurations should look like this example for a High-End PC.
 
 ![Recommended Settings](Guide/Recommendations_Example_High-End.png)
 
-## Ryujinx settings:
-  - Need more documentation
-
 # Resetting Yuzu Settings
 **IMPORTANT: Before reset the settings, make a backup of your save folder:**
 - Right Click on the game name -> Open Save Data Location -> Copy everything to a safe location
@@ -140,6 +137,3 @@ Everything else at [the default](#resetting-yuzu-settings-1).
   - Sync to framerate of video playback: Off (It's included on DynamicFPS)
   - Barrier feedback loops: On (Solves transparency issues with Ultrahand)
   - Anisotropic Filtering: 8x or 16x
-
-## Ryujinx settings:
-  - Really need more documentation
