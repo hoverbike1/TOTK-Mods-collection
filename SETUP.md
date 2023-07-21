@@ -65,9 +65,6 @@ After setup your configurations should look like this example for a High-End PC.
 
 ![Recommended Settings](Guide/Recommendations_Example_High-End.png)
 
-## Ryujinx settings:
-  - Need more documentation
-
 # Resetting Yuzu Settings
 **IMPORTANT: Before reset the settings, make a backup of your save folder:**
 - Right Click on the game name -> Open Save Data Location -> Copy everything to a safe location
@@ -98,7 +95,7 @@ After setup your configurations should look like this example for a High-End PC.
 **Right Click on the game name -> Properties -> System:**
   - Unsafe extended memory layout (8GB DRAM): On
     </br>This setting increases the amount of emulated RAM from the Switch's original 4GB to 8GB.
-	</br>It's used by DunamicFPS to increase resolution and activate its own shadow mod. The shadow part is needed to fix the Shadow Flicker Bug, if you disable "extended memory" you will need to use the mod "Shadows 1024x" to fix the bug.
+	</br>It's used by DynamicFPS to increase resolution and activate its own shadow mod. The shadow part is needed to fix the Shadow Flicker Bug, if you disable "extended memory" you will need to use the mod "Shadows 1024x" to fix the bug.
 	</br>It was tested on and old Intel i7 4770 with 16GB RAM. It works better than expected even at the limit of RAM. Dont' open anything besides Yuzu (specially Chrome)!
 	</br>Turn off if you have less than 16GB RAM.
 
@@ -140,6 +137,3 @@ Everything else at [the default](#resetting-yuzu-settings-1).
   - Sync to framerate of video playback: Off (It's included on DynamicFPS)
   - Barrier feedback loops: On (Solves transparency issues with Ultrahand)
   - Anisotropic Filtering: 8x or 16x
-
-## Ryujinx settings:
-  - Really need more documentation
