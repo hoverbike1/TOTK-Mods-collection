@@ -1,4 +1,9 @@
 # Changelog
+v2.4.1
+- Hotfix of Lazy Pack Generator (Webpage & 3xFHD was broken, and missing config.yaml files)
+- Linux version of Lazy Pack generator
+- Added DynamicFPS - v1.5.5 - 1280x720 resolution
+
 v2.4
 - Renamed Resolutions "Chucks 1008p" and "Chucks 1080p" to "1008p - ExeFS" and "1080p - ExeFS"
 - Added [ChucksFeedAndSeed](https://www.reddit.com/user/ChucksFeedAndSeed/)'s DynamicFPS v1.5.5 beta 3
