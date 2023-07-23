@@ -53,8 +53,7 @@ Everything else at [the default](#resetting-yuzu-settings-1).
   - Force maximum clocks (Vulkan only): Off
   - Decode ASTC textures asynchronously (Hack): Off
   - Enable Reactive Flushing: On
-  - Use asynchronous shader building (Hack): On
-    </br>Turn Off if you have weird weapons icons and then right click the game name -> Remove -> Remove Cache Storage.
+  - Use asynchronous shader building (Hack): Off
   - Use Fast GPU Time (Hack): On
   - Use Vulkan Pipeline Cache: On
   - Sync to framerate of video playback: Off
@@ -131,7 +130,7 @@ Everything else at [the default](#resetting-yuzu-settings-1).
   - Force maximum clocks (Vulkan only): Off (possible small benefit if using very slow or fast hardware, but will waste power efficiency)
   - Decode ASTC textures asynchronously (Hack): Off ("On" may reduce texture loading stutters, but causes black squares and glitched loading screens)
   - Enable Reactive Flushing: On (Improves syncing of memory)
-  - Use asynchronous shader building (Hack): On (Reduces stuttering when shaders are compiling. Turn Off if you have weird weapons icons and right click the game name -> Remove -> Remove Cache Storage.)
+  - Use asynchronous shader building (Hack): Off (Reduces stuttering when shaders are compiling but causes weird weapons icons. To fix it turn the option off and right click the game name -> Remove -> Remove Cache Storage)
   - Use Fast GPU Time (Hack): On (DynamicFPS 1.5.5 changed a lot, please report if you are having issues with this settings)
   - Use Vulkan Pipeline Cache: On (Immense reduction in initial game loading time for AMD, improves shader compilation stutter for NVIDIA and Intel as well)
   - Sync to framerate of video playback: Off (It's included on DynamicFPS)
