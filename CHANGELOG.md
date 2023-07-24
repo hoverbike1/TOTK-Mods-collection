@@ -1,4 +1,13 @@
 # Changelog
+v2.5.1
+- Hotfix for Yuzu ML 1504 / EA 3770
+
+v2.5
+- Updated Lazy Pack Generator
+New Design, fixed shadow resolutions, far more settings being adjusted automatically.
+- Updated Aspect Ratio mods (Thanks @Fruithapje21)
+- Fixed DynamicFPS Shadow settings (Fixes broken Gloom and game hangs at startup at certain resolutions)
+
 v2.4.1
 - Hotfix of Lazy Pack Generator (Webpage & 3xFHD was broken, and missing config.yaml files)
 - Linux version of Lazy Pack generator
