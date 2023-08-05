@@ -20,8 +20,8 @@
 
 ## Recommended Yuzu System setting:
 **Right Click on the game name -> Properties -> System:**
-  - Unsafe extended memory layout (8GB DRAM): On
-    </br>If you have less than 16GB RAM, turn off and use the mod "Shadows 1024x". More about in [Detailed Setup](#detailed-setup-1)
+  - Memory layout: 6GB DRAM (Unsafe)
+    </br>If you have less than 16GB RAM, use "4GB DRAM (Default)" and use the mod "Shadows 1024x". More about in [Detailed Setup](#detailed-setup-1)
 
 ## Recommended Yuzu Graphics:
 **Emulation -> Configure -> Graphics**
@@ -33,7 +33,7 @@ Everything else at [the default](#resetting-yuzu-settings-1).
   - API: Vulkan
   - Use Disk Pipeline Cache: On
   - Use asynchronous GPU emulation: On
-  - Accelerate ASTC Texture Decoding: On
+  - ASTC Decoding Method: GPU
   - NVDEC emulation: GPU Video Decoding
   - Fullscreen Mode: Exclusive Fullscreen
   - Aspect Ratio: Default (16:9)
@@ -45,20 +45,19 @@ Everything else at [the default](#resetting-yuzu-settings-1).
 ## Recommended Yuzu Advanced Graphics:
 **Right Click on the game name -> Properties -> ADV. Graphics:**
   - Accuracy Level: Normal
+  - Anisotropic Filtering: 16x
   - ASTC recompression depends on your GPU vRAM:
     - BC1 for 2GB,
     - BC3 for 4-6GB,
     - Uncompressed for more.
   - Enable asynchronous presentation (Vulkan only): Off
   - Force maximum clocks (Vulkan only): Off
-  - Decode ASTC textures asynchronously (Hack): Off
   - Enable Reactive Flushing: On
   - Use asynchronous shader building (Hack): Off
   - Use Fast GPU Time (Hack): On
   - Use Vulkan Pipeline Cache: On
   - Sync to framerate of video playback: Off
   - Barrier feedback loops: On
-  - Anisotropic Filtering: 16x
 
 After setup your configurations should look like this example for a High-End PC. Your settings may vary, read above:
 
