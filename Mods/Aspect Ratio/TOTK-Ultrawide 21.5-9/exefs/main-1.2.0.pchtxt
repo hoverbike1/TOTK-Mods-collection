@@ -4,8 +4,9 @@
 @flag offset_shift 0x100
 
 @enabled
-0380794c 8EE31840
-019a5870 0070201E
+0380794c 8EE31840 // Aspect Ratio
+019a5870 0070201E // Link Menu Fix
+01EC1918 0070201E // Link Hestu Fix
 @stop
 
 // Scaling factor
