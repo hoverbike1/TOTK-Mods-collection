@@ -118,9 +118,9 @@ To experience the best visual quality, we advise using an internal rendering res
 
 **Aspect Ratio:** Applies changes to the 3D scene render and UI elements to fit different aspect ratios
 - Set "Aspect Ratio" in Graphics Yuzu settings to "Stretch to Window"
-- Disable BlackscrenFix (already included)
-- Incompatible with controller mods (can be merged using custom tool)
-- UI rescaling only works for 16:10 and ultrawide (>16:9) aspect ratios
+- Disable BlackscreenFix (already included)
+- Incompatible with controller mods (can be merged using custom tool) - found here: https://github.com/Fruithapje21/TOTK-Ultrawide
+- Pre-rendered cutscenes play stretched.
 </br>
 
 ### Performance
