@@ -1,4 +1,7 @@
 # Changelog
+v2.5.2
+- Updated Aspect Ratio Mods (Thanks @Fruithapje21)
+
 v2.5.1
 - Hotfix for Yuzu ML 1504 / EA 3770
 
