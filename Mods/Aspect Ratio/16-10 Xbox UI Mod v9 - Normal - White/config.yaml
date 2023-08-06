@@ -1,9 +1,8 @@
----
-id: ce066e61-a817-43d7-8c5c-3a1bbb1a2dab
-title: Xbox UI Mod V9 - Normal - White
-subtitle: Normal layout, like default Nintendo layout, only icons replaced, with white Xbox icons.
-description: "Contains Blackscreenfix, disable other instances of blackscreenfix, or this mod wont work"
-version: 9.0.1
+id: f4ef3e3e-1be7-4c47-b240-8d67cccc5978
+title: Aspect ratio - 16-10 - Xbox - Normal - White
+subtitle:
+description:
+version: 2.0.0
 category: 3
 game:
   titleId: 0100F2C0115B6000
@@ -12,12 +11,12 @@ game:
     - 1.1.2
     - 1.1.1
     - 1.1.0
+    - 1.0.0
 emulator:
   - 1
-  - 2
 compatibility:
   whitelist:
   blacklist:
-  - 62ba7b3a-052e-457e-9424-bcf57ce75171
 author:
-  - { name: Alerion921, link: https://gamebanana.com/mods/443354 }
+  - { name: 'Fayaz', link: 'https://gamebanana.com/mods/updates/443462' }
+  - { name: 'Fruithapje21', link: 'https://github.com/Fruithapje21/TOTK-Ultrawide' }
