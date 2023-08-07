@@ -1,4 +1,7 @@
 # Changelog
+v2.5.3
+- Hotfix Aspect Ratio Mods (Thanks @Fruithapje21)
+
 v2.5.2
 - Updated Aspect Ratio Mods (Thanks @Fruithapje21)
 
