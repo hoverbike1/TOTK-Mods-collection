@@ -1,0 +1,9 @@
+@nsobid-9B4E43650501A4D4489B4BBFDB740F26AF3CF850
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Force 1080p
+@enabled
+00CC4124 15000014
+@stop
