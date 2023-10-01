@@ -91,11 +91,11 @@ After setup your configurations should look like this example for a High-End PC.
 
 ## Recommended Yuzu System
 **Right Click on the game name -> Properties -> System:**
-  - Unsafe extended memory layout (8GB DRAM): On
-    </br>This setting increases the amount of emulated RAM from the Switch's original 4GB to 8GB.
+  - Memory layout: 6GB DRAM (Unsafe) for up to 4K resolution. 8GB DRAM (Unsafe) for more.
+    </br>This setting increases the amount of emulated RAM from the Switch's original 4GB to 6GB or 8GB.
 	</br>It's used by DynamicFPS to increase resolution and activate its own shadow mod. The shadow part is needed to fix the Shadow Flicker Bug, if you disable "extended memory" you will need to use the mod "Shadows 1024x" to fix the bug.
-	</br>It was tested on and old Intel i7 4770 with 16GB RAM. It works better than expected even at the limit of RAM. Dont' open anything besides Yuzu (specially Chrome)!
-	</br>Turn off if you have less than 16GB RAM.
+	</br>It was tested on and old Intel i7 4770 with 16GB RAM. It works better than expected even at the limit of RAM. Don't open anything besides Yuzu (specially Chrome)!
+	</br>Turn 4GB DRAM (Default) you have less than 16GB RAM.
 
 ## Recommended Yuzu Graphics:
 **Emulation -> Configure -> Graphics**
