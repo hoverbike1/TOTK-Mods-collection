@@ -2,11 +2,12 @@ id: 8675e75a-ba4d-4910-af3d-09304f72e2ec
 title: Item Pickup Multiplier (2x)
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
