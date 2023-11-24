@@ -1,0 +1,2 @@
+[Climbing Speed (2x)]
+040A0000 0065B1C8 1E209008
