@@ -2,11 +2,12 @@ id: 773eb5bb-b99e-4c42-916b-a4dd1f6db826
 title: Infinite Zonai Devices
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
