@@ -1,0 +1,2 @@
+[Master Sword Beam Upgrade]
+040A0000 01E36238 1E201000
