@@ -2,11 +2,12 @@ id: 0ff304ea-9c90-460b-8d63-01173e0f0f41
 title: Infinite Arrows
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
