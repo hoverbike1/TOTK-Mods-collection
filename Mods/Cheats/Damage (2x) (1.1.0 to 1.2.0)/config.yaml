@@ -2,11 +2,12 @@ id: 88e57641-67d4-4f48-91b9-38afbb7607a7
 title: Damage (2x)
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1

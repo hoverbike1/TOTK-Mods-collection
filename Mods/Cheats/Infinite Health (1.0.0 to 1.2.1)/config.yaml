@@ -2,11 +2,12 @@ id: a1345bf5-130a-4f78-baf4-4e32dc2706fe
 title: Infinite Health
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
