@@ -2,11 +2,12 @@ id: e8918d86-16c5-4c81-93b3-c21ce175686b
 title: Infinite Food Items
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
