@@ -2,11 +2,12 @@ id: 4f1f2d36-c6fa-4e30-b140-21e0a9632d3a
 title: Dive Boost
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
