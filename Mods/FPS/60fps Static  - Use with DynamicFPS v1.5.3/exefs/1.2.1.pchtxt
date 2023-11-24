@@ -3,7 +3,7 @@
 
 // FILE VERSION 0.5 SOURCED FROM https://gbatemp.net/download/loz-tears-of-the-kingdom-20fps-30fps-60fps-patch.37996/
 // BEFORE ASKING FOR HELP, CHECK THE PAGE FOR UPDATES
-
+// 1.2.1 port by StevensND
 
 @flag print_values
 @flag offset_shift 0x100
