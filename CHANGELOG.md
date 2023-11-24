@@ -1,4 +1,7 @@
 # Changelog
+v2.6:
+- Updated most graphics mods to 1.2.1
+
 v2.5.3
 - Hotfix Aspect Ratio Mods (Thanks @Fruithapje21)
 
