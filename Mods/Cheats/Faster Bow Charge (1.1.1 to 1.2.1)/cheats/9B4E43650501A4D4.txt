@@ -1,0 +1,2 @@
+[Faster Bow Charge]
+040A0000 01D2F89C 1E209000

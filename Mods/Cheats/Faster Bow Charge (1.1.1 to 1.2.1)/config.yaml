@@ -2,11 +2,12 @@ id: a7f700d0-ac8e-4a75-afb4-e53d69787856
 title: Faster Bow Charge
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
