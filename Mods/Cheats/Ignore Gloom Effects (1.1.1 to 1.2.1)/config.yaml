@@ -2,11 +2,12 @@ id: 703ff361-229d-4992-b816-e5fc20b77fc6
 title: Ignore Gloom Effects
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
