@@ -1,0 +1,2 @@
+[Inf. Horse Stamina]
+040A0000 01CADA90 D503201F
