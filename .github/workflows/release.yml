@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        mod_version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2', '1.2.0']
+        mod_version: ['1.0.0', '1.1.0', '1.1.1', '1.1.2', '1.2.0', '1.2.1']
         compress_format: ['zip', '7z']
     steps:
       - name: Checkout code
