@@ -2,11 +2,12 @@ id: d6872271-b722-4948-8c2a-41a196ccba6e
 title: Infinite Battery
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
