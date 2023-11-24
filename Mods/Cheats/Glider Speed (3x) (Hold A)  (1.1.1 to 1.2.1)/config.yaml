@@ -2,11 +2,12 @@ id: 89ae8b5b-caef-4877-82fe-ac0ebac47620
 title: Glider Speed 3x (Hold A)
 subtitle:
 description:
-version: 1.2.0
+version: 1.2.1
 category: 5
 game:
   titleId: 0100F2C0115B6000
   version:
+    - 1.2.1
     - 1.2.0
     - 1.1.2
     - 1.1.1
