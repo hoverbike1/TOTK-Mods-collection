@@ -3,12 +3,10 @@
 @flag print_values
 @flag offset_shift 0x100
 
+// Camera Speed Fix for v1.2.1
 // Increases the camera speed, can be adjusted in the settings. 
 
 @enabled
-03837390 0000A03F
+03811C2C 0000A03F
 00D180F8 0990211E
 @stop
-
-@theboy181
-https://linktr.ee/theboy181
