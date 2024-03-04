@@ -149,7 +149,7 @@
 - Gui Animation
   - Animations for the GUI(Moving Backgrounds) - Shouldn't affect performance as it turns off automatically when not focused.
 
-# <p align=center> ⭐ [Changelogs](https://github.com/hoverbike1/TOTK-Mods-collection/releases) ⭐ </p>
+# <p align=center> ⭐ [Changelogs](https://github.com/MaxLastBreath/TOTK-mods/releases) ⭐ </p>
 
 # Copyright Source & Credits
 - [UltraCam/DFPS/TOTK Optimizer (MaxLastBreath, developer of this software)](https://linktr.ee/maxlastbreath)
