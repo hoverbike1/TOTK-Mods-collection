@@ -25,7 +25,7 @@
 **If you can't get the AppImage to Open for Linux**
 - Right click, properties, permissions, run as executable
 
-# <p align=center> [Benchmark of Kakariko Village performance using Ultracam Benchmarking feature, please participate!]( LINK )
+# <p align=center> [Benchmark of Kakariko Village performance using Ultracam Benchmarking feature, please participate!]([https://github.com/hoverbike1/TOTK-Mods-collection/issues/169])
 
 ## <p align=center> 🎮 Control Schematics 🎮 </p>
 
