@@ -1,2 +1,0 @@
-[Infinite Rupees]
-040E0000 01E93924 1A9813F6

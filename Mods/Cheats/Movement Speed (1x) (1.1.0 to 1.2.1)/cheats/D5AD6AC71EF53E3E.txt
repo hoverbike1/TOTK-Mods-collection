@@ -1,2 +1,0 @@
-[#08a Movement Speed (1x)]
-040E0000 0387C7C8 3F800000

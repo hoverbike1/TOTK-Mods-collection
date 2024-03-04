@@ -1,7 +1,0 @@
-Mod type : RomFS
-
-1.2.0 : No
-1.1.2 : No
-1.1.1 : No
-1.1.0 : No
-1.0.0 : Yes
