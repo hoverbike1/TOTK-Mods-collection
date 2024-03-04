@@ -1,2 +1,0 @@
-[Ignore Fall Damage & Reaction]
-040A0000 01D57248 2A1F03F4

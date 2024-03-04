@@ -1,2 +1,0 @@
-[#29. Default Movement is Running]
-040E0000 01D6CA10 52800028
