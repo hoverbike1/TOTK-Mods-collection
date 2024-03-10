@@ -44,6 +44,7 @@
 - Hide UI - (H)
 
 ### ***Sequencer Beyond Controls***
+- G (PRESS) - Start benchmark
 - X (PRESS) - Create Keyframe. - (6)
 - B (PRESS) - Delete Keyframe. - (7)
 - Right Stick (PRESS) - Play Sequence. - (8)
