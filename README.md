@@ -214,3 +214,4 @@
 - [Fl4sh](https://github.com/Fl4sh9174)
 - [fayaz12g](https://github.com/fayaz12g)
 - [the5thtear](https://github.com/The5thTear)
+- [Fruithapje21 For helping with UI Aspect Ratios](https://github.com/Fruithapje21)
