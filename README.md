@@ -204,6 +204,7 @@
 - [Jake for testing the Mod Manager on Linux and reformatting and cleaning readme.](https://github.com/JakeDystopia/)
 - [u/Pixelkiri for Workflow and testing!](https://github.com/alexkiri/)
 - [MaxAnimatior for some insight and testing](https://github.com/D-Maxwell)
+- [Fruithapje21 For helping with UI Aspect Ratios](https://github.com/Fruithapje21)
 - LotP, great friend and teacher :) also lots of help with UltraCam.
 - Meeko on my Discord Server for testing Steamdeck.
 
@@ -214,4 +215,3 @@
 - [Fl4sh](https://github.com/Fl4sh9174)
 - [fayaz12g](https://github.com/fayaz12g)
 - [the5thtear](https://github.com/The5thTear)
-- [Fruithapje21 For helping with UI Aspect Ratios](https://github.com/Fruithapje21)
