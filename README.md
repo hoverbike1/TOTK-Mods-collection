@@ -82,22 +82,25 @@
 
 [ALL IN REAL TIME!](https://ko-fi.com/maxlastbreath)
 
-#### [BOTW UltraCam Beta 1 DFPS (no freecam currently)](https://ko-fi.com/maxlastbreath)
-- [Fixes Stamina Drain- Fixes Stamina Speed](https://ko-fi.com/maxlastbreath)
-- [Fixes Menu speeds (partially, maps too fast still)](https://ko-fi.com/maxlastbreath)
-- [Fixes Link's Speed.](https://ko-fi.com/maxlastbreath)
-- [Fixes Enemy's Speed and attacks.](https://ko-fi.com/maxlastbreath)
-- [Fixes Blackscreen in Quick Menus.](https://ko-fi.com/maxlastbreath)
-- [Fixes Hud Animations](https://ko-fi.com/maxlastbreath)
-- [Fixes Link's animations.](https://ko-fi.com/maxlastbreath)
-- [Locks Movie Menus to 30 FPS (VSYNC ON ONLY FOR RYUJINX!)](https://ko-fi.com/maxlastbreath)
-- [Menu FPS cap](https://ko-fi.com/maxlastbreath)
-- [Menu Animation speeds.](https://ko-fi.com/maxlastbreath)
+#### [BOTW UltraCam Beta 1 DFPS](https://ko-fi.com/maxlastbreath)
+Tackling the same challenges as Tears of the Kingdom presented, but in Breath of the Wild.
+This is still a very early WIP, but here are some of the current functionality, soon to be expanded.
 - [FPS up to (120/480)](https://ko-fi.com/maxlastbreath)
-- [Ladder Climbing (no problems on botw weird)](https://ko-fi.com/maxlastbreath)
-- [Connected a Custom Controller (For the future)](https://ko-fi.com/maxlastbreath)
 - [Averages Delta-FPS based on 6 delta times.](https://ko-fi.com/maxlastbreath)
 - [Acts as a Static FPS mod when set a certain FPS cap](https://ko-fi.com/maxlastbreath)
+- [Locks Movie Menus to 30 FPS (VSYNC ON ONLY FOR RYUJINX!)](https://ko-fi.com/maxlastbreath)
+- [Menu FPS cap](https://ko-fi.com/maxlastbreath)
+- [Fixes Blackscreen in Quick Menus.](https://ko-fi.com/maxlastbreath)
+- [Menu Animation speeds.](https://ko-fi.com/maxlastbreath)
+- [Fixes Menu speeds (partially, maps too fast still)](https://ko-fi.com/maxlastbreath)
+- [Fixes Hud Animations](https://ko-fi.com/maxlastbreath)
+- [Fixes Link's animations.](https://ko-fi.com/maxlastbreath)
+- [Fixes Link's Speed.](https://ko-fi.com/maxlastbreath)
+- [Fixes Enemy's Speed and attacks.](https://ko-fi.com/maxlastbreath)
+- [Fixes Stamina Drain- Fixes Stamina Speed](https://ko-fi.com/maxlastbreath)
+- [Ladder Climbing (no problems on botw weird)](https://ko-fi.com/maxlastbreath)
+- [Connected a Custom Controller (For the future)](https://ko-fi.com/maxlastbreath)
+
 
 
 # <p align=center> 🐬 More Information 🐬 </p>
