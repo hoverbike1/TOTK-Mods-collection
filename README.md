@@ -83,8 +83,8 @@
 [ALL IN REAL TIME!](https://ko-fi.com/maxlastbreath)
 
 #### [BOTW UltraCam Beta 1 DFPS](https://ko-fi.com/maxlastbreath)
-Tackling the same challenges as Tears of the Kingdom presented, but in Breath of the Wild.
-This is still a very early WIP, but here are some of the current functionality, soon to be expanded.
+[Tackling the same challenges as Tears of the Kingdom presented, but in Breath of the Wild.
+This is still a very early WIP, but here are some of the current functionality, soon to be expanded.](https://ko-fi.com/maxlastbreath)
 - [FPS up to (120/480)](https://ko-fi.com/maxlastbreath)
 - [Averages Delta-FPS based on 6 delta times.](https://ko-fi.com/maxlastbreath)
 - [Acts as a Static FPS mod when set a certain FPS cap](https://ko-fi.com/maxlastbreath)
