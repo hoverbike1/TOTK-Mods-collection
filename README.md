@@ -56,7 +56,7 @@
 - ZL (HOLD) or ZR (HOLD) - Accelerate/De-accelerate. - (SHIFT) (ALT)
 
 ### [EARLY ACCESS FEATURES (with more to come)](https://ko-fi.com/maxlastbreath)
-#### [Ultracam 2.0 EA features](https://ko-fi.com/maxlastbreath)
+#### [Ultracam 2.0+ EA features](https://ko-fi.com/maxlastbreath)
 - [ZL (HOLD) + Minus (PRESS) - Pause Game. - (P)](https://ko-fi.com/maxlastbreath)
 - [UP (PRESS) - Lock camera to any chosen OBJECT or NPC. - (V)](https://ko-fi.com/maxlastbreath)
 
