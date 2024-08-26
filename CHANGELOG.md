@@ -1,5 +1,8 @@
 # Changelog
 
+v4.20
+- TOTK Optimizer 2.0
+
 v3.1
 - Hotfix
 
