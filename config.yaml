@@ -1,5 +1,6 @@
 root: Mods # Path to mods location
 team:
+  - MaxLastBreath
   - Hoverbike
   - Darktalon
   - Socats
