@@ -1,4 +1,10 @@
 # Changelog
+
+v3.0
+- New TOTK Optimizer & Ultracam by @MaxLastBreath
+- Updated cheats to 1.2.1
+- Updated Linux Pack Generator
+
 v2.6:
 - Updated most graphics mods to 1.2.1
 
