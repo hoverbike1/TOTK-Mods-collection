@@ -1,5 +1,8 @@
 # Changelog
 
+v4.69
+- TOTK Optimizer 2.1
+
 v4.20
 - TOTK Optimizer 2.0
 
