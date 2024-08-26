@@ -1,5 +1,8 @@
 # Changelog
 
+v3.1
+- Hotfix
+
 v3.0
 - New TOTK Optimizer & Ultracam by @MaxLastBreath
 - Updated cheats to 1.2.1
